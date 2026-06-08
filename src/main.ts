@@ -10,7 +10,6 @@ import { renderDetailHtml, showDetailPanel, hideDetailPanel } from "./ui/detailP
 import { mountSearchBox } from "./ui/search";
 import { sampleOrbitEcef, drawOrbit, clearOrbit } from "./globe/orbitPath";
 import { mountTabs } from "./ui/tabs";
-import { binByAltitude, renderDensityPanel } from "./ui/density";
 import { CATEGORIES } from "./categories";
 import { REENTRY_PERIGEE_KM } from "./config";
 import type { WorkerRequest, PositionsMessage } from "./propagation/protocol";
@@ -50,10 +49,9 @@ async function main() {
   void fetchSatcat().then((m) => { satcat = m; });
   showLoading(`${records.length} 個を準備中…`);
 
-  // satrec と軌道要素を一度だけ計算（詳細・軌道線・再突入判定・密度に再利用）
+  // satrec と軌道要素を一度だけ計算（詳細・軌道線・再突入判定に再利用）
   const satrecById = new Map<number, SatRec>();
   const reentry = new Set<number>();
-  const meanAlts: number[] = [];
   const counts = new Map<string, number>();
   for (const r of records) {
     const satrec = buildSatrec(r.tle1, r.tle2);
@@ -62,7 +60,6 @@ async function main() {
     if (Number.isFinite(el.perigeeAltKm) && el.perigeeAltKm > 0 && el.perigeeAltKm < REENTRY_PERIGEE_KM) {
       reentry.add(r.noradId);
     }
-    meanAlts.push((el.apogeeAltKm + el.perigeeAltKm) / 2);
     const cat = r.category ?? "satellite";
     counts.set(cat, (counts.get(cat) ?? 0) + 1);
   }
@@ -78,7 +75,6 @@ async function main() {
   };
 
   mountTabs(counts, enabled, reapply);
-  renderDensityPanel(binByAltitude(meanAlts));
 
   // ---- ロックオン追従 ----
   let trackedId: number | null = null;
