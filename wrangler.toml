@@ -1,0 +1,8 @@
+name = "orbit-tracker"
+compatibility_date = "2026-06-08"
+
+# Cloudflare Workers static asset deployment.
+# Build artifacts in ./dist are served from the Cloudflare global CDN.
+[assets]
+directory = "./dist"
+not_found_handling = "single-page-application"
