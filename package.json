@@ -14,6 +14,7 @@
     "satellite.js": "^6.0.0"
   },
   "devDependencies": {
+    "@types/node": "^25.9.2",
     "@vitest/web-worker": "^3.2.4",
     "jsdom": "^26.1.0",
     "typescript": "^5.9.0",
