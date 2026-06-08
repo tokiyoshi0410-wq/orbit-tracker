@@ -2,7 +2,6 @@ import type { SatelliteRecord } from "../types";
 import { parseTle } from "./tleParse";
 import { classifyByName } from "../categories";
 import { STORAGE_KEYS, TLE_CACHE_TTL_MS } from "../config";
-import { fetchActiveTleFallback } from "./altSource";
 
 export interface GroupSpec {
   group: string;
@@ -124,18 +123,12 @@ export async function fetchCatalog(opts: FetchCatalogOptions = {}): Promise<Sate
     if (i < CATALOG_GROUPS.length - 1) await sleep(delayMs);
   }
 
-  // active が "未更新" 扱いで取れなかった場合、まずは前回キャッシュを使い、
-  // それも無ければ鍵不要のミラー API でフォールバック取得する。
+  // active が取れなかった場合は前回キャッシュ（あれば）にフォールバック。
+  // ミラー API への重いフォールバックはモバイルを止めるので使わない。
   const activeLoaded = parts.some((p) => p.spec.category === undefined);
   if (!activeLoaded && activeNotUpdated) {
     const stale = loadStale(storage);
     if (stale && stale.length > 0) return stale;
-    try {
-      const text = await fetchActiveTleFallback({ fetchFn });
-      if (text && text.length > 0) parts.push({ spec: { group: "active" }, text });
-    } catch {
-      /* スキップ */
-    }
   }
 
   const records = buildCatalog(parts);

@@ -24,10 +24,10 @@ jobs:
         run: |
           git config user.name "orbit-tracker-bot"
           git config user.email "actions@github.com"
-          git add public/data/tle
+          git add public/data
           if git diff --cached --quiet; then
-            echo "No TLE changes"
+            echo "No TLE/SATCAT changes"
           else
-            git commit -m "data: refresh TLE snapshots"
+            git commit -m "data: refresh TLE/SATCAT snapshots"
             git push
           fi

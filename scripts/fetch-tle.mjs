@@ -39,6 +39,25 @@ async function fetchGroup(group) {
   }
 }
 
+async function fetchSatcat() {
+  const url = "https://celestrak.org/satcat/records.php?GROUP=active&FORMAT=JSON";
+  try {
+    const res = await fetch(url, {
+      headers: { "User-Agent": "orbit-tracker-fetcher/1.0 (+https://github.com/tokiyoshi0410-wq/orbit-tracker)" },
+    });
+    if (!res.ok) {
+      console.log(`[skip] satcat: HTTP ${res.status}`);
+      return null;
+    }
+    const text = await res.text();
+    if (text.length < 100) return null;
+    return text;
+  } catch (e) {
+    console.log(`[skip] satcat: ${e.message ?? e}`);
+    return null;
+  }
+}
+
 async function main() {
   await fs.mkdir(OUT_DIR, { recursive: true });
   const manifest = { fetchedAt: new Date().toISOString(), groups: {} };
@@ -53,6 +72,14 @@ async function main() {
     await new Promise((r) => setTimeout(r, 400));
   }
   await fs.writeFile(path.join(OUT_DIR, "manifest.json"), JSON.stringify(manifest, null, 2));
+
+  // SATCAT メタ情報も静的化（モバイルで Celestrak 直接アクセスを避けるため）
+  const satcatText = await fetchSatcat();
+  if (satcatText) {
+    await fs.writeFile("public/data/satcat-active.json", satcatText);
+    console.log(`[ok]   satcat: ${satcatText.length} bytes`);
+  }
+
   const total = Object.values(manifest.groups).reduce((a, b) => a + b.objects, 0);
   console.log(`Done: ${total} objects across ${Object.keys(manifest.groups).length} groups.`);
 }

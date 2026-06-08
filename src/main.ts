@@ -45,7 +45,9 @@ async function main() {
     showError("データ取得に失敗しました（オフライン/レート制限）。再読み込みしてください。");
     return;
   }
-  const satcat = await fetchSatcat();
+  // SATCAT は補足情報なので、起動を待たせず背景で取得する
+  let satcat: Map<number, import("./types").SatcatMeta> = new Map();
+  void fetchSatcat().then((m) => { satcat = m; });
   showLoading(`${records.length} 個を準備中…`);
 
   // satrec と軌道要素を一度だけ計算（詳細・軌道線・再突入判定・密度に再利用）
