@@ -23,4 +23,15 @@ describe("applyPositions", () => {
     expect(col.points[0].show).toBe(true);
     expect(col.points[1].show).toBe(false);
   });
+
+  it("hides points whose category is disabled via the enabled predicate", () => {
+    const col = new FakeCollection();
+    col.points.push(new FakePoint(), new FakePoint());
+    const positions = new Float64Array([1, 2, 3, 4, 5, 6]);
+
+    applyPositions(col, positions, (x, y, z) => ({ x, y, z }), (i) => i === 0);
+
+    expect(col.points[0].show).toBe(true);
+    expect(col.points[1].show).toBe(false);
+  });
 });

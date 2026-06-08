@@ -5,6 +5,7 @@ export interface SatelliteRecord {
   intlDesignator: string; // OBJECT_ID 相当 (TLE 由来)
   tle1: string;
   tle2: string;
+  category?: string;      // categories.ts の key（catalog 取得時に付与）
 }
 
 /** SATCAT 由来のメタ情報 */

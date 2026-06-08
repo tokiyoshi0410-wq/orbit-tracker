@@ -16,6 +16,9 @@ export function createViewer(containerId: string): Cesium.Viewer {
     navigationHelpButton: false,
   });
 
+  // 昼夜境界（太陽光による陰影）を有効化
+  viewer.scene.globe.enableLighting = true;
+
   // 時計: 現在時刻を中心に前後 1 日、ループ
   const now = Cesium.JulianDate.now();
   viewer.clock.startTime = Cesium.JulianDate.addSeconds(now, -86400, new Cesium.JulianDate());
