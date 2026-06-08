@@ -1,0 +1,33 @@
+name: Fetch TLE data
+
+# 4 時間ごとに Celestrak から TLE を取得して main にコミットする。
+# CF Pages は main への push で自動デプロイされるため、データが常時最新化される。
+on:
+  schedule:
+    - cron: "0 */4 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Fetch TLE
+        run: node scripts/fetch-tle.mjs
+      - name: Commit if changed
+        run: |
+          git config user.name "orbit-tracker-bot"
+          git config user.email "actions@github.com"
+          git add public/data/tle
+          if git diff --cached --quiet; then
+            echo "No TLE changes"
+          else
+            git commit -m "data: refresh TLE snapshots"
+            git push
+          fi

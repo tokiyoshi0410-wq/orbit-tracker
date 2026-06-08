@@ -19,6 +19,11 @@ export const CATALOG_GROUPS: GroupSpec[] = [
   { group: "iridium-33-debris", category: "debris" },
 ];
 
+/** 公開ビルドに同梱した静的 TLE ファイルへのパス。GitHub Actions の cron が最新化する。 */
+export function localGroupUrl(group: string): string {
+  return `${import.meta.env?.BASE_URL ?? "/"}data/tle/${group}.tle`;
+}
+
 export function groupUrl(group: string): string {
   return `https://celestrak.org/NORAD/elements/gp.php?GROUP=${group}&FORMAT=TLE`;
 }
@@ -82,41 +87,20 @@ async function tryFetch(fetchFn: typeof fetch, url: string): Promise<{ status: n
 }
 
 async function fetchGroup(fetchFn: typeof fetch, spec: GroupSpec): Promise<GroupFetchOutcome> {
+  // ローカルのプリビルド TLE があれば最優先（CDN 配信・レート制限なし）
+  const local = await tryFetch(fetchFn, localGroupUrl(spec.group));
+  if (local && local.status >= 200 && local.status < 300 && local.text.length > 100) {
+    return { kind: "ok", spec, text: local.text };
+  }
+
+  // ローカルが無い（dev 起動初回など）場合は Celestrak へ直接
   const r = await tryFetch(fetchFn, groupUrl(spec.group));
   if (!r) return { kind: "fail" };
   if (r.status >= 200 && r.status < 300 && r.text.length > 0) return { kind: "ok", spec, text: r.text };
-  if (!isNotUpdatedNotice(r.status, r.text)) return { kind: "fail" };
-
-  // Celestrak の「未更新」403。FORMAT=JSON で実 URL を変えてもう一度試す。
-  const altUrl = `https://celestrak.org/NORAD/elements/gp.php?GROUP=${spec.group}&FORMAT=JSON`;
-  const alt = await tryFetch(fetchFn, altUrl);
-  if (alt && alt.status >= 200 && alt.status < 300 && alt.text.length > 0) {
-    return { kind: "ok", spec, text: jsonOmmToTle(alt.text) };
-  }
-  return { kind: "not-updated" };
+  if (isNotUpdatedNotice(r.status, r.text)) return { kind: "not-updated" };
+  return { kind: "fail" };
 }
 
-interface OmmRecord {
-  OBJECT_NAME: string;
-  NORAD_CAT_ID: number | string;
-  TLE_LINE1?: string;
-  TLE_LINE2?: string;
-}
-
-/** OMM JSON のうち TLE_LINE1/2 を含むものを TLE 3 行形式に整形。
- *  含まない場合は名前のみ拾えるよう空行を出さない安全な選択をする。 */
-function jsonOmmToTle(jsonText: string): string {
-  let rows: OmmRecord[] = [];
-  try { rows = JSON.parse(jsonText) as OmmRecord[]; } catch { return ""; }
-  const lines: string[] = [];
-  for (const r of rows) {
-    if (!r.TLE_LINE1 || !r.TLE_LINE2) continue;
-    lines.push(r.OBJECT_NAME ?? "");
-    lines.push(r.TLE_LINE1);
-    lines.push(r.TLE_LINE2);
-  }
-  return lines.join("\n");
-}
 
 /** 複数群を逐次取得（レート制限回避）。active は最重要なので 1 回リトライ。
  *  active が取れた時だけキャッシュし、取れなければ次回再取得を促す。 */

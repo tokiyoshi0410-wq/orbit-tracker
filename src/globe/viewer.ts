@@ -1,23 +1,25 @@
 import * as Cesium from "cesium";
 
+/** 公開向け：NASA 一本足の堅牢な構成。
+ *  - 昼: NASA Blue Marble Next Generation（GIBS、公開ドメイン、CDN 配信）
+ *  - 夜: NASA VIIRS City Lights（街明かり）
+ *  - 大気と昼夜境界つき
+ *  Esri は無料無認証だが大量アクセスでブロックされるリスクがあるため避ける。 */
 export function createViewer(containerId: string): Cesium.Viewer {
   Cesium.Ion.defaultAccessToken = "";
 
-  // 昼の基盤：ESRI World Imagery（Google Earth 級の衛星写真）
-  const esriProvider = new Cesium.UrlTemplateImageryProvider({
-    url: "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
-    maximumLevel: 18,
-    credit: new Cesium.Credit("Imagery © Esri, Maxar, Earthstar Geographics", true),
+  const dayProvider = new Cesium.UrlTemplateImageryProvider({
+    url: "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_NextGeneration/default/GoogleMapsCompatible_Level8/{z}/{y}/{x}.jpg",
+    maximumLevel: 8,
+    credit: new Cesium.Credit("Imagery © NASA Earth Observatory (Blue Marble Next Generation, VIIRS)", true),
   });
-  const dayBase = new Cesium.ImageryLayer(esriProvider);
+  const dayBase = new Cesium.ImageryLayer(dayProvider);
   dayBase.dayAlpha = 1.0;
   dayBase.nightAlpha = 0.0;
 
-  // 夜：NASA VIIRS City Lights（街明かり）
   const nightProvider = new Cesium.UrlTemplateImageryProvider({
     url: "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/VIIRS_CityLights_2012/default/GoogleMapsCompatible_Level8/{z}/{y}/{x}.jpg",
     maximumLevel: 8,
-    credit: new Cesium.Credit("Night Lights © NASA Earth Observatory (VIIRS)", true),
   });
   const nightLayer = new Cesium.ImageryLayer(nightProvider);
   nightLayer.dayAlpha = 0.0;
@@ -34,13 +36,10 @@ export function createViewer(containerId: string): Cesium.Viewer {
   });
   viewer.imageryLayers.add(nightLayer);
 
-  // 昼夜境界（太陽光による陰影）を有効化
   viewer.scene.globe.enableLighting = true;
-  // 太陽位置に基づいた大気の発光（地平線がリアルに光る）
   viewer.scene.globe.showGroundAtmosphere = true;
   if (viewer.scene.skyAtmosphere) viewer.scene.skyAtmosphere.show = true;
 
-  // 時計: 現在時刻を中心に前後 1 日、ループ
   const now = Cesium.JulianDate.now();
   viewer.clock.startTime = Cesium.JulianDate.addSeconds(now, -86400, new Cesium.JulianDate());
   viewer.clock.stopTime = Cesium.JulianDate.addSeconds(now, 86400, new Cesium.JulianDate());

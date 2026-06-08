@@ -46,7 +46,8 @@ describe("fetchCatalog", () => {
   it("tolerates a failing debris group and still returns active", async () => {
     const storage = memStorage();
     const fetchFn = vi.fn(async (url: string) => {
-      if (url.includes("GROUP=active")) return okResponse(ACTIVE);
+      if (url.startsWith("/data/tle/")) return failResponse(404); // ローカル無し
+      if (url.includes("GROUP=active&FORMAT=TLE")) return okResponse(ACTIVE);
       return failResponse(404);
     });
     const recs = await fetchCatalog({ storage, now: () => 1000, fetchFn: fetchFn as any, delayMs: 0 });
@@ -57,11 +58,26 @@ describe("fetchCatalog", () => {
   it("does not cache when active not loaded", async () => {
     const storage = memStorage();
     const fetchFn = vi.fn(async (url: string) => {
-      if (url.includes("GROUP=active")) return failResponse(500);
+      if (url.startsWith("/data/tle/")) return failResponse(404);
+      if (url.includes("GROUP=active&FORMAT=TLE")) return failResponse(500);
       return okResponse(DEBRIS);
     });
     const recs = await fetchCatalog({ storage, now: () => 1000, fetchFn: fetchFn as any, delayMs: 0 });
     expect(recs.length).toBe(1);
     expect(storage.getItem("orbit-tracker.catalog.v2")).toBeNull();
+  });
+
+  it("prefers local prebuilt TLE when present", async () => {
+    const storage = memStorage();
+    const fetchFn = vi.fn(async (url: string) => {
+      if (url === "/data/tle/active.tle") return okResponse(ACTIVE);
+      return failResponse(404);
+    });
+    const recs = await fetchCatalog({ storage, now: () => 1000, fetchFn: fetchFn as any, delayMs: 0 });
+    expect(recs.length).toBe(2);
+    expect(fetchFn).toHaveBeenCalledWith("/data/tle/active.tle");
+    // active については celestrak へ行かない（ローカル成功で十分）
+    const calls = fetchFn.mock.calls.map((c) => String(c[0]));
+    expect(calls.find((u) => u.includes("GROUP=active&FORMAT=TLE"))).toBeUndefined();
   });
 });
