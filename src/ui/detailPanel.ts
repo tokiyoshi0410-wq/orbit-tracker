@@ -26,7 +26,8 @@ export function renderDetailHtml(
   lines.push(row("緯度", `${st.latitudeDeg.toFixed(2)}°`));
   lines.push(row("経度", `${st.longitudeDeg.toFixed(2)}°`));
   lines.push(row("高度", `${st.altitudeKm.toFixed(1)} km`));
-  lines.push(row("速度", `${st.speedKmS.toFixed(2)} km/s`));
+  // 秒速だと一般の人に速さが伝わらないため時速を主表示にする (ISS ≈ 時速 27,500 km)
+  lines.push(row("速度", `時速 ${Math.round(st.speedKmS * 3600).toLocaleString("ja-JP")} km (${st.speedKmS.toFixed(2)} km/s)`));
   lines.push(`<hr style="border-color:#333;margin:8px 0">`);
   lines.push(row("軌道周期", `${el.periodMin.toFixed(1)} 分`));
   lines.push(row("軌道傾斜角", `${el.inclinationDeg.toFixed(1)}°`));

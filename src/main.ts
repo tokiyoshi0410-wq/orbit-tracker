@@ -182,7 +182,7 @@ async function main() {
       tooltip.style.display = "none";
       return;
     }
-    tooltip.innerHTML = `<b>${rec.name}</b><br>高度 ${st.altitudeKm.toFixed(0)} km / 速度 ${st.speedKmS.toFixed(2)} km/s`;
+    tooltip.innerHTML = `<b>${rec.name}</b><br>高度 ${st.altitudeKm.toFixed(0)} km / 時速 ${Math.round(st.speedKmS * 3600).toLocaleString("ja-JP")} km`;
     tooltip.style.left = `${m.endPosition.x + 14}px`;
     tooltip.style.top = `${m.endPosition.y + 14}px`;
     tooltip.style.display = "block";

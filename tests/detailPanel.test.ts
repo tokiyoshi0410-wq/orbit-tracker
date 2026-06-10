@@ -15,7 +15,9 @@ describe("renderDetailHtml", () => {
     expect(html).toContain("1998-11-20");
     expect(html).toContain("51.6");
     expect(html).toContain("92.9");
-    expect(html).toContain("7.66");
+    // 速度は一般の人に分かりやすい時速を主表示、km/s を併記
+    expect(html).toContain("時速 27,576 km");
+    expect(html).toContain("7.66 km/s");
   });
 
   it("omits SATCAT rows when meta is undefined", () => {
