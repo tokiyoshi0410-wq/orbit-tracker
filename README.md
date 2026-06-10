@@ -4,7 +4,9 @@
 
 ![screenshot](docs/screenshot.png)
 
-> Live demo: TBA（Cloudflare Pages にデプロイ後にここに URL を記載）
+> **Live demo: https://orbit-tracker.pages.dev/**
+>
+> 特定の衛星を共有するには `?sat=<NORAD番号>` を付けます（例: [ISS](https://orbit-tracker.pages.dev/?sat=25544)）。
 
 ---
 

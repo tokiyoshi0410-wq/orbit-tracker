@@ -10,6 +10,8 @@ import { renderDetailHtml, showDetailPanel, hideDetailPanel } from "./ui/detailP
 import { mountSearchBox } from "./ui/search";
 import { sampleOrbitEcef, drawOrbit, clearOrbit } from "./globe/orbitPath";
 import { mountTabs } from "./ui/tabs";
+import { mountQuickAccess } from "./ui/quickAccess";
+import { parseSatParam, writeSatParam } from "./ui/deepLink";
 import { CATEGORIES } from "./categories";
 import { REENTRY_PERIGEE_KM } from "./config";
 import type { WorkerRequest, PositionsMessage } from "./propagation/protocol";
@@ -44,9 +46,14 @@ async function main() {
     showError("データ取得に失敗しました（オフライン/レート制限）。再読み込みしてください。");
     return;
   }
-  // SATCAT は補足情報なので、起動を待たせず背景で取得する
+  // SATCAT は補足情報なので、起動を待たせず背景で取得する。
+  // 取得完了時、選択中のパネルがあれば再描画して種別・運用者を補完する
+  // (deep link で開いた直後は SATCAT が間に合わず欠落するため)。
   let satcat: Map<number, import("./types").SatcatMeta> = new Map();
-  void fetchSatcat().then((m) => { satcat = m; });
+  void fetchSatcat().then((m) => {
+    satcat = m;
+    if (trackedId != null) select(trackedId);
+  });
   showLoading(`${records.length} 個を準備中…`);
 
   // satrec と軌道要素を一度だけ計算（詳細・軌道線・再突入判定に再利用）
@@ -103,12 +110,21 @@ async function main() {
 
   // ---- worker ----
   const worker = new Worker(new URL("./propagation/worker.ts", import.meta.url), { type: "module" });
+  let deepLinkApplied = false;
   worker.onmessage = (e: MessageEvent<PositionsMessage>) => {
     if (e.data.type === "positions") {
       lastPositions = e.data.positions;
       updateSatellitePoints(points, lastPositions, records, enabled);
       updateTracked();
       hideLoading();
+      // クイックアクセスと ?sat= 共有リンクの適用は初回の位置計算後に行う
+      // (それより前に select すると追従カメラの位置が決まらないため)。
+      if (!deepLinkApplied) {
+        deepLinkApplied = true;
+        mountQuickAccess(records, select);
+        const linked = parseSatParam(window.location.search, (id) => recById.has(id));
+        if (linked != null) select(linked);
+      }
     }
   };
   worker.postMessage({
@@ -132,9 +148,10 @@ async function main() {
     const date = Cesium.JulianDate.toDate(viewer.clock.currentTime);
     const st = computeInstantState(satrec, date);
     const el = computeOrbitalElements(satrec);
-    if (st) showDetailPanel(renderDetailHtml(rec, satcat.get(id), el, st), () => { clearOrbit(viewer); unlock(); });
+    if (st) showDetailPanel(renderDetailHtml(rec, satcat.get(id), el, st), () => { clearOrbit(viewer); unlock(); writeSatParam(null); });
     drawOrbit(viewer, sampleOrbitEcef(satrec, date, el.periodMin, 120));
     lockOn(id);
+    writeSatParam(id);
   };
 
   const handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
@@ -144,6 +161,7 @@ async function main() {
       hideDetailPanel();
       clearOrbit(viewer);
       unlock();
+      writeSatParam(null);
       return;
     }
     select(id);
