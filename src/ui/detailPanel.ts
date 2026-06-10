@@ -1,7 +1,13 @@
 import type { SatelliteRecord, SatcatMeta, OrbitalElements, InstantState } from "../types";
+import { speedFeel, periodFeel, altitudeFeel } from "./feelScale";
 
 function row(label: string, value: string): string {
   return `<div style="display:flex;justify-content:space-between;gap:12px"><span style="opacity:.7">${label}</span><span>${value}</span></div>`;
+}
+
+/** 数値行の直下に添える体感比較の注釈 */
+function feel(text: string): string {
+  return `<div style="opacity:.6;font-size:11px;text-align:right;margin:-3px 0 2px">${text}</div>`;
 }
 
 const TYPE_JA: Record<string, string> = { PAY: "ペイロード", "R/B": "ロケット体", DEB: "デブリ", UNK: "不明" };
@@ -26,10 +32,13 @@ export function renderDetailHtml(
   lines.push(row("緯度", `${st.latitudeDeg.toFixed(2)}°`));
   lines.push(row("経度", `${st.longitudeDeg.toFixed(2)}°`));
   lines.push(row("高度", `${st.altitudeKm.toFixed(1)} km`));
+  lines.push(feel(altitudeFeel(st.altitudeKm)));
   // 秒速だと一般の人に速さが伝わらないため時速を主表示にする (ISS ≈ 時速 27,500 km)
   lines.push(row("速度", `時速 ${Math.round(st.speedKmS * 3600).toLocaleString("ja-JP")} km (${st.speedKmS.toFixed(2)} km/s)`));
+  lines.push(feel(speedFeel(st.speedKmS)));
   lines.push(`<hr style="border-color:#333;margin:8px 0">`);
   lines.push(row("軌道周期", `${el.periodMin.toFixed(1)} 分`));
+  lines.push(feel(periodFeel(el.periodMin)));
   lines.push(row("軌道傾斜角", `${el.inclinationDeg.toFixed(1)}°`));
   lines.push(row("離心率", el.eccentricity.toFixed(4)));
   lines.push(row("遠地点高度", `${el.apogeeAltKm.toFixed(0)} km`));

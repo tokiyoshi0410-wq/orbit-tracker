@@ -18,6 +18,10 @@ describe("renderDetailHtml", () => {
     // 速度は一般の人に分かりやすい時速を主表示、km/s を併記
     expect(html).toContain("時速 27,576 km");
     expect(html).toContain("7.66 km/s");
+    // 数値の下に体感比較の注釈を添える
+    expect(html).toContain("新幹線の約");
+    expect(html).toContain("1日で地球を約15.5周");
+    expect(html).toContain("旅客機の巡航高度の約42倍");
   });
 
   it("omits SATCAT rows when meta is undefined", () => {
