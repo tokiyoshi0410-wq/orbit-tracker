@@ -1,17 +1,17 @@
 {
-  "fetchedAt": "2026-06-10T03:52:43.470Z",
+  "fetchedAt": "2026-06-10T08:09:25.055Z",
   "groups": {
     "active": {
-      "lines": 46878,
-      "objects": 15626
+      "lines": 47037,
+      "objects": 15679
     },
     "stations": {
       "lines": 75,
       "objects": 25
     },
     "starlink": {
-      "lines": 31476,
-      "objects": 10492
+      "lines": 31635,
+      "objects": 10545
     },
     "oneweb": {
       "lines": 1953,
