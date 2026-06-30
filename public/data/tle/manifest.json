@@ -1,17 +1,17 @@
 {
-  "fetchedAt": "2026-06-30T17:55:40.900Z",
+  "fetchedAt": "2026-06-30T21:28:25.658Z",
   "groups": {
     "active": {
-      "lines": 47673,
-      "objects": 15891
+      "lines": 47736,
+      "objects": 15912
     },
     "stations": {
       "lines": 72,
       "objects": 24
     },
     "starlink": {
-      "lines": 32001,
-      "objects": 10667
+      "lines": 32070,
+      "objects": 10690
     },
     "oneweb": {
       "lines": 1953,
@@ -34,8 +34,8 @@
       "objects": 3
     },
     "fengyun-1c-debris": {
-      "lines": 5721,
-      "objects": 1907
+      "lines": 5730,
+      "objects": 1910
     },
     "cosmos-2251-debris": {
       "lines": 1749,
