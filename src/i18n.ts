@@ -38,7 +38,7 @@ const DICT: Record<string, { ja: string; en: string }> = {
 
   "tabs.header": { ja: "カテゴリ", en: "Categories" },
   "tabs.shadow": { ja: "地球の影を表示", en: "Show Earth shadow" },
-  "tabs.fullCatalog": { ja: "全カタログ (約3万件)", en: "Full catalog (~30k objects)" },
+  "tabs.fullCatalog": { ja: "全カタログ (デブリ全部盛り)", en: "Full catalog (all debris)" },
   "tabs.fullCatalogLoading": { ja: "全カタログを読込中…", en: "Loading full catalog…" },
 
   "search.placeholder": { ja: "衛星名 / NORAD番号で検索", en: "Search by name / NORAD ID" },
