@@ -1,6 +1,15 @@
-import { CATEGORIES } from "../categories";
+import { CATEGORIES, categoryLabel } from "../categories";
+import { getLang, t } from "../i18n";
 
 const STORAGE_KEY = "orbit-tracker.tabs.collapsed.v1";
+
+/** カテゴリ以外の表示オプション (地球の影・全カタログなど) */
+export interface TabExtraToggle {
+  id: string;
+  label: string;
+  initial: boolean;
+  onChange: (on: boolean) => void;
+}
 
 /** カテゴリのオン/オフ切替パネルを右下に表示。
  *  ヘッダクリックでパネルを開閉できる（状態は localStorage に保存）。 */
@@ -8,7 +17,10 @@ export function mountTabs(
   counts: Map<string, number>,
   enabled: Set<string>,
   onChange: () => void,
+  extras: TabExtraToggle[] = [],
 ): void {
+  document.getElementById("ot-tabs")?.remove();
+  const lang = getLang();
   const box = document.createElement("div");
   box.id = "ot-tabs";
   box.style.cssText =
@@ -23,15 +35,27 @@ export function mountTabs(
       `<label style="display:flex;align-items:center;gap:6px;margin:3px 0;cursor:pointer">` +
       `<input type="checkbox" data-key="${c.key}" ${checked}>` +
       `<span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${c.colorHex}"></span>` +
-      `<span style="flex:1">${c.label}</span>` +
+      `<span style="flex:1">${categoryLabel(c, lang)}</span>` +
       `<span style="opacity:.6">${n}</span></label>`
     );
   }).join("");
 
+  const extraRows = extras
+    .map(
+      (x) =>
+        `<label style="display:flex;align-items:center;gap:6px;margin:3px 0;cursor:pointer">` +
+        `<input type="checkbox" data-extra="${x.id}" ${x.initial ? "checked" : ""}>` +
+        `<span style="flex:1">${x.label}</span></label>`,
+    )
+    .join("");
+  const extraSection = extras.length
+    ? `<hr style="border:none;border-top:1px solid #2d4a72;margin:6px 0">${extraRows}`
+    : "";
+
   box.innerHTML =
     `<button id="ot-tabs-header" type="button" style="all:unset;display:flex;width:100%;box-sizing:border-box;align-items:center;justify-content:space-between;padding:10px 12px;cursor:pointer;font-weight:600">` +
-    `<span>カテゴリ</span><span id="ot-tabs-chevron" style="opacity:.7">▼</span></button>` +
-    `<div id="ot-tabs-body" style="padding:0 12px 10px">${rows}</div>`;
+    `<span>${t("tabs.header")}</span><span id="ot-tabs-chevron" style="opacity:.7">▼</span></button>` +
+    `<div id="ot-tabs-body" style="padding:0 12px 10px">${rows}${extraSection}</div>`;
 
   document.body.appendChild(box);
 
@@ -65,12 +89,17 @@ export function mountTabs(
     setCollapsed(!isCollapsed);
   });
 
-  box.querySelectorAll<HTMLInputElement>("input[type=checkbox]").forEach((cb) => {
+  box.querySelectorAll<HTMLInputElement>("input[data-key]").forEach((cb) => {
     cb.addEventListener("change", () => {
       const key = cb.dataset.key!;
       if (cb.checked) enabled.add(key);
       else enabled.delete(key);
       onChange();
     });
+  });
+
+  box.querySelectorAll<HTMLInputElement>("input[data-extra]").forEach((cb) => {
+    const x = extras.find((e) => e.id === cb.dataset.extra);
+    if (x) cb.addEventListener("change", () => x.onChange(cb.checked));
   });
 }

@@ -37,37 +37,73 @@ function colorFor(record: SatelliteRecord, isReentry: boolean): Cesium.Color {
   return Cesium.Color.fromCssColorString(hex);
 }
 
+/** 食 (地球の影) 中の見た目: カテゴリ色を落として薄暗くする */
+function dimColor(base: Cesium.Color): Cesium.Color {
+  return new Cesium.Color(base.red * 0.3, base.green * 0.3, base.blue * 0.4, 0.85);
+}
+
+/** 点群と色テーブル・食状態をまとめたハンドル */
+export interface SatPoints {
+  collection: Cesium.PointPrimitiveCollection;
+  baseColors: Cesium.Color[];
+  dimColors: Cesium.Color[];
+  /** 現在 dim 色が適用されているか (色の書き換えを差分だけにするため) */
+  dimApplied: Uint8Array;
+}
+
 /** 衛星 1 つにつき 1 点を追加（id=noradId、カテゴリ色、再突入は赤＋大きめ）。 */
 export function createSatellitePoints(
   viewer: Cesium.Viewer,
   records: SatelliteRecord[],
   reentry: Set<number>,
-): Cesium.PointPrimitiveCollection {
-  const points = viewer.scene.primitives.add(new Cesium.PointPrimitiveCollection());
+): SatPoints {
+  const collection = viewer.scene.primitives.add(new Cesium.PointPrimitiveCollection());
+  const baseColors: Cesium.Color[] = [];
+  const dimColors: Cesium.Color[] = [];
   for (const r of records) {
     const isReentry = reentry.has(r.noradId);
-    points.add({
+    const color = colorFor(r, isReentry);
+    baseColors.push(color);
+    dimColors.push(dimColor(color));
+    collection.add({
       position: new Cesium.Cartesian3(0, 0, 0),
-      color: colorFor(r, isReentry),
+      color,
       pixelSize: isReentry ? 6 : r.category === "debris" ? 2 : 3,
       id: r.noradId,
       show: false,
     });
   }
-  return points;
+  return { collection, baseColors, dimColors, dimApplied: new Uint8Array(records.length) };
 }
 
-/** Cesium 点群へ positions を反映。enabledCategories に含まれるカテゴリだけ表示。 */
+/** ハンドルを破棄 (全カタログモード切替でシーンを作り直す時に使う) */
+export function destroySatellitePoints(viewer: Cesium.Viewer, sat: SatPoints): void {
+  viewer.scene.primitives.remove(sat.collection);
+}
+
+/** Cesium 点群へ positions を反映。enabledCategories に含まれるカテゴリだけ表示。
+ *  shadows があり dimEclipsed が真なら、食中の点を暗色にする (変化した点のみ書換)。 */
 export function updateSatellitePoints(
-  points: Cesium.PointPrimitiveCollection,
+  sat: SatPoints,
   positions: Float64Array,
   records: SatelliteRecord[],
   enabledCategories: Set<string>,
+  shadows?: Uint8Array | null,
+  dimEclipsed = true,
 ): void {
+  const points = sat.collection;
   applyPositions(
     { get: (i) => points.get(i) as unknown as PointLike, length: points.length },
     positions,
     (x, y, z) => new Cesium.Cartesian3(x, y, z),
     (i) => enabledCategories.has(records[i].category ?? "satellite"),
   );
+  const n = points.length;
+  for (let i = 0; i < n; i++) {
+    const want = dimEclipsed && shadows ? shadows[i] : 0;
+    if (want !== sat.dimApplied[i]) {
+      (points.get(i) as unknown as { color: Cesium.Color }).color = want ? sat.dimColors[i] : sat.baseColors[i];
+      sat.dimApplied[i] = want;
+    }
+  }
 }

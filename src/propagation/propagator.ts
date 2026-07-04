@@ -28,13 +28,23 @@ function propagateSafe(satrec: SatRec, date: Date): { position: Vec3; velocity: 
   return { position: pv.position as Vec3, velocity: pv.velocity as Vec3 };
 }
 
+/** ECI 位置 (km) のみ。影判定や一括変換用に worker が使う。 */
+export function propagateEciKm(satrec: SatRec, date: Date): Vec3 | null {
+  const pv = propagateSafe(satrec, date);
+  return pv ? pv.position : null;
+}
+
+/** ECI(km) → ECEF メートル。gmst は tick ごとに 1 回だけ計算して使い回せる。 */
+export function eciKmToEcefMeters(eciKm: Vec3, gmst: number): EcefMeters {
+  const ecf = eciToEcf(eciKm as never, gmst) as Vec3; // km
+  return { x: ecf.x * 1000, y: ecf.y * 1000, z: ecf.z * 1000 };
+}
+
 /** ECEF メートル座標（Cesium Cartesian3 にそのまま渡せる） */
 export function computeEcefMeters(satrec: SatRec, date: Date): EcefMeters | null {
-  const pv = propagateSafe(satrec, date);
-  if (!pv) return null;
-  const gmst = gstime(date);
-  const ecf = eciToEcf(pv.position as never, gmst) as Vec3; // km
-  return { x: ecf.x * 1000, y: ecf.y * 1000, z: ecf.z * 1000 };
+  const eci = propagateEciKm(satrec, date);
+  if (!eci) return null;
+  return eciKmToEcefMeters(eci, gstime(date));
 }
 
 function normalizeLonToDeg(rad: number): number {

@@ -20,3 +20,8 @@ export const REENTRY_PERIGEE_KM = 200;
 
 /** WGS-72 定数（SGP4/satellite.js 準拠） */
 export const EARTH = { muKm3S2: 398600.5, radiusKm: 6378.135 } as const;
+
+/** Cloudflare Web Analytics のトークン。空なら beacon を読み込まない。
+ *  発行: CF ダッシュボード → Analytics & Logs → Web Analytics → Add a site
+ *  (API は RUM スコープ必須で wrangler の OAuth トークンでは発行不可) */
+export const WEB_ANALYTICS_TOKEN = "";

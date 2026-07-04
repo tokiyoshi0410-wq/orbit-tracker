@@ -1,6 +1,11 @@
-import { describe, it, expect } from "vitest";
+import { describe, it, expect, beforeAll, afterAll } from "vitest";
 import { renderDetailHtml } from "../src/ui/detailPanel";
+import { setLangForTest } from "../src/i18n";
 import type { SatelliteRecord, SatcatMeta, OrbitalElements, InstantState } from "../src/types";
+
+// jsdom の navigator.language は en-US。日本語表示のテストなので ja に固定する
+beforeAll(() => setLangForTest("ja"));
+afterAll(() => setLangForTest(null));
 
 const rec: SatelliteRecord = { noradId: 25544, name: "ISS (ZARYA)", intlDesignator: "98067A", tle1: "", tle2: "" };
 const meta: SatcatMeta = { noradId: 25544, objectType: "PAY", owner: "ISS", launchDate: "1998-11-20" };

@@ -1,4 +1,5 @@
 import type { SatelliteRecord } from "../types";
+import { t } from "../i18n";
 
 /** 名前部分一致(大小無視) または NORAD 番号一致で絞り込み。上限 limit 件。 */
 export function filterRecords(records: SatelliteRecord[], query: string, limit = 20): SatelliteRecord[] {
@@ -14,13 +15,14 @@ export function filterRecords(records: SatelliteRecord[], query: string, limit =
   return out;
 }
 
-/** 検索ボックス＋候補リストを生成。選択時 onSelect(noradId)。 */
-export function mountSearchBox(records: SatelliteRecord[], onSelect: (noradId: number) => void): void {
+/** 検索ボックス＋候補リストを生成。選択時 onSelect(noradId)。
+ *  records はゲッターで受ける (全カタログ切替でデータセットが差し替わるため)。 */
+export function mountSearchBox(getRecords: () => SatelliteRecord[], onSelect: (noradId: number) => void): void {
   const box = document.createElement("div");
   box.style.cssText =
     "position:fixed;top:12px;left:12px;z-index:9999;width:240px;font-family:system-ui,sans-serif";
   box.innerHTML =
-    `<input id="ot-search" placeholder="衛星名 / NORAD番号で検索" autocomplete="off" ` +
+    `<input id="ot-search" placeholder="${t("search.placeholder")}" autocomplete="off" ` +
     `style="width:100%;box-sizing:border-box;padding:8px;border-radius:8px;border:1px solid #2d4a72;background:rgba(10,18,32,.92);color:#eee">` +
     `<div id="ot-search-list"></div>`;
   document.body.appendChild(box);
@@ -28,7 +30,7 @@ export function mountSearchBox(records: SatelliteRecord[], onSelect: (noradId: n
   const input = box.querySelector<HTMLInputElement>("#ot-search")!;
   const list = box.querySelector<HTMLDivElement>("#ot-search-list")!;
   input.addEventListener("input", () => {
-    const matches = filterRecords(records, input.value);
+    const matches = filterRecords(getRecords(), input.value);
     list.innerHTML = matches
       .map(
         (r) =>

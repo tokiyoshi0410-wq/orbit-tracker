@@ -1,4 +1,6 @@
-import { buildSatrec, computeEcefMeters, type SatRec } from "./propagator";
+import { gstime } from "satellite.js";
+import { buildSatrec, propagateEciKm, eciKmToEcefMeters, type SatRec } from "./propagator";
+import { sunEciKm, isInEarthShadow } from "../astro/sun";
 import type { WorkerRequest, PositionsMessage } from "./protocol";
 
 const ctx = self as unknown as DedicatedWorkerGlobalScope;
@@ -13,21 +15,26 @@ ctx.onmessage = (e: MessageEvent<WorkerRequest>) => {
   }
   if (msg.type === "tick") {
     const date = new Date(msg.timeMs);
+    const gmst = gstime(date); // 全衛星共通なので 1 回だけ
+    const sun = sunEciKm(date);
     const positions = new Float64Array(satrecs.length * 3);
+    const shadows = new Uint8Array(satrecs.length);
     for (let i = 0; i < satrecs.length; i++) {
-      const ecef = computeEcefMeters(satrecs[i], date);
+      const eci = propagateEciKm(satrecs[i], date);
       const o = i * 3;
-      if (ecef) {
+      if (eci) {
+        const ecef = eciKmToEcefMeters(eci, gmst);
         positions[o] = ecef.x;
         positions[o + 1] = ecef.y;
         positions[o + 2] = ecef.z;
+        shadows[i] = isInEarthShadow(eci, sun) ? 1 : 0;
       } else {
         positions[o] = NaN;
         positions[o + 1] = NaN;
         positions[o + 2] = NaN;
       }
     }
-    const out: PositionsMessage = { type: "positions", timeMs: msg.timeMs, positions };
-    ctx.postMessage(out, [positions.buffer]);
+    const out: PositionsMessage = { type: "positions", timeMs: msg.timeMs, positions, shadows };
+    ctx.postMessage(out, [positions.buffer, shadows.buffer]);
   }
 };

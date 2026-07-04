@@ -20,6 +20,8 @@ jobs:
           node-version: "22"
       - name: Fetch TLE
         run: node scripts/fetch-tle.mjs
+      - name: Fetch launches
+        run: node scripts/fetch-launches.mjs
       - name: Commit if changed
         run: |
           git config user.name "orbit-tracker-bot"

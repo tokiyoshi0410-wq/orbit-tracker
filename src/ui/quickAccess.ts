@@ -1,16 +1,18 @@
 import type { SatelliteRecord } from "../types";
+import { getLang } from "../i18n";
 
 /** 初見ユーザー向けのワンタップ導線。検索を使わなくても有名どころに飛べる。 */
 export interface QuickSat {
   noradId: number;
   label: string;
+  labelEn?: string;
 }
 
 export const QUICK_SATS: QuickSat[] = [
-  { noradId: 25544, label: "🛰 ISS" },
-  { noradId: 48274, label: "🇨🇳 天宮" },
-  { noradId: 20580, label: "🔭 ハッブル" },
-  { noradId: 41836, label: "🌀 ひまわり9号" },
+  { noradId: 25544, label: "🛰 ISS", labelEn: "🛰 ISS" },
+  { noradId: 48274, label: "🇨🇳 天宮", labelEn: "🇨🇳 Tiangong" },
+  { noradId: 20580, label: "🔭 ハッブル", labelEn: "🔭 Hubble" },
+  { noradId: 41836, label: "🌀 ひまわり9号", labelEn: "🌀 Himawari-9" },
 ];
 
 /** カタログに実在するものだけ返す（TLE 構成が変わってもボタンが壊れない・純粋関数）。 */
@@ -24,6 +26,8 @@ export function mountQuickAccess(records: SatelliteRecord[], onSelect: (noradId:
   const sats = pickQuickSats(records);
   if (sats.length === 0) return;
 
+  const lang = getLang();
+  document.getElementById("ot-quick")?.remove();
   const box = document.createElement("div");
   box.id = "ot-quick";
   // 検索ボックス (top:12px, 高さ約38px) の直下。候補リストが上に被さるよう z-index は検索より下げる。
@@ -35,7 +39,7 @@ export function mountQuickAccess(records: SatelliteRecord[], onSelect: (noradId:
       (s) =>
         `<button type="button" class="ot-quick-chip" data-id="${s.noradId}" ` +
         `style="all:unset;cursor:pointer;padding:5px 10px;border-radius:999px;font-size:12px;color:#cfe0ff;` +
-        `background:rgba(10,18,32,.92);border:1px solid #2d4a72">${s.label}</button>`,
+        `background:rgba(10,18,32,.92);border:1px solid #2d4a72">${lang === "ja" ? s.label : (s.labelEn ?? s.label)}</button>`,
     )
     .join("");
   document.body.appendChild(box);
