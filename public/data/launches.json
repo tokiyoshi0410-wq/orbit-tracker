@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-07-05T13:42:15.430Z",
+ "fetchedAt": "2026-07-05T17:12:25.600Z",
  "launches": [
-  {
-   "name": "Long March 8A | SpaceSail Polar Group TBD",
-   "netMs": 1783258800000,
-   "status": "Go",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "pad": "Commercial LC-1",
-   "site": "Wenchang Space Launch Site, People's Republic of China",
-   "lat": 19.597275,
-   "lon": 110.930753
-  },
   {
    "name": "Falcon 9 Block 5 | Transporter 17 (Dedicated SSO Rideshare)",
    "netMs": 1783408200000,
@@ -150,6 +140,16 @@
    "site": "Cape Canaveral SFS, FL, USA",
    "lat": 28.56194122,
    "lon": -80.57735736
+  },
+  {
+   "name": "Falcon 9 Block 5 | MRV-1",
+   "netMs": 1785456000000,
+   "status": "TBD",
+   "provider": "SpaceX",
+   "pad": "Unknown Pad",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.458,
+   "lon": -80.528
   }
  ]
 }
