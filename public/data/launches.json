@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-07-06T15:35:55.046Z",
+ "fetchedAt": "2026-07-06T18:11:45.219Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | Transporter 17 (Dedicated SSO Rideshare)",
@@ -72,6 +72,16 @@
    "lon": -120.611
   },
   {
+   "name": "Falcon 9 Block 5 | Starlink Group 10-45",
+   "netMs": 1784013300000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 40",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.56194122,
+   "lon": -80.57735736
+  },
+  {
    "name": "Soyuz 2.1a | Soyuz MS-29",
    "netMs": 1784040420000,
    "status": "Go",
@@ -140,16 +150,6 @@
    "site": "Cape Canaveral SFS, FL, USA",
    "lat": 28.56194122,
    "lon": -80.57735736
-  },
-  {
-   "name": "Falcon 9 Block 5 | MRV-1",
-   "netMs": 1785456000000,
-   "status": "TBD",
-   "provider": "SpaceX",
-   "pad": "Unknown Pad",
-   "site": "Cape Canaveral SFS, FL, USA",
-   "lat": 28.458,
-   "lon": -80.528
   }
  ]
 }
