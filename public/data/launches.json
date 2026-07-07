@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-07-07T10:58:02.258Z",
+ "fetchedAt": "2026-07-07T14:37:13.712Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | Starlink Group 10-42",
@@ -73,7 +73,7 @@
   },
   {
    "name": "Soyuz 2.1a | Soyuz MS-29",
-   "netMs": 1784040420000,
+   "netMs": 1784040470000,
    "status": "Go",
    "provider": "Russian Federal Space Agency (ROSCOSMOS)",
    "pad": "31/6",
