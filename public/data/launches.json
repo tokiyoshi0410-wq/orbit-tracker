@@ -1,9 +1,9 @@
 {
- "fetchedAt": "2026-07-09T10:55:38.365Z",
+ "fetchedAt": "2026-07-09T15:14:37.116Z",
  "launches": [
   {
    "name": "Long March 10B | Demo Flight",
-   "netMs": 1783660800000,
+   "netMs": 1783656600000,
    "status": "Go",
    "provider": "China Aerospace Science and Technology Corporation",
    "pad": "Commercial LC-2",
