@@ -1,9 +1,9 @@
 {
- "fetchedAt": "2026-07-10T14:28:48.449Z",
+ "fetchedAt": "2026-07-10T17:48:11.598Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | Starlink Group 17-48",
-   "netMs": 1783738557000,
+   "netMs": 1783738849000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
@@ -92,6 +92,16 @@
    "lon": 80.235
   },
   {
+   "name": "Falcon 9 Block 5 | Starlink Group 17-39",
+   "netMs": 1784383200000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
+  },
+  {
    "name": "Long March 3B/E | Unknown Payload",
    "netMs": 1784804400000,
    "status": "TBC",
@@ -100,6 +110,16 @@
    "site": "Xichang Satellite Launch Center, People's Republic of China",
    "lat": 28.245504,
    "lon": 102.026768
+  },
+  {
+   "name": "Falcon 9 Block 5 | Starlink Group 17-51",
+   "netMs": 1784815200000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
   },
   {
    "name": "Electron | StriX Launch 11",
@@ -130,26 +150,6 @@
    "site": "Cape Canaveral SFS, FL, USA",
    "lat": 28.56194122,
    "lon": -80.57735736
-  },
-  {
-   "name": "Falcon 9 Block 5 | MRV-1",
-   "netMs": 1785456000000,
-   "status": "TBD",
-   "provider": "SpaceX",
-   "pad": "Unknown Pad",
-   "site": "Cape Canaveral SFS, FL, USA",
-   "lat": 28.458,
-   "lon": -80.528
-  },
-  {
-   "name": "Gravity-1 | Unknown Payload",
-   "netMs": 1785456000000,
-   "status": "TBD",
-   "provider": "Orienspace Technology",
-   "pad": "Haiyang offshore launch location",
-   "site": "Haiyang Oriental Spaceport",
-   "lat": 36.631333,
-   "lon": 121.198361
   }
  ]
 }
