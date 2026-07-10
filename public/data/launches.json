@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-07-09T21:24:44.609Z",
+ "fetchedAt": "2026-07-10T03:26:42.834Z",
  "launches": [
   {
    "name": "Long March 10B | Demo Flight",
@@ -13,7 +13,7 @@
   },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 17-48",
-   "netMs": 1783735200000,
+   "netMs": 1783738557000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
