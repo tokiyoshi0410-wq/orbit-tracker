@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-11T09:38:38.505Z",
+  "fetchedAt": "2026-07-11T13:21:15.916Z",
   "groups": {
     "active": {
       "lines": 47979,
@@ -42,8 +42,8 @@
       "objects": 586
     },
     "iridium-33-debris": {
-      "lines": 336,
-      "objects": 112
+      "lines": 333,
+      "objects": 111
     }
   }
 }
