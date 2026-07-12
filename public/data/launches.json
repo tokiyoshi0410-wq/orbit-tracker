@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-07-11T20:50:39.744Z",
+ "fetchedAt": "2026-07-12T02:51:57.115Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | Starlink Group 15-14",
@@ -32,16 +32,6 @@
    "lon": 63.564003
   },
   {
-   "name": "Starship | Flight 13",
-   "netMs": 1784155500000,
-   "status": "TBC",
-   "provider": "SpaceX",
-   "pad": "Orbital Launch Pad 2",
-   "site": "SpaceX Starbase, TX, USA",
-   "lat": 25.99677,
-   "lon": -97.15799
-  },
-  {
    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer E",
    "netMs": 1784233320000,
    "status": "TBC",
@@ -50,6 +40,16 @@
    "site": "Vandenberg SFB, CA, USA",
    "lat": 34.632,
    "lon": -120.611
+  },
+  {
+   "name": "Starship | Flight 13",
+   "netMs": 1784241900000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Orbital Launch Pad 2",
+   "site": "SpaceX Starbase, TX, USA",
+   "lat": 25.99677,
+   "lon": -97.15799
   },
   {
    "name": "Electron | LOXSAT 1",
