@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-07-13T17:55:40.995Z",
+ "fetchedAt": "2026-07-13T20:57:32.288Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | Starlink Group 15-14",
@@ -13,7 +13,7 @@
   },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 10-45",
-   "netMs": 1784017652000,
+   "netMs": 1784020212000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 40",
@@ -23,7 +23,7 @@
   },
   {
    "name": "Soyuz 2.1a | Soyuz MS-29",
-   "netMs": 1784040470000,
+   "netMs": 1784040463000,
    "status": "Go",
    "provider": "Russian Federal Space Agency (ROSCOSMOS)",
    "pad": "31/6",
@@ -84,7 +84,7 @@
   {
    "name": "Falcon 9 Block 5 | MRV-1",
    "netMs": 1784668500000,
-   "status": "TBC",
+   "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 40",
    "site": "Cape Canaveral SFS, FL, USA",
