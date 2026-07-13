@@ -1,9 +1,9 @@
 {
- "fetchedAt": "2026-07-13T11:12:37.774Z",
+ "fetchedAt": "2026-07-13T14:36:39.390Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | Starlink Group 15-14",
-   "netMs": 1783991760000,
+   "netMs": 1783991834000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
@@ -13,7 +13,7 @@
   },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 10-45",
-   "netMs": 1784013300000,
+   "netMs": 1784017297000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 40",
@@ -53,8 +53,8 @@
   },
   {
    "name": "Long March 7A | Unknown Payload",
-   "netMs": 1784286000000,
-   "status": "TBC",
+   "netMs": 1784289000000,
+   "status": "Go",
    "provider": "China Aerospace Science and Technology Corporation",
    "pad": "201",
    "site": "Wenchang Space Launch Site, People's Republic of China",
@@ -82,6 +82,16 @@
    "lon": -120.611
   },
   {
+   "name": "Falcon 9 Block 5 | MRV-1",
+   "netMs": 1784668500000,
+   "status": "TBC",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 40",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.56194122,
+   "lon": -80.57735736
+  },
+  {
    "name": "Long March 3B/E | Unknown Payload",
    "netMs": 1784804400000,
    "status": "TBC",
@@ -100,6 +110,16 @@
    "site": "Vandenberg SFB, CA, USA",
    "lat": 34.632,
    "lon": -120.611
+  },
+  {
+   "name": "Long March 8A | Unknown Payload",
+   "netMs": 1784890800000,
+   "status": "TBC",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "pad": "Commercial LC-1",
+   "site": "Wenchang Space Launch Site, People's Republic of China",
+   "lat": 19.597275,
+   "lon": 110.930753
   },
   {
    "name": "Electron | LOXSAT 1",
@@ -130,26 +150,6 @@
    "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
    "lat": -39.262833,
    "lon": 177.864469
-  },
-  {
-   "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
-   "netMs": 1785456000000,
-   "status": "TBD",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 40",
-   "site": "Cape Canaveral SFS, FL, USA",
-   "lat": 28.56194122,
-   "lon": -80.57735736
-  },
-  {
-   "name": "Falcon 9 Block 5 | MRV-1",
-   "netMs": 1785456000000,
-   "status": "TBD",
-   "provider": "SpaceX",
-   "pad": "Unknown Pad",
-   "site": "Cape Canaveral SFS, FL, USA",
-   "lat": 28.458,
-   "lon": -80.528
   }
  ]
 }
