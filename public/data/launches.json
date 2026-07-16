@@ -1,10 +1,10 @@
 {
- "fetchedAt": "2026-07-16T17:17:22.161Z",
+ "fetchedAt": "2026-07-16T21:00:32.520Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer E",
-   "netMs": 1784233947000,
-   "status": "Go",
+   "netMs": 1784233956000,
+   "status": "In Flight",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
    "site": "Vandenberg SFB, CA, USA",
@@ -92,6 +92,16 @@
    "lon": -120.611
   },
   {
+   "name": "Falcon 9 Block 5 | Starlink Group 17-52",
+   "netMs": 1785204000000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
+  },
+  {
    "name": "Electron | LOXSAT 1",
    "netMs": 1785456000000,
    "status": "TBD",
@@ -140,16 +150,6 @@
    "site": "Satish Dhawan Space Centre, India",
    "lat": 13.7199,
    "lon": 80.2304
-  },
-  {
-   "name": "Long March 7A | Unknown Payload",
-   "netMs": 1785456000000,
-   "status": "TBD",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "pad": "201",
-   "site": "Wenchang Space Launch Site, People's Republic of China",
-   "lat": 19.618452,
-   "lon": 110.955356
   }
  ]
 }
