@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-07-16T13:53:13.671Z",
+ "fetchedAt": "2026-07-16T17:17:22.161Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer E",
@@ -20,16 +20,6 @@
    "site": "SpaceX Starbase, TX, USA",
    "lat": 25.99677,
    "lon": -97.15799
-  },
-  {
-   "name": "Long March 7A | Unknown Payload",
-   "netMs": 1784289000000,
-   "status": "Go",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "pad": "201",
-   "site": "Wenchang Space Launch Site, People's Republic of China",
-   "lat": 19.618452,
-   "lon": 110.955356
   },
   {
    "name": "Vikram-I | Demo Flight",
@@ -150,6 +140,16 @@
    "site": "Satish Dhawan Space Centre, India",
    "lat": 13.7199,
    "lon": 80.2304
+  },
+  {
+   "name": "Long March 7A | Unknown Payload",
+   "netMs": 1785456000000,
+   "status": "TBD",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "pad": "201",
+   "site": "Wenchang Space Launch Site, People's Republic of China",
+   "lat": 19.618452,
+   "lon": 110.955356
   }
  ]
 }
