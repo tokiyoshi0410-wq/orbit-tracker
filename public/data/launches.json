@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-07-16T02:41:05.720Z",
+ "fetchedAt": "2026-07-16T06:19:39.136Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer E",
@@ -60,6 +60,16 @@
    "site": "Cape Canaveral SFS, FL, USA",
    "lat": 28.56194122,
    "lon": -80.57735736
+  },
+  {
+   "name": "Gravity-1 | Unknown Payload",
+   "netMs": 1784688600000,
+   "status": "Go",
+   "provider": "Orienspace Technology",
+   "pad": "Yellow Sea (launch location 5)",
+   "site": "Haiyang Oriental Spaceport",
+   "lat": 31.2,
+   "lon": 123.7
   },
   {
    "name": "Long March 3B/E | Unknown Payload",
@@ -130,16 +140,6 @@
    "site": "Cape Canaveral SFS, FL, USA",
    "lat": 28.56194122,
    "lon": -80.57735736
-  },
-  {
-   "name": "Gravity-1 | Unknown Payload",
-   "netMs": 1785456000000,
-   "status": "TBD",
-   "provider": "Orienspace Technology",
-   "pad": "Haiyang offshore launch location",
-   "site": "Haiyang Oriental Spaceport",
-   "lat": 36.631333,
-   "lon": 121.198361
   },
   {
    "name": "GSLV Mk II | GISAT-1A (EOS-05)",
