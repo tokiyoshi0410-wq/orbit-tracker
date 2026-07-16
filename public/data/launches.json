@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-07-16T10:09:26.463Z",
+ "fetchedAt": "2026-07-16T13:53:13.671Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer E",
@@ -34,7 +34,7 @@
   {
    "name": "Vikram-I | Demo Flight",
    "netMs": 1784354400000,
-   "status": "TBC",
+   "status": "Go",
    "provider": "Skyroot Aerospace",
    "pad": "Satish Dhawan Space Centre First Launch Pad",
    "site": "Satish Dhawan Space Centre, India",
