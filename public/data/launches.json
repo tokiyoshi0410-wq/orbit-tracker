@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-07-17T09:57:57.597Z",
+ "fetchedAt": "2026-07-17T13:39:52.606Z",
  "launches": [
   {
    "name": "Vikram-I | Demo Flight",
@@ -20,6 +20,16 @@
    "site": "Vandenberg SFB, CA, USA",
    "lat": 34.632,
    "lon": -120.611
+  },
+  {
+   "name": "Starship | Flight 13",
+   "netMs": 1784587500000,
+   "status": "TBC",
+   "provider": "SpaceX",
+   "pad": "Orbital Launch Pad 2",
+   "site": "SpaceX Starbase, TX, USA",
+   "lat": 25.99677,
+   "lon": -97.15799
   },
   {
    "name": "Falcon 9 Block 5 | MRV-1",
@@ -140,16 +150,6 @@
    "site": "Wenchang Space Launch Site, People's Republic of China",
    "lat": 19.618452,
    "lon": 110.955356
-  },
-  {
-   "name": "Mir | Demo Flight",
-   "netMs": 1785456000000,
-   "status": "TBD",
-   "provider": "Agency for Defense Development",
-   "pad": "ADD Offshore launch platform",
-   "site": "Sea Launch",
-   "lat": 33.216667,
-   "lon": 126.366667
   }
  ]
 }
