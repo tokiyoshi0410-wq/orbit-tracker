@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-07-17T13:39:52.606Z",
+ "fetchedAt": "2026-07-17T17:13:12.935Z",
  "launches": [
   {
    "name": "Vikram-I | Demo Flight",
@@ -24,7 +24,7 @@
   {
    "name": "Starship | Flight 13",
    "netMs": 1784587500000,
-   "status": "TBC",
+   "status": "Go",
    "provider": "SpaceX",
    "pad": "Orbital Launch Pad 2",
    "site": "SpaceX Starbase, TX, USA",
