@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-07-17T02:43:23.049Z",
+ "fetchedAt": "2026-07-17T06:18:05.252Z",
  "launches": [
   {
    "name": "Vikram-I | Demo Flight",
@@ -43,13 +43,23 @@
   },
   {
    "name": "Long March 3B/E | Unknown Payload",
-   "netMs": 1784804400000,
-   "status": "TBC",
+   "netMs": 1784808000000,
+   "status": "Go",
    "provider": "China Aerospace Science and Technology Corporation",
    "pad": "Launch Complex 2 (LC-2)",
    "site": "Xichang Satellite Launch Center, People's Republic of China",
    "lat": 28.245504,
    "lon": 102.026768
+  },
+  {
+   "name": "Kinetica 1 | Unknown Payload",
+   "netMs": 1784858400000,
+   "status": "TBC",
+   "provider": "CAS Space",
+   "pad": "Launch Area 130",
+   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+   "lat": 40.8182,
+   "lon": 100.22514
   },
   {
    "name": "Long March 8A | Unknown Payload",
@@ -140,16 +150,6 @@
    "site": "Sea Launch",
    "lat": 33.216667,
    "lon": 126.366667
-  },
-  {
-   "name": "Soyuz 2.1b | 16 x Rassvet-3",
-   "netMs": 1785456000000,
-   "status": "TBD",
-   "provider": "Russian Federal Space Agency (ROSCOSMOS)",
-   "pad": "Unknown Pad",
-   "site": "Plesetsk Cosmodrome, Russian Federation",
-   "lat": 62.925556,
-   "lon": 40.577778
   }
  ]
 }
