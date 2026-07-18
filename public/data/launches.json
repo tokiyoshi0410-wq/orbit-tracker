@@ -1,10 +1,10 @@
 {
- "fetchedAt": "2026-07-18T02:34:06.354Z",
+ "fetchedAt": "2026-07-18T06:05:50.364Z",
  "launches": [
   {
    "name": "Vikram-I | Demo Flight",
-   "netMs": 1784354400000,
-   "status": "Go",
+   "netMs": 1784354460000,
+   "status": "Hold",
    "provider": "Skyroot Aerospace",
    "pad": "Satish Dhawan Space Centre First Launch Pad",
    "site": "Satish Dhawan Space Centre, India",
