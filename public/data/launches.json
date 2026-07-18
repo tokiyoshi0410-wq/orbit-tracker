@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-07-18T06:05:50.364Z",
+ "fetchedAt": "2026-07-18T09:26:42.230Z",
  "launches": [
-  {
-   "name": "Vikram-I | Demo Flight",
-   "netMs": 1784354460000,
-   "status": "Hold",
-   "provider": "Skyroot Aerospace",
-   "pad": "Satish Dhawan Space Centre First Launch Pad",
-   "site": "Satish Dhawan Space Centre, India",
-   "lat": 13.733,
-   "lon": 80.235
-  },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 17-39",
    "netMs": 1784556000000,
@@ -150,6 +140,16 @@
    "site": "Wenchang Space Launch Site, People's Republic of China",
    "lat": 19.618452,
    "lon": 110.955356
+  },
+  {
+   "name": "Mir | Demo Flight",
+   "netMs": 1785456000000,
+   "status": "TBD",
+   "provider": "Agency for Defense Development",
+   "pad": "ADD Offshore launch platform",
+   "site": "Sea Launch",
+   "lat": 33.216667,
+   "lon": 126.366667
   }
  ]
 }
