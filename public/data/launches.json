@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-07-18T13:17:26.542Z",
+ "fetchedAt": "2026-07-18T16:58:38.602Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | Starlink Group 17-39",
@@ -122,16 +122,6 @@
    "lon": 177.864469
   },
   {
-   "name": "GSLV Mk II | GISAT-1A (EOS-05)",
-   "netMs": 1785456000000,
-   "status": "TBD",
-   "provider": "Indian Space Research Organization",
-   "pad": "Satish Dhawan Space Centre Second Launch Pad",
-   "site": "Satish Dhawan Space Centre, India",
-   "lat": 13.7199,
-   "lon": 80.2304
-  },
-  {
    "name": "Long March 7A | Unknown Payload",
    "netMs": 1785456000000,
    "status": "TBD",
@@ -150,6 +140,16 @@
    "site": "Sea Launch",
    "lat": 33.216667,
    "lon": 126.366667
+  },
+  {
+   "name": "Soyuz 2.1b | 16 x Rassvet-3",
+   "netMs": 1785456000000,
+   "status": "TBD",
+   "provider": "Russian Federal Space Agency (ROSCOSMOS)",
+   "pad": "Unknown Pad",
+   "site": "Plesetsk Cosmodrome, Russian Federation",
+   "lat": 62.925556,
+   "lon": 40.577778
   }
  ]
 }
