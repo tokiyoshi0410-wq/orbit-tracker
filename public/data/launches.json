@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-07-19T06:30:52.967Z",
+ "fetchedAt": "2026-07-19T09:52:38.747Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | Starlink Group 17-39",
@@ -53,8 +53,8 @@
   },
   {
    "name": "Kinetica 1 | Unknown Payload",
-   "netMs": 1784858400000,
-   "status": "TBC",
+   "netMs": 1784849400000,
+   "status": "Go",
    "provider": "CAS Space",
    "pad": "Launch Area 130",
    "site": "Jiuquan Satellite Launch Center, People's Republic of China",
