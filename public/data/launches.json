@@ -1,9 +1,9 @@
 {
- "fetchedAt": "2026-07-20T10:53:14.545Z",
+ "fetchedAt": "2026-07-20T14:07:45.396Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | Starlink Group 17-39",
-   "netMs": 1784558186000,
+   "netMs": 1784558972000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
@@ -62,16 +62,6 @@
    "lon": 100.22514
   },
   {
-   "name": "Long March 8A | Unknown Payload",
-   "netMs": 1784890800000,
-   "status": "TBC",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "pad": "Commercial LC-1",
-   "site": "Wenchang Space Launch Site, People's Republic of China",
-   "lat": 19.597275,
-   "lon": 110.930753
-  },
-  {
    "name": "Falcon 9 Block 5 | Starlink Group 17-51",
    "netMs": 1784901600000,
    "status": "Go",
@@ -90,6 +80,16 @@
    "site": "Vandenberg SFB, CA, USA",
    "lat": 34.632,
    "lon": -120.611
+  },
+  {
+   "name": "Long March 7A | Unknown Payload",
+   "netMs": 1785325800000,
+   "status": "Go",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "pad": "201",
+   "site": "Wenchang Space Launch Site, People's Republic of China",
+   "lat": 19.618452,
+   "lon": 110.955356
   },
   {
    "name": "Electron | LOXSAT 1",
@@ -122,16 +122,6 @@
    "lon": 177.864469
   },
   {
-   "name": "Long March 7A | Unknown Payload",
-   "netMs": 1785456000000,
-   "status": "TBD",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "pad": "201",
-   "site": "Wenchang Space Launch Site, People's Republic of China",
-   "lat": 19.618452,
-   "lon": 110.955356
-  },
-  {
    "name": "Mir | Demo Flight",
    "netMs": 1785456000000,
    "status": "TBD",
@@ -146,6 +136,16 @@
    "netMs": 1785456000000,
    "status": "TBD",
    "provider": "Russian Federal Space Agency (ROSCOSMOS)",
+   "pad": "Unknown Pad",
+   "site": "Plesetsk Cosmodrome, Russian Federation",
+   "lat": 62.925556,
+   "lon": 40.577778
+  },
+  {
+   "name": "Soyuz 2.1b/Fregat | Glonass-K1 No. 19",
+   "netMs": 1785456000000,
+   "status": "TBD",
+   "provider": "Russian Space Forces",
    "pad": "Unknown Pad",
    "site": "Plesetsk Cosmodrome, Russian Federation",
    "lat": 62.925556,
