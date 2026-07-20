@@ -1,9 +1,9 @@
 {
- "fetchedAt": "2026-07-20T14:07:45.396Z",
+ "fetchedAt": "2026-07-20T18:04:53.362Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | Starlink Group 17-39",
-   "netMs": 1784558972000,
+   "netMs": 1784642400000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
@@ -63,7 +63,7 @@
   },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 17-51",
-   "netMs": 1784901600000,
+   "netMs": 1784988000000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
@@ -73,7 +73,7 @@
   },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 17-52",
-   "netMs": 1785204000000,
+   "netMs": 1785290400000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
@@ -90,6 +90,16 @@
    "site": "Wenchang Space Launch Site, People's Republic of China",
    "lat": 19.618452,
    "lon": 110.955356
+  },
+  {
+   "name": "Falcon 9 Block 5 | NROL-95",
+   "netMs": 1785393420000,
+   "status": "TBC",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 40",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.56194122,
+   "lon": -80.57735736
   },
   {
    "name": "Electron | LOXSAT 1",
@@ -136,16 +146,6 @@
    "netMs": 1785456000000,
    "status": "TBD",
    "provider": "Russian Federal Space Agency (ROSCOSMOS)",
-   "pad": "Unknown Pad",
-   "site": "Plesetsk Cosmodrome, Russian Federation",
-   "lat": 62.925556,
-   "lon": 40.577778
-  },
-  {
-   "name": "Soyuz 2.1b/Fregat | Glonass-K1 No. 19",
-   "netMs": 1785456000000,
-   "status": "TBD",
-   "provider": "Russian Space Forces",
    "pad": "Unknown Pad",
    "site": "Plesetsk Cosmodrome, Russian Federation",
    "lat": 62.925556,
