@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-07-21T13:52:33.328Z",
+ "fetchedAt": "2026-07-21T17:21:38.585Z",
  "launches": [
-  {
-   "name": "Falcon 9 Block 5 | Starlink Group 17-39",
-   "netMs": 1784645374000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
   {
    "name": "Falcon 9 Block 5 | MRV-1",
    "netMs": 1784668500000,
@@ -146,6 +136,16 @@
    "netMs": 1785456000000,
    "status": "TBD",
    "provider": "Russian Federal Space Agency (ROSCOSMOS)",
+   "pad": "Unknown Pad",
+   "site": "Plesetsk Cosmodrome, Russian Federation",
+   "lat": 62.925556,
+   "lon": 40.577778
+  },
+  {
+   "name": "Soyuz 2.1b/Fregat | Glonass-K1 No. 19",
+   "netMs": 1785456000000,
+   "status": "TBD",
+   "provider": "Russian Space Forces",
    "pad": "Unknown Pad",
    "site": "Plesetsk Cosmodrome, Russian Federation",
    "lat": 62.925556,
