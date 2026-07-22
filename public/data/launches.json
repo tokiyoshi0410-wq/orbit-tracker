@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-07-21T21:10:58.214Z",
+ "fetchedAt": "2026-07-22T02:43:45.949Z",
  "launches": [
-  {
-   "name": "Falcon 9 Block 5 | MRV-1",
-   "netMs": 1784668500000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 40",
-   "site": "Cape Canaveral SFS, FL, USA",
-   "lat": 28.56194122,
-   "lon": -80.57735736
-  },
   {
    "name": "Gravity-1 | Unknown Payload",
    "netMs": 1784688600000,
@@ -132,16 +122,6 @@
    "lon": 126.366667
   },
   {
-   "name": "Soyuz 2.1b | 16 x Rassvet-3",
-   "netMs": 1785456000000,
-   "status": "TBD",
-   "provider": "Russian Federal Space Agency (ROSCOSMOS)",
-   "pad": "Unknown Pad",
-   "site": "Plesetsk Cosmodrome, Russian Federation",
-   "lat": 62.925556,
-   "lon": 40.577778
-  },
-  {
    "name": "Soyuz 2.1b/Fregat | Glonass-K1 No. 19",
    "netMs": 1785456000000,
    "status": "TBD",
@@ -150,6 +130,26 @@
    "site": "Plesetsk Cosmodrome, Russian Federation",
    "lat": 62.925556,
    "lon": 40.577778
+  },
+  {
+   "name": "Long March 8A | Unknown Payload",
+   "netMs": 1785841200000,
+   "status": "TBC",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "pad": "Commercial LC-1",
+   "site": "Wenchang Space Launch Site, People's Republic of China",
+   "lat": 19.597275,
+   "lon": 110.930753
+  },
+  {
+   "name": "Spectrum | Onward and Upward",
+   "netMs": 1785974400000,
+   "status": "TBD",
+   "provider": "Isar Aerospace",
+   "pad": "Orbital Launch Pad",
+   "site": "Andøya Spaceport",
+   "lat": 69.1084,
+   "lon": 15.5895
   }
  ]
 }
