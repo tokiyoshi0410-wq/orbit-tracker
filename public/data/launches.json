@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-07-22T02:43:45.949Z",
+ "fetchedAt": "2026-07-22T06:29:06.218Z",
  "launches": [
-  {
-   "name": "Gravity-1 | Unknown Payload",
-   "netMs": 1784688600000,
-   "status": "Go",
-   "provider": "Orienspace Technology",
-   "pad": "Yellow Sea (launch location 5)",
-   "site": "Haiyang Oriental Spaceport",
-   "lat": 31.2,
-   "lon": 123.7
-  },
   {
    "name": "Long March 3B/E | Unknown Payload",
    "netMs": 1784808000000,
@@ -150,6 +140,16 @@
    "site": "Andøya Spaceport",
    "lat": 69.1084,
    "lon": 15.5895
+  },
+  {
+   "name": "H3-22 | Michibiki 7 (QZS-7)",
+   "netMs": 1786044600000,
+   "status": "Go",
+   "provider": "Mitsubishi Heavy Industries",
+   "pad": "Yoshinobu Launch Complex LP-2",
+   "site": "Tanegashima Space Center, Japan",
+   "lat": 30.400938,
+   "lon": 130.97564
   }
  ]
 }
