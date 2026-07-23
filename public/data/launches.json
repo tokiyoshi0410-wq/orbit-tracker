@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-07-22T21:09:02.129Z",
+ "fetchedAt": "2026-07-23T02:49:43.283Z",
  "launches": [
   {
    "name": "Long March 3B/E | Unknown Payload",
@@ -112,16 +112,6 @@
    "lon": 126.366667
   },
   {
-   "name": "Soyuz 2.1b/Fregat | Glonass-K1 No. 19",
-   "netMs": 1785456000000,
-   "status": "TBD",
-   "provider": "Russian Space Forces",
-   "pad": "Unknown Pad",
-   "site": "Plesetsk Cosmodrome, Russian Federation",
-   "lat": 62.925556,
-   "lon": 40.577778
-  },
-  {
    "name": "Long March 8A | Unknown Payload",
    "netMs": 1785841200000,
    "status": "TBC",
@@ -150,6 +140,16 @@
    "site": "Tanegashima Space Center, Japan",
    "lat": 30.400938,
    "lon": 130.97564
+  },
+  {
+   "name": "Long March 7A | Unknown Payload",
+   "netMs": 1786273200000,
+   "status": "TBC",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "pad": "201",
+   "site": "Wenchang Space Launch Site, People's Republic of China",
+   "lat": 19.618452,
+   "lon": 110.955356
   }
  ]
 }
