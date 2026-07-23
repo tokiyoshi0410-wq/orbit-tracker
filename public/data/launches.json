@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-07-23T17:23:29.194Z",
+ "fetchedAt": "2026-07-23T21:06:32.690Z",
  "launches": [
-  {
-   "name": "Starship | Flight 13",
-   "netMs": 1784846700000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Orbital Launch Pad 2",
-   "site": "SpaceX Starbase, TX, USA",
-   "lat": 25.99677,
-   "lon": -97.15799
-  },
   {
    "name": "Kinetica 1 | Unknown Payload",
    "netMs": 1784849400000,
@@ -20,6 +10,16 @@
    "site": "Jiuquan Satellite Launch Center, People's Republic of China",
    "lat": 40.8182,
    "lon": 100.22514
+  },
+  {
+   "name": "Starship | Flight 13",
+   "netMs": 1784933100000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Orbital Launch Pad 2",
+   "site": "SpaceX Starbase, TX, USA",
+   "lat": 25.99677,
+   "lon": -97.15799
   },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 17-51",
