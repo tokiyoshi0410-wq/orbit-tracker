@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-07-23T02:49:43.283Z",
+ "fetchedAt": "2026-07-23T06:30:58.534Z",
  "launches": [
   {
    "name": "Long March 3B/E | Unknown Payload",
@@ -113,8 +113,8 @@
   },
   {
    "name": "Long March 8A | Unknown Payload",
-   "netMs": 1785841200000,
-   "status": "TBC",
+   "netMs": 1785833400000,
+   "status": "Go",
    "provider": "China Aerospace Science and Technology Corporation",
    "pad": "Commercial LC-1",
    "site": "Wenchang Space Launch Site, People's Republic of China",
