@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-07-23T10:23:52.572Z",
+ "fetchedAt": "2026-07-23T14:02:44.340Z",
  "launches": [
-  {
-   "name": "Long March 3B/E | Unknown Payload",
-   "netMs": 1784808000000,
-   "status": "Go",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "pad": "Launch Complex 2 (LC-2)",
-   "site": "Xichang Satellite Launch Center, People's Republic of China",
-   "lat": 28.245504,
-   "lon": 102.026768
-  },
   {
    "name": "Starship | Flight 13",
    "netMs": 1784846700000,
@@ -60,6 +50,16 @@
    "site": "Wenchang Space Launch Site, People's Republic of China",
    "lat": 19.618452,
    "lon": 110.955356
+  },
+  {
+   "name": "Long March 6A | Unknown Payload",
+   "netMs": 1785373200000,
+   "status": "Go",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "pad": "Launch Complex 9A",
+   "site": "Taiyuan Satellite Launch Center, People's Republic of China",
+   "lat": 38.8583,
+   "lon": 111.5802
   },
   {
    "name": "Falcon 9 Block 5 | NROL-95",
