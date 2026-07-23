@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-07-23T14:02:44.340Z",
+ "fetchedAt": "2026-07-23T17:23:29.194Z",
  "launches": [
   {
    "name": "Starship | Flight 13",
@@ -63,8 +63,8 @@
   },
   {
    "name": "Falcon 9 Block 5 | NROL-95",
-   "netMs": 1785393420000,
-   "status": "TBC",
+   "netMs": 1785395340000,
+   "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 40",
    "site": "Cape Canaveral SFS, FL, USA",
@@ -112,6 +112,16 @@
    "lon": 126.366667
   },
   {
+   "name": "Falcon 9 Block 5 | Starlink Group 17-53",
+   "netMs": 1785592800000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
+  },
+  {
    "name": "Long March 8A | Unknown Payload",
    "netMs": 1785833400000,
    "status": "Go",
@@ -140,16 +150,6 @@
    "site": "Tanegashima Space Center, Japan",
    "lat": 30.400938,
    "lon": 130.97564
-  },
-  {
-   "name": "Long March 7A | Unknown Payload",
-   "netMs": 1786273200000,
-   "status": "TBC",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "pad": "201",
-   "site": "Wenchang Space Launch Site, People's Republic of China",
-   "lat": 19.618452,
-   "lon": 110.955356
   }
  ]
 }
