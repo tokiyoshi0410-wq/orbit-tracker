@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-07-23T21:06:32.690Z",
+ "fetchedAt": "2026-07-24T02:44:38.251Z",
  "launches": [
-  {
-   "name": "Kinetica 1 | Unknown Payload",
-   "netMs": 1784849400000,
-   "status": "Go",
-   "provider": "CAS Space",
-   "pad": "Launch Area 130",
-   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-   "lat": 40.8182,
-   "lon": 100.22514
-  },
   {
    "name": "Starship | Flight 13",
    "netMs": 1784933100000,
@@ -150,6 +140,16 @@
    "site": "Tanegashima Space Center, Japan",
    "lat": 30.400938,
    "lon": 130.97564
+  },
+  {
+   "name": "Long March 7A | Unknown Payload",
+   "netMs": 1786273200000,
+   "status": "TBC",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "pad": "201",
+   "site": "Wenchang Space Launch Site, People's Republic of China",
+   "lat": 19.618452,
+   "lon": 110.955356
   }
  ]
 }
