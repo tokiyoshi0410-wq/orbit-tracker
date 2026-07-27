@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-07-27T17:43:10.082Z",
+ "fetchedAt": "2026-07-27T21:11:25.233Z",
  "launches": [
   {
    "name": "Long March 7A | Unknown Payload",
@@ -20,16 +20,6 @@
    "site": "Taiyuan Satellite Launch Center, People's Republic of China",
    "lat": 38.8583,
    "lon": 111.5802
-  },
-  {
-   "name": "Falcon 9 Block 5 | Starlink Group 17-52",
-   "netMs": 1785376800000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
   },
   {
    "name": "Falcon 9 Block 5 | NROL-95",
@@ -82,8 +72,18 @@
    "lon": 126.366667
   },
   {
+   "name": "Falcon 9 Block 5 | Starlink Group 17-52",
+   "netMs": 1785463200000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
+  },
+  {
    "name": "Falcon 9 Block 5 | Starlink Group 17-53",
-   "netMs": 1785679200000,
+   "netMs": 1785765600000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
@@ -112,16 +112,6 @@
    "lon": 15.5895
   },
   {
-   "name": "Falcon 9 Block 5 | Starlink Group 17-38",
-   "netMs": 1786024800000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
-  {
    "name": "H3-22 | Michibiki 7 (QZS-7)",
    "netMs": 1786044600000,
    "status": "Go",
@@ -130,6 +120,16 @@
    "site": "Tanegashima Space Center, Japan",
    "lat": 30.400938,
    "lon": 130.97564
+  },
+  {
+   "name": "Falcon 9 Block 5 | Starlink Group 17-38",
+   "netMs": 1786111200000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
   },
   {
    "name": "Long March 7A | Unknown Payload",
@@ -142,14 +142,14 @@
    "lon": 110.955356
   },
   {
-   "name": "Falcon 9 Block 5 | Starlink Group 17-49",
-   "netMs": 1786327200000,
+   "name": "Falcon 9 Block 5 | Starlink Group 10-19",
+   "netMs": 1786359600000,
    "status": "Go",
    "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
+   "pad": "Space Launch Complex 40",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.56194122,
+   "lon": -80.57735736
   }
  ]
 }
