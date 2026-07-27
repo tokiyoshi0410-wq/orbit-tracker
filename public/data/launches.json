@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-07-27T14:36:31.065Z",
+ "fetchedAt": "2026-07-27T17:43:10.082Z",
  "launches": [
   {
    "name": "Long March 7A | Unknown Payload",
@@ -112,6 +112,16 @@
    "lon": 15.5895
   },
   {
+   "name": "Falcon 9 Block 5 | Starlink Group 17-38",
+   "netMs": 1786024800000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
+  },
+  {
    "name": "H3-22 | Michibiki 7 (QZS-7)",
    "netMs": 1786044600000,
    "status": "Go",
@@ -132,24 +142,14 @@
    "lon": 110.955356
   },
   {
-   "name": "Long March 12 | Unknown Payload",
-   "netMs": 1786932000000,
-   "status": "TBC",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "pad": "Commercial LC-2",
-   "site": "Wenchang Space Launch Site, People's Republic of China",
-   "lat": 19.59755,
-   "lon": 110.936481
-  },
-  {
-   "name": "Long March 5 | Chang'e 7",
-   "netMs": 1787529600000,
-   "status": "TBC",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "pad": "101",
-   "site": "Wenchang Space Launch Site, People's Republic of China",
-   "lat": 19.614334,
-   "lon": 110.951011
+   "name": "Falcon 9 Block 5 | Starlink Group 17-49",
+   "netMs": 1786327200000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
   }
  ]
 }
