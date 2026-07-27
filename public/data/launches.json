@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-07-27T11:23:26.096Z",
+ "fetchedAt": "2026-07-27T14:36:31.065Z",
  "launches": [
-  {
-   "name": "Falcon 9 Block 5 | Starlink Group 17-52",
-   "netMs": 1785290400000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
   {
    "name": "Long March 7A | Unknown Payload",
    "netMs": 1785325800000,
@@ -30,6 +20,16 @@
    "site": "Taiyuan Satellite Launch Center, People's Republic of China",
    "lat": 38.8583,
    "lon": 111.5802
+  },
+  {
+   "name": "Falcon 9 Block 5 | Starlink Group 17-52",
+   "netMs": 1785376800000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
   },
   {
    "name": "Falcon 9 Block 5 | NROL-95",
@@ -83,7 +83,7 @@
   },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 17-53",
-   "netMs": 1785592800000,
+   "netMs": 1785679200000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
