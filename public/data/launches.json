@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-07-28T10:36:12.167Z",
+ "fetchedAt": "2026-07-28T14:08:54.646Z",
  "launches": [
   {
    "name": "Long March 7A | Unknown Payload",
@@ -30,36 +30,6 @@
    "site": "Cape Canaveral SFS, FL, USA",
    "lat": 28.56194122,
    "lon": -80.57735736
-  },
-  {
-   "name": "Electron | LOXSAT 1",
-   "netMs": 1785456000000,
-   "status": "TBD",
-   "provider": "Rocket Lab",
-   "pad": "Unknown Pad",
-   "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-   "lat": -39.260881,
-   "lon": 177.865826
-  },
-  {
-   "name": "Electron | StriX Launch 11",
-   "netMs": 1785456000000,
-   "status": "TBD",
-   "provider": "Rocket Lab",
-   "pad": "Unknown Pad",
-   "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-   "lat": -39.260881,
-   "lon": 177.865826
-  },
-  {
-   "name": "Electron | The Grain Goddess Provides (iQPS Launch 7)",
-   "netMs": 1785456000000,
-   "status": "TBD",
-   "provider": "Rocket Lab",
-   "pad": "Rocket Lab Launch Complex 1A",
-   "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-   "lat": -39.262833,
-   "lon": 177.864469
   },
   {
    "name": "Mir | Demo Flight",
@@ -100,6 +70,16 @@
    "site": "Wenchang Space Launch Site, People's Republic of China",
    "lat": 19.597275,
    "lon": 110.930753
+  },
+  {
+   "name": "Falcon 9 Block 5 | BlueBird Block 2 #6-8",
+   "netMs": 1785915720000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 40",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.56194122,
+   "lon": -80.57735736
   },
   {
    "name": "Spectrum | Onward and Upward",
@@ -150,6 +130,26 @@
    "site": "Cape Canaveral SFS, FL, USA",
    "lat": 28.56194122,
    "lon": -80.57735736
+  },
+  {
+   "name": "Falcon 9 Block 5 | Starlink Group 17-49",
+   "netMs": 1786413600000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
+  },
+  {
+   "name": "Long March 12 | Unknown Payload",
+   "netMs": 1786932000000,
+   "status": "TBC",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "pad": "Commercial LC-2",
+   "site": "Wenchang Space Launch Site, People's Republic of China",
+   "lat": 19.59755,
+   "lon": 110.936481
   }
  ]
 }
