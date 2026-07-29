@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-07-29T14:11:28.781Z",
+ "fetchedAt": "2026-07-29T17:16:20.442Z",
  "launches": [
   {
    "name": "Long March 6A | Unknown Payload",
@@ -23,17 +23,7 @@
   },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 17-52",
-   "netMs": 1785463200000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
-  {
-   "name": "Falcon 9 Block 5 | Starlink Group 17-53",
-   "netMs": 1785765600000,
+   "netMs": 1785549600000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
@@ -60,6 +50,16 @@
    "site": "Wenchang Space Launch Site, People's Republic of China",
    "lat": 19.597275,
    "lon": 110.930753
+  },
+  {
+   "name": "Falcon 9 Block 5 | Starlink Group 17-53",
+   "netMs": 1785852000000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
   },
   {
    "name": "Falcon 9 Block 5 | BlueBird Block 2 #6-8",
@@ -93,7 +93,7 @@
   },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 17-38",
-   "netMs": 1786111200000,
+   "netMs": 1786197600000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
@@ -123,7 +123,7 @@
   },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 17-49",
-   "netMs": 1786413600000,
+   "netMs": 1786500000000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
