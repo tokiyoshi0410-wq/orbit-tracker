@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-07-29T02:42:43.703Z",
+ "fetchedAt": "2026-07-29T06:31:58.370Z",
  "launches": [
   {
    "name": "Long March 7A | Unknown Payload",
@@ -32,16 +32,6 @@
    "lon": -80.57735736
   },
   {
-   "name": "Mir | Demo Flight",
-   "netMs": 1785456000000,
-   "status": "TBD",
-   "provider": "Agency for Defense Development",
-   "pad": "ADD Offshore launch platform",
-   "site": "Sea Launch",
-   "lat": 33.216667,
-   "lon": 126.366667
-  },
-  {
    "name": "Falcon 9 Block 5 | Starlink Group 17-52",
    "netMs": 1785463200000,
    "status": "Go",
@@ -60,6 +50,16 @@
    "site": "Vandenberg SFB, CA, USA",
    "lat": 34.632,
    "lon": -120.611
+  },
+  {
+   "name": "Smart Dragon 3 | Unknown Payload",
+   "netMs": 1785801600000,
+   "status": "TBC",
+   "provider": "China Rocket Co. Ltd.",
+   "pad": "Haiyang offshore launch location",
+   "site": "Haiyang Oriental Spaceport",
+   "lat": 36.631333,
+   "lon": 121.198361
   },
   {
    "name": "Long March 8A | Unknown Payload",
