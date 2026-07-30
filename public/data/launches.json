@@ -1,9 +1,9 @@
 {
- "fetchedAt": "2026-07-30T02:30:47.650Z",
+ "fetchedAt": "2026-07-30T06:29:24.736Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | NROL-95",
-   "netMs": 1785395341000,
+   "netMs": 1785395419000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 40",
@@ -20,16 +20,6 @@
    "site": "Vandenberg SFB, CA, USA",
    "lat": 34.632,
    "lon": -120.611
-  },
-  {
-   "name": "Smart Dragon 3 | Unknown Payload",
-   "netMs": 1785801600000,
-   "status": "TBC",
-   "provider": "China Rocket Co. Ltd.",
-   "pad": "Haiyang offshore launch location",
-   "site": "Haiyang Oriental Spaceport",
-   "lat": 36.631333,
-   "lon": 121.198361
   },
   {
    "name": "Long March 8A | Unknown Payload",
@@ -52,7 +42,17 @@
    "lon": -120.611
   },
   {
-   "name": "Falcon 9 Block 5 | BlueBird Block 2 #6-8",
+   "name": "Smart Dragon 3 | Unknown Payload",
+   "netMs": 1785897300000,
+   "status": "Go",
+   "provider": "China Rocket Co. Ltd.",
+   "pad": "Haiyang offshore launch location",
+   "site": "Haiyang Oriental Spaceport",
+   "lat": 36.631333,
+   "lon": 121.198361
+  },
+  {
+   "name": "Falcon 9 Block 5 | BlueBird 11-13 (Block 2 #6-8)",
    "netMs": 1785915720000,
    "status": "Go",
    "provider": "SpaceX",
