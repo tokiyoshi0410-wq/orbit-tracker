@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-07-29T20:57:17.567Z",
+ "fetchedAt": "2026-07-30T02:30:47.650Z",
  "launches": [
-  {
-   "name": "Long March 6A | Unknown Payload",
-   "netMs": 1785373200000,
-   "status": "Go",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "pad": "Launch Complex 9A",
-   "site": "Taiyuan Satellite Launch Center, People's Republic of China",
-   "lat": 38.8583,
-   "lon": 111.5802
-  },
   {
    "name": "Falcon 9 Block 5 | NROL-95",
    "netMs": 1785395341000,
@@ -150,6 +140,16 @@
    "site": "Wenchang Space Launch Site, People's Republic of China",
    "lat": 19.614334,
    "lon": 110.951011
+  },
+  {
+   "name": "Ariane 62 | MTG-I2",
+   "netMs": 1787788800000,
+   "status": "TBD",
+   "provider": "Arianespace",
+   "pad": "Ariane Launch Area 4",
+   "site": "Guiana Space Centre, French Guiana",
+   "lat": 5.256319,
+   "lon": -52.786838
   }
  ]
 }
