@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-07-30T06:29:24.736Z",
+ "fetchedAt": "2026-07-30T10:25:17.456Z",
  "launches": [
-  {
-   "name": "Falcon 9 Block 5 | NROL-95",
-   "netMs": 1785395419000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 40",
-   "site": "Cape Canaveral SFS, FL, USA",
-   "lat": 28.56194122,
-   "lon": -80.57735736
-  },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 17-52",
    "netMs": 1785549600000,
@@ -150,6 +140,16 @@
    "site": "Guiana Space Centre, French Guiana",
    "lat": 5.256319,
    "lon": -52.786838
+  },
+  {
+   "name": "Falcon Heavy | Nancy Grace Roman Space Telescope",
+   "netMs": 1788089160000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Launch Complex 39A",
+   "site": "Kennedy Space Center, FL, USA",
+   "lat": 28.60822681,
+   "lon": -80.60428186
   }
  ]
 }
