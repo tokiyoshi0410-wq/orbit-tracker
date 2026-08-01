@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-08-01T02:52:32.805Z",
+ "fetchedAt": "2026-08-01T06:29:55.091Z",
  "launches": [
-  {
-   "name": "Falcon 9 Block 5 | Starlink Group 17-52",
-   "netMs": 1785553723000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
   {
    "name": "Long March 8A | Unknown Payload",
    "netMs": 1785833400000,
@@ -150,6 +140,16 @@
    "site": "Kennedy Space Center, FL, USA",
    "lat": 28.60822681,
    "lon": -80.60428186
+  },
+  {
+   "name": "Electron | LOXSAT 1",
+   "netMs": 1788134400000,
+   "status": "TBD",
+   "provider": "Rocket Lab",
+   "pad": "Unknown Pad",
+   "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+   "lat": -39.260881,
+   "lon": 177.865826
   }
  ]
 }
