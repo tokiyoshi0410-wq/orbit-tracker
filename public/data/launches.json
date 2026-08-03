@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-08-03T14:41:03.489Z",
+ "fetchedAt": "2026-08-03T17:52:15.878Z",
  "launches": [
   {
    "name": "Long March 8A | Unknown Payload",
@@ -83,7 +83,7 @@
   },
   {
    "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
-   "netMs": 1786842120000,
+   "netMs": 1786842720000,
    "status": "TBC",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 40",
@@ -113,8 +113,8 @@
   },
   {
    "name": "Ariane 62 | MTG-I2",
-   "netMs": 1787788800000,
-   "status": "TBD",
+   "netMs": 1787861400000,
+   "status": "Go",
    "provider": "Arianespace",
    "pad": "Ariane Launch Area 4",
    "site": "Guiana Space Centre, French Guiana",
