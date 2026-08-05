@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-08-05T02:34:58.899Z",
+ "fetchedAt": "2026-08-05T06:28:37.643Z",
  "launches": [
-  {
-   "name": "Smart Dragon 3 | Unknown Payload",
-   "netMs": 1785897300000,
-   "status": "Go",
-   "provider": "China Rocket Co. Ltd.",
-   "pad": "Haiyang offshore launch location",
-   "site": "Haiyang Oriental Spaceport",
-   "lat": 36.631333,
-   "lon": 121.198361
-  },
   {
    "name": "Falcon 9 Block 5 | BlueBird 11-13 (Block 2 #6-8)",
    "netMs": 1785915720000,
@@ -150,6 +140,16 @@
    "site": "Tanegashima Space Center, Japan",
    "lat": 30.400938,
    "lon": 130.97564
+  },
+  {
+   "name": "Long March 12A | Flight 2",
+   "netMs": 1788134400000,
+   "status": "TBD",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "pad": "Long March 12 series Pad",
+   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+   "lat": 40.891596,
+   "lon": 100.217289
   }
  ]
 }
