@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-08-05T06:28:37.643Z",
+ "fetchedAt": "2026-08-05T10:35:56.922Z",
  "launches": [
-  {
-   "name": "Falcon 9 Block 5 | BlueBird 11-13 (Block 2 #6-8)",
-   "netMs": 1785915720000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 40",
-   "site": "Cape Canaveral SFS, FL, USA",
-   "lat": 28.56194122,
-   "lon": -80.57735736
-  },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 17-38",
    "netMs": 1786197600000,
@@ -40,6 +30,16 @@
    "site": "Cape Canaveral SFS, FL, USA",
    "lat": 28.56194122,
    "lon": -80.57735736
+  },
+  {
+   "name": "Zhuque-3 | Flight 2",
+   "netMs": 1786405500000,
+   "status": "Go",
+   "provider": "LandSpace",
+   "pad": "Launch Area 96B",
+   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+   "lat": 40.92017,
+   "lon": 100.25129
   },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 17-49",
