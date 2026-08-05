@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-08-04T21:13:01.901Z",
+ "fetchedAt": "2026-08-05T02:34:58.899Z",
  "launches": [
   {
    "name": "Smart Dragon 3 | Unknown Payload",
@@ -33,8 +33,8 @@
   },
   {
    "name": "Long March 7A | Unknown Payload",
-   "netMs": 1786273200000,
-   "status": "TBC",
+   "netMs": 1786363200000,
+   "status": "Go",
    "provider": "China Aerospace Science and Technology Corporation",
    "pad": "201",
    "site": "Wenchang Space Launch Site, People's Republic of China",
