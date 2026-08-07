@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-08-07T08:59:50.181Z",
+ "fetchedAt": "2026-08-07T13:04:54.631Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | Starlink Group 17-38",
@@ -10,6 +10,16 @@
    "site": "Vandenberg SFB, CA, USA",
    "lat": 34.632,
    "lon": -120.611
+  },
+  {
+   "name": "H3-22 | Michibiki 7 (QZS-7)",
+   "netMs": 1786302000000,
+   "status": "Go",
+   "provider": "Mitsubishi Heavy Industries",
+   "pad": "Yoshinobu Launch Complex LP-2",
+   "site": "Tanegashima Space Center, Japan",
+   "lat": 30.400938,
+   "lon": 130.97564
   },
   {
    "name": "Long March 7A | Unknown Payload",
@@ -133,16 +143,6 @@
   },
   {
    "name": "Electron | StriX Launch 11",
-   "netMs": 1788134400000,
-   "status": "TBD",
-   "provider": "Rocket Lab",
-   "pad": "Unknown Pad",
-   "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-   "lat": -39.260881,
-   "lon": 177.865826
-  },
-  {
-   "name": "Electron | The Lightning God Defends (iQPS Launch 8)",
    "netMs": 1788134400000,
    "status": "TBD",
    "provider": "Rocket Lab",
