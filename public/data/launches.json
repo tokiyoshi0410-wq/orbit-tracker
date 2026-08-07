@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-08-07T16:54:53.518Z",
+ "fetchedAt": "2026-08-07T20:42:34.155Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | Starlink Group 17-38",
@@ -74,7 +74,7 @@
   {
    "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
    "netMs": 1786842720000,
-   "status": "TBC",
+   "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 40",
    "site": "Cape Canaveral SFS, FL, USA",
