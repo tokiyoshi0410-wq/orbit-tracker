@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-08-06T14:11:21.752Z",
+ "fetchedAt": "2026-08-07T00:52:57.107Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | Starlink Group 17-38",
@@ -52,6 +52,16 @@
    "lon": -120.611
   },
   {
+   "name": "Falcon 9 Block 5 | R-1",
+   "netMs": 1786830720000,
+   "status": "TBC",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
+  },
+  {
    "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
    "netMs": 1786842720000,
    "status": "TBC",
@@ -70,6 +80,16 @@
    "site": "Wenchang Space Launch Site, People's Republic of China",
    "lat": 19.59755,
    "lon": 110.936481
+  },
+  {
+   "name": "Falcon 9 Block 5 | Starlink Group 17-50",
+   "netMs": 1787104800000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
   },
   {
    "name": "Long March 5 | Chang'e 7",
@@ -93,7 +113,7 @@
   },
   {
    "name": "Falcon Heavy | Nancy Grace Roman Space Telescope",
-   "netMs": 1788089160000,
+   "netMs": 1788089100000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Launch Complex 39A",
@@ -122,34 +142,14 @@
    "lon": 177.865826
   },
   {
-   "name": "H3-22 | Michibiki 7 (QZS-7)",
+   "name": "Electron | The Lightning God Defends (iQPS Launch 8)",
    "netMs": 1788134400000,
    "status": "TBD",
-   "provider": "Mitsubishi Heavy Industries",
-   "pad": "Yoshinobu Launch Complex LP-2",
-   "site": "Tanegashima Space Center, Japan",
-   "lat": 30.400938,
-   "lon": 130.97564
-  },
-  {
-   "name": "Long March 12A | Flight 2",
-   "netMs": 1788134400000,
-   "status": "TBD",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "pad": "Long March 12 series Pad",
-   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-   "lat": 40.891596,
-   "lon": 100.217289
-  },
-  {
-   "name": "Mir | Demo Flight",
-   "netMs": 1788134400000,
-   "status": "TBD",
-   "provider": "Agency for Defense Development",
-   "pad": "ADD Offshore launch platform",
-   "site": "Sea Launch",
-   "lat": 33.216667,
-   "lon": 126.366667
+   "provider": "Rocket Lab",
+   "pad": "Unknown Pad",
+   "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+   "lat": -39.260881,
+   "lon": 177.865826
   }
  ]
 }
