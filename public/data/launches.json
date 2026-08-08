@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-08-08T04:57:32.471Z",
+ "fetchedAt": "2026-08-08T08:41:53.208Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | Starlink Group 17-38",
@@ -10,16 +10,6 @@
    "site": "Vandenberg SFB, CA, USA",
    "lat": 34.632,
    "lon": -120.611
-  },
-  {
-   "name": "H3-22 | Michibiki 7 (QZS-7)",
-   "netMs": 1786302000000,
-   "status": "Go",
-   "provider": "Mitsubishi Heavy Industries",
-   "pad": "Yoshinobu Launch Complex LP-2",
-   "site": "Tanegashima Space Center, Japan",
-   "lat": 30.400938,
-   "lon": 130.97564
   },
   {
    "name": "Long March 7A | Unknown Payload",
@@ -40,6 +30,16 @@
    "site": "Cape Canaveral SFS, FL, USA",
    "lat": 28.56194122,
    "lon": -80.57735736
+  },
+  {
+   "name": "H3-22 | Michibiki 7 (QZS-7)",
+   "netMs": 1786388400000,
+   "status": "Go",
+   "provider": "Mitsubishi Heavy Industries",
+   "pad": "Yoshinobu Launch Complex LP-2",
+   "site": "Tanegashima Space Center, Japan",
+   "lat": 30.400938,
+   "lon": 130.97564
   },
   {
    "name": "Zhuque-3 | Flight 2",
