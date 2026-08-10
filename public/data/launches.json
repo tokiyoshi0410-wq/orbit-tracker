@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-08-10T13:10:08.282Z",
+ "fetchedAt": "2026-08-10T16:54:24.760Z",
  "launches": [
-  {
-   "name": "Falcon 9 Block 5 | Starlink Group 10-19",
-   "netMs": 1786378809000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 40",
-   "site": "Cape Canaveral SFS, FL, USA",
-   "lat": 28.56194122,
-   "lon": -80.57735736
-  },
   {
    "name": "H3-22 | Michibiki 7 (QZS-7)",
    "netMs": 1786389811000,
@@ -30,6 +20,16 @@
    "site": "Jiuquan Satellite Launch Center, People's Republic of China",
    "lat": 40.92017,
    "lon": 100.25129
+  },
+  {
+   "name": "Falcon 9 Block 5 | Starlink Group 10-19",
+   "netMs": 1786458360000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 40",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.56194122,
+   "lon": -80.57735736
   },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 17-49",
