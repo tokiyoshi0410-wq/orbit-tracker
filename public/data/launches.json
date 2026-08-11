@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-08-11T16:57:58.095Z",
+ "fetchedAt": "2026-08-11T20:44:12.975Z",
  "launches": [
-  {
-   "name": "Falcon 9 Block 5 | Starlink Group 10-19",
-   "netMs": 1786463906000,
-   "status": "In Flight",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 40",
-   "site": "Cape Canaveral SFS, FL, USA",
-   "lat": 28.56194122,
-   "lon": -80.57735736
-  },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 17-49",
    "netMs": 1786509960000,
@@ -150,6 +140,16 @@
    "site": "Jiuquan Satellite Launch Center, People's Republic of China",
    "lat": 40.891596,
    "lon": 100.217289
+  },
+  {
+   "name": "Mir | Demo Flight",
+   "netMs": 1788134400000,
+   "status": "TBD",
+   "provider": "Agency for Defense Development",
+   "pad": "ADD Offshore launch platform",
+   "site": "Sea Launch",
+   "lat": 33.216667,
+   "lon": 126.366667
   }
  ]
 }
