@@ -1,9 +1,9 @@
 {
- "fetchedAt": "2026-08-10T20:43:47.753Z",
+ "fetchedAt": "2026-08-11T01:48:06.308Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | Starlink Group 10-19",
-   "netMs": 1786458360000,
+   "netMs": 1786460081000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 40",
@@ -93,7 +93,7 @@
   },
   {
    "name": "Falcon Heavy | Nancy Grace Roman Space Telescope",
-   "netMs": 1788089100000,
+   "netMs": 1788089160000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Launch Complex 39A",
