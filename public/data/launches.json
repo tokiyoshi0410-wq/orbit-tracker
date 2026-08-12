@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-08-12T05:37:48.717Z",
+ "fetchedAt": "2026-08-12T09:12:11.760Z",
  "launches": [
-  {
-   "name": "Falcon 9 Block 5 | Starlink Group 17-49",
-   "netMs": 1786509960000,
-   "status": "In Flight",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
   {
    "name": "Falcon 9 Block 5 | USSF-366",
    "netMs": 1786830720000,
@@ -150,6 +140,16 @@
    "site": "Sea Launch",
    "lat": 33.216667,
    "lon": 126.366667
+  },
+  {
+   "name": "Pallas-1 | Demo Flight",
+   "netMs": 1788134400000,
+   "status": "TBD",
+   "provider": "Galactic Energy",
+   "pad": "Pallas-1 Launch Pad",
+   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+   "lat": 40.775962,
+   "lon": 100.107214
   }
  ]
 }
