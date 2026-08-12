@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-08-12T13:11:51.128Z",
+ "fetchedAt": "2026-08-12T17:01:06.075Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | USSF-366",
@@ -60,6 +60,16 @@
    "site": "Wenchang Space Launch Site, People's Republic of China",
    "lat": 19.614334,
    "lon": 110.951011
+  },
+  {
+   "name": "Falcon 9 Block 5 | Starlink Group 10-49",
+   "netMs": 1787655600000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 40",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.56194122,
+   "lon": -80.57735736
   },
   {
    "name": "Ariane 62 | MTG-I2",
@@ -140,16 +150,6 @@
    "site": "Sea Launch",
    "lat": 33.216667,
    "lon": 126.366667
-  },
-  {
-   "name": "Pallas-1 | Demo Flight",
-   "netMs": 1788134400000,
-   "status": "TBD",
-   "provider": "Galactic Energy",
-   "pad": "Pallas-1 Launch Pad",
-   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-   "lat": 40.775962,
-   "lon": 100.107214
   }
  ]
 }
