@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-08-12T17:01:06.075Z",
+ "fetchedAt": "2026-08-12T20:45:37.404Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | USSF-366",
@@ -23,13 +23,23 @@
   },
   {
    "name": "Long March 12 | Unknown Payload",
-   "netMs": 1786932000000,
-   "status": "TBC",
+   "netMs": 1786853400000,
+   "status": "Go",
    "provider": "China Aerospace Science and Technology Corporation",
    "pad": "Commercial LC-2",
    "site": "Wenchang Space Launch Site, People's Republic of China",
    "lat": 19.59755,
    "lon": 110.936481
+  },
+  {
+   "name": "Long March 2C | Unknown Payload",
+   "netMs": 1786935600000,
+   "status": "Go",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "pad": "Launch Complex 9",
+   "site": "Taiyuan Satellite Launch Center, People's Republic of China",
+   "lat": 38.863128,
+   "lon": 111.589567
   },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 17-50",
@@ -140,16 +150,6 @@
    "site": "Jiuquan Satellite Launch Center, People's Republic of China",
    "lat": 40.891596,
    "lon": 100.217289
-  },
-  {
-   "name": "Mir | Demo Flight",
-   "netMs": 1788134400000,
-   "status": "TBD",
-   "provider": "Agency for Defense Development",
-   "pad": "ADD Offshore launch platform",
-   "site": "Sea Launch",
-   "lat": 33.216667,
-   "lon": 126.366667
   }
  ]
 }
