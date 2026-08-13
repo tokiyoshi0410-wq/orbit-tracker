@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-08-13T16:56:43.051Z",
+ "fetchedAt": "2026-08-13T20:43:44.842Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | USSF-366",
@@ -62,6 +62,16 @@
    "lon": -80.57735736
   },
   {
+   "name": "Falcon 9 Block 5 | Starlink Group 15-20",
+   "netMs": 1787383500000,
+   "status": "TBC",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
+  },
+  {
    "name": "Long March 5 | Chang'e 7",
    "netMs": 1787529600000,
    "status": "TBC",
@@ -80,6 +90,16 @@
    "site": "Cape Canaveral SFS, FL, USA",
    "lat": 28.56194122,
    "lon": -80.57735736
+  },
+  {
+   "name": "Falcon 9 Block 5 | Starlink Group 15-22",
+   "netMs": 1787676240000,
+   "status": "TBC",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
   },
   {
    "name": "Ariane 62 | MTG-I2",
@@ -130,26 +150,6 @@
    "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
    "lat": -39.260881,
    "lon": 177.865826
-  },
-  {
-   "name": "Electron | The Lightning God Defends (iQPS Launch 8)",
-   "netMs": 1788134400000,
-   "status": "TBD",
-   "provider": "Rocket Lab",
-   "pad": "Unknown Pad",
-   "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-   "lat": -39.260881,
-   "lon": 177.865826
-  },
-  {
-   "name": "Long March 12A | Flight 2",
-   "netMs": 1788134400000,
-   "status": "TBD",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "pad": "Long March 12 series Pad",
-   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-   "lat": 40.891596,
-   "lon": 100.217289
   }
  ]
 }
