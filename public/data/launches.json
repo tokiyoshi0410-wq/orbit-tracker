@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-08-14T13:07:26.750Z",
+ "fetchedAt": "2026-08-14T16:53:33.951Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | USSF-366",
@@ -42,6 +42,16 @@
    "lon": 111.589567
   },
   {
+   "name": "Zhuque-3 | Flight 2",
+   "netMs": 1787096100000,
+   "status": "Go",
+   "provider": "LandSpace",
+   "pad": "Launch Area 96B",
+   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+   "lat": 40.92017,
+   "lon": 100.25129
+  },
+  {
    "name": "Falcon 9 Block 5 | Starlink Group 17-50",
    "netMs": 1787104800000,
    "status": "Go",
@@ -64,7 +74,7 @@
   {
    "name": "Falcon 9 Block 5 | Starlink Group 15-20",
    "netMs": 1787383500000,
-   "status": "TBC",
+   "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
    "site": "Vandenberg SFB, CA, USA",
@@ -133,16 +143,6 @@
   },
   {
    "name": "Electron | LOXSAT 1",
-   "netMs": 1788134400000,
-   "status": "TBD",
-   "provider": "Rocket Lab",
-   "pad": "Unknown Pad",
-   "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-   "lat": -39.260881,
-   "lon": 177.865826
-  },
-  {
-   "name": "Electron | StriX Launch 11",
    "netMs": 1788134400000,
    "status": "TBD",
    "provider": "Rocket Lab",
