@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-08-15T16:24:48.861Z",
+ "fetchedAt": "2026-08-15T20:23:21.077Z",
  "launches": [
-  {
-   "name": "Falcon 9 Block 5 | USSF-366",
-   "netMs": 1786830842000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
   {
    "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
    "netMs": 1786842720000,
@@ -20,6 +10,16 @@
    "site": "Cape Canaveral SFS, FL, USA",
    "lat": 28.56194122,
    "lon": -80.57735736
+  },
+  {
+   "name": "Falcon 9 Block 5 | USSF-366",
+   "netMs": 1786845045000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
   },
   {
    "name": "Long March 12 | Unknown Payload",
@@ -104,7 +104,7 @@
   {
    "name": "Falcon 9 Block 5 | Starlink Group 15-22",
    "netMs": 1787676240000,
-   "status": "TBC",
+   "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
    "site": "Vandenberg SFB, CA, USA",
