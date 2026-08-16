@@ -1,30 +1,10 @@
 {
- "fetchedAt": "2026-08-16T01:20:21.876Z",
+ "fetchedAt": "2026-08-16T04:36:10.757Z",
  "launches": [
-  {
-   "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
-   "netMs": 1786842734000,
-   "status": "In Flight",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 40",
-   "site": "Cape Canaveral SFS, FL, USA",
-   "lat": 28.56194122,
-   "lon": -80.57735736
-  },
-  {
-   "name": "Falcon 9 Block 5 | USSF-366",
-   "netMs": 1786845045000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
   {
    "name": "Long March 12 | Unknown Payload",
    "netMs": 1786853400000,
-   "status": "Go",
+   "status": "In Flight",
    "provider": "China Aerospace Science and Technology Corporation",
    "pad": "Commercial LC-2",
    "site": "Wenchang Space Launch Site, People's Republic of China",
@@ -143,6 +123,26 @@
   },
   {
    "name": "Electron | LOXSAT 1",
+   "netMs": 1788134400000,
+   "status": "TBD",
+   "provider": "Rocket Lab",
+   "pad": "Unknown Pad",
+   "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+   "lat": -39.260881,
+   "lon": 177.865826
+  },
+  {
+   "name": "Electron | StriX Launch 11",
+   "netMs": 1788134400000,
+   "status": "TBD",
+   "provider": "Rocket Lab",
+   "pad": "Unknown Pad",
+   "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+   "lat": -39.260881,
+   "lon": 177.865826
+  },
+  {
+   "name": "Electron | The Lightning God Defends (iQPS Launch 8)",
    "netMs": 1788134400000,
    "status": "TBD",
    "provider": "Rocket Lab",
