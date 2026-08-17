@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-08-17T01:20:04.654Z",
+ "fetchedAt": "2026-08-17T04:42:03.080Z",
  "launches": [
-  {
-   "name": "Long March 2C | Unknown Payload",
-   "netMs": 1786935600000,
-   "status": "Go",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "pad": "Launch Complex 9",
-   "site": "Taiyuan Satellite Launch Center, People's Republic of China",
-   "lat": 38.863128,
-   "lon": 111.589567
-  },
   {
    "name": "Zhuque-3 | Flight 2",
    "netMs": 1787096100000,
@@ -150,6 +140,16 @@
    "site": "Jiuquan Satellite Launch Center, People's Republic of China",
    "lat": 40.891596,
    "lon": 100.217289
+  },
+  {
+   "name": "Mir | Demo Flight",
+   "netMs": 1788134400000,
+   "status": "TBD",
+   "provider": "Agency for Defense Development",
+   "pad": "ADD Offshore launch platform",
+   "site": "Sea Launch",
+   "lat": 33.216667,
+   "lon": 126.366667
   }
  ]
 }
