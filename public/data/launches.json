@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-08-18T16:32:04.480Z",
+ "fetchedAt": "2026-08-18T20:24:40.988Z",
  "launches": [
   {
    "name": "Zhuque-3 | Flight 2",
@@ -13,7 +13,7 @@
   },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 17-50",
-   "netMs": 1787111108000,
+   "netMs": 1787111170000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
