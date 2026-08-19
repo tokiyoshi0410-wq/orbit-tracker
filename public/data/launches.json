@@ -1,10 +1,10 @@
 {
- "fetchedAt": "2026-08-19T01:17:09.757Z",
+ "fetchedAt": "2026-08-19T04:37:20.347Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | Starlink Group 17-50",
-   "netMs": 1787111170000,
-   "status": "Go",
+   "netMs": 1787112067000,
+   "status": "In Flight",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
    "site": "Vandenberg SFB, CA, USA",
