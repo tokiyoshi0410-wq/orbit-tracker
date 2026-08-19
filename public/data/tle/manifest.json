@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-19T12:48:16.282Z",
+  "fetchedAt": "2026-08-19T16:32:10.194Z",
   "groups": {
     "active": {
       "lines": 48228,
@@ -38,8 +38,8 @@
       "objects": 1939
     },
     "cosmos-2251-debris": {
-      "lines": 1776,
-      "objects": 592
+      "lines": 1773,
+      "objects": 591
     },
     "iridium-33-debris": {
       "lines": 330,
