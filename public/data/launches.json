@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-08-18T20:24:40.988Z",
+ "fetchedAt": "2026-08-19T01:17:09.757Z",
  "launches": [
-  {
-   "name": "Zhuque-3 | Flight 2",
-   "netMs": 1787096100000,
-   "status": "Go",
-   "provider": "LandSpace",
-   "pad": "Launch Area 96B",
-   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-   "lat": 40.92017,
-   "lon": 100.25129
-  },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 17-50",
    "netMs": 1787111170000,
@@ -150,6 +140,16 @@
    "site": "Sea Launch",
    "lat": 33.216667,
    "lon": 126.366667
+  },
+  {
+   "name": "Pallas-1 | Demo Flight",
+   "netMs": 1788134400000,
+   "status": "TBD",
+   "provider": "Galactic Energy",
+   "pad": "Pallas-1 Launch Pad",
+   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+   "lat": 40.775962,
+   "lon": 100.107214
   }
  ]
 }
