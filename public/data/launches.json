@@ -1,15 +1,15 @@
 {
- "fetchedAt": "2026-08-20T08:39:01.084Z",
+ "fetchedAt": "2026-08-20T12:50:55.410Z",
  "launches": [
   {
    "name": "Electron | The Lightning God Defends (iQPS Launch 8)",
-   "netMs": 1787230800000,
+   "netMs": 1787231085000,
    "status": "Go",
    "provider": "Rocket Lab",
-   "pad": "Unknown Pad",
+   "pad": "Rocket Lab Launch Complex 1B",
    "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-   "lat": -39.260881,
-   "lon": 177.865826
+   "lat": -39.262833,
+   "lon": 177.864469
   },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 10-39",
@@ -33,13 +33,23 @@
   },
   {
    "name": "Long March 5 | Chang'e 7",
-   "netMs": 1787529600000,
-   "status": "TBC",
+   "netMs": 1787529900000,
+   "status": "Go",
    "provider": "China Aerospace Science and Technology Corporation",
    "pad": "101",
    "site": "Wenchang Space Launch Site, People's Republic of China",
    "lat": 19.614334,
    "lon": 110.951011
+  },
+  {
+   "name": "Long March 6C | Unknown Payload",
+   "netMs": 1787628000000,
+   "status": "Go",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "pad": "Launch Complex 9A",
+   "site": "Taiyuan Satellite Launch Center, People's Republic of China",
+   "lat": 38.8583,
+   "lon": 111.5802
   },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 10-49",
@@ -140,16 +150,6 @@
    "site": "Jiuquan Satellite Launch Center, People's Republic of China",
    "lat": 40.775962,
    "lon": 100.107214
-  },
-  {
-   "name": "Soyuz 2.1b/Fregat | Glonass-K1 No. 19",
-   "netMs": 1788134400000,
-   "status": "TBD",
-   "provider": "Russian Space Forces",
-   "pad": "Unknown Pad",
-   "site": "Plesetsk Cosmodrome, Russian Federation",
-   "lat": 62.925556,
-   "lon": 40.577778
   }
  ]
 }
