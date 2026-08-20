@@ -1,9 +1,19 @@
 {
- "fetchedAt": "2026-08-19T20:28:20.620Z",
+ "fetchedAt": "2026-08-20T01:16:13.899Z",
  "launches": [
   {
+   "name": "Electron | The Lightning God Defends (iQPS Launch 8)",
+   "netMs": 1787230800000,
+   "status": "Go",
+   "provider": "Rocket Lab",
+   "pad": "Unknown Pad",
+   "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+   "lat": -39.260881,
+   "lon": 177.865826
+  },
+  {
    "name": "Falcon 9 Block 5 | Starlink Group 10-39",
-   "netMs": 1787239140000,
+   "netMs": 1787240324000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 40",
@@ -93,16 +103,6 @@
   },
   {
    "name": "Electron | StriX Launch 11",
-   "netMs": 1788134400000,
-   "status": "TBD",
-   "provider": "Rocket Lab",
-   "pad": "Unknown Pad",
-   "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-   "lat": -39.260881,
-   "lon": 177.865826
-  },
-  {
-   "name": "Electron | The Lightning God Defends (iQPS Launch 8)",
    "netMs": 1788134400000,
    "status": "TBD",
    "provider": "Rocket Lab",
