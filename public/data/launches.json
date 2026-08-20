@@ -1,9 +1,9 @@
 {
- "fetchedAt": "2026-08-20T16:35:33.046Z",
+ "fetchedAt": "2026-08-20T20:28:58.039Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | Starlink Group 10-39",
-   "netMs": 1787324220000,
+   "netMs": 1787325256000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 40",
