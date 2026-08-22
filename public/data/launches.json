@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-08-22T04:32:55.469Z",
+ "fetchedAt": "2026-08-22T08:30:50.384Z",
  "launches": [
-  {
-   "name": "Falcon 9 Block 5 | Starlink Group 15-20",
-   "netMs": 1787383516000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
   {
    "name": "Long March 5 | Chang'e 7",
    "netMs": 1787529900000,
@@ -150,6 +140,16 @@
    "site": "Andøya Spaceport",
    "lat": 69.1084,
    "lon": 15.5895
+  },
+  {
+   "name": "Falcon 9 Block 5 | Starlink Group 15-23",
+   "netMs": 1788249660000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
   }
  ]
 }
