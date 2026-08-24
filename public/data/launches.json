@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-08-24T01:19:35.127Z",
+ "fetchedAt": "2026-08-24T04:45:07.092Z",
  "launches": [
   {
    "name": "Long March 6C | Unknown Payload",
@@ -62,26 +62,6 @@
    "lon": 40.574897
   },
   {
-   "name": "Electron | LOXSAT 1",
-   "netMs": 1788134400000,
-   "status": "TBD",
-   "provider": "Rocket Lab",
-   "pad": "Unknown Pad",
-   "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-   "lat": -39.260881,
-   "lon": 177.865826
-  },
-  {
-   "name": "Electron | StriX Launch 11",
-   "netMs": 1788134400000,
-   "status": "TBD",
-   "provider": "Rocket Lab",
-   "pad": "Unknown Pad",
-   "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-   "lat": -39.260881,
-   "lon": 177.865826
-  },
-  {
    "name": "Long March 12A | Flight 2",
    "netMs": 1788134400000,
    "status": "TBD",
@@ -132,6 +112,16 @@
    "lon": 15.5895
   },
   {
+   "name": "Electron | Owl Around The World (StriX Launch 11)",
+   "netMs": 1788177600000,
+   "status": "Go",
+   "provider": "Rocket Lab",
+   "pad": "Unknown Pad",
+   "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+   "lat": -39.260881,
+   "lon": 177.865826
+  },
+  {
    "name": "Falcon 9 Block 5 | Starlink Group 15-23",
    "netMs": 1788249660000,
    "status": "Go",
@@ -150,6 +140,16 @@
    "site": "Vandenberg SFB, CA, USA",
    "lat": 34.632,
    "lon": -120.611
+  },
+  {
+   "name": "Soyuz 2.1b | Progress MS-35 (96P)",
+   "netMs": 1788970200000,
+   "status": "TBC",
+   "provider": "Russian Federal Space Agency (ROSCOSMOS)",
+   "pad": "31/6",
+   "site": "Baikonur Cosmodrome, Republic of Kazakhstan",
+   "lat": 45.996034,
+   "lon": 63.564003
   }
  ]
 }
