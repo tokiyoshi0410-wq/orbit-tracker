@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-08-24T16:38:09.006Z",
+ "fetchedAt": "2026-08-24T20:31:09.383Z",
  "launches": [
   {
    "name": "Long March 6C | Unknown Payload",
@@ -92,16 +92,6 @@
    "lon": 100.107214
   },
   {
-   "name": "Spectrum | Onward and Upward",
-   "netMs": 1788134400000,
-   "status": "TBD",
-   "provider": "Isar Aerospace",
-   "pad": "Orbital Launch Pad",
-   "site": "Andøya Spaceport",
-   "lat": 69.1084,
-   "lon": 15.5895
-  },
-  {
    "name": "Electron | Owl Around The World (StriX Launch 11)",
    "netMs": 1788177600000,
    "status": "Go",
@@ -150,6 +140,16 @@
    "site": "Cape Canaveral SFS, FL, USA",
    "lat": 28.56194122,
    "lon": -80.57735736
+  },
+  {
+   "name": "Vega-C | Sentinel-3C & FLEX",
+   "netMs": 1789435267000,
+   "status": "Go",
+   "provider": "Avio S.p.A",
+   "pad": "Ariane Launch Area 1 (ELV)",
+   "site": "Guiana Space Centre, French Guiana",
+   "lat": 5.236,
+   "lon": -52.775
   }
  ]
 }
