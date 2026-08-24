@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-08-23T20:23:37.826Z",
+ "fetchedAt": "2026-08-24T01:19:35.127Z",
  "launches": [
   {
    "name": "Long March 6C | Unknown Payload",
@@ -23,7 +23,7 @@
   },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 15-22",
-   "netMs": 1787650920000,
+   "netMs": 1787736420000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
