@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-08-24T08:48:53.469Z",
+ "fetchedAt": "2026-08-24T12:51:20.954Z",
  "launches": [
   {
    "name": "Long March 6C | Unknown Payload",
@@ -13,7 +13,7 @@
   },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 10-49",
-   "netMs": 1787636940000,
+   "netMs": 1787650397000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 40",
@@ -92,16 +92,6 @@
    "lon": 100.107214
   },
   {
-   "name": "Soyuz 2.1b/Fregat | Glonass-K1 No. 19",
-   "netMs": 1788134400000,
-   "status": "TBD",
-   "provider": "Russian Space Forces",
-   "pad": "Unknown Pad",
-   "site": "Plesetsk Cosmodrome, Russian Federation",
-   "lat": 62.925556,
-   "lon": 40.577778
-  },
-  {
    "name": "Spectrum | Onward and Upward",
    "netMs": 1788134400000,
    "status": "TBD",
@@ -150,6 +140,16 @@
    "site": "Baikonur Cosmodrome, Republic of Kazakhstan",
    "lat": 45.996034,
    "lon": 63.564003
+  },
+  {
+   "name": "Falcon 9 Block 5 | Crew-13",
+   "netMs": 1789252440000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 40",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.56194122,
+   "lon": -80.57735736
   }
  ]
 }
