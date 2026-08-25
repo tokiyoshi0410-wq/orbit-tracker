@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-08-25T12:48:19.657Z",
+ "fetchedAt": "2026-08-25T16:39:16.075Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | Starlink Group 15-22",
@@ -73,7 +73,7 @@
   },
   {
    "name": "Electron | Owl Around The World (StriX Launch 11)",
-   "netMs": 1788177600000,
+   "netMs": 1788177900000,
    "status": "Go",
    "provider": "Rocket Lab",
    "pad": "Unknown Pad",
