@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-25T16:37:48.372Z",
+  "fetchedAt": "2026-08-25T20:29:07.381Z",
   "groups": {
     "active": {
       "lines": 48177,
@@ -8,6 +8,10 @@
     "stations": {
       "lines": 63,
       "objects": 21
+    },
+    "starlink": {
+      "lines": 32214,
+      "objects": 10738
     },
     "oneweb": {
       "lines": 1953,
@@ -24,6 +28,10 @@
     "science": {
       "lines": 144,
       "objects": 48
+    },
+    "cosmos-1408-debris": {
+      "lines": 9,
+      "objects": 3
     },
     "fengyun-1c-debris": {
       "lines": 5838,
