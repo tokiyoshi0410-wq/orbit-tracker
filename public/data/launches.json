@@ -1,19 +1,9 @@
 {
- "fetchedAt": "2026-08-25T08:42:35.818Z",
+ "fetchedAt": "2026-08-25T12:48:19.657Z",
  "launches": [
   {
-   "name": "Falcon 9 Block 5 | Starlink Group 10-49",
-   "netMs": 1787650418000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 40",
-   "site": "Cape Canaveral SFS, FL, USA",
-   "lat": 28.56194122,
-   "lon": -80.57735736
-  },
-  {
    "name": "Falcon 9 Block 5 | Starlink Group 15-22",
-   "netMs": 1787736420000,
+   "netMs": 1787736429000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
@@ -150,6 +140,16 @@
    "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
    "lat": -39.260881,
    "lon": 177.865826
+  },
+  {
+   "name": "Falcon 9 Block 5 | O3b mPower 11-13",
+   "netMs": 1790726400000,
+   "status": "TBD",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 40",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.56194122,
+   "lon": -80.57735736
   }
  ]
 }
