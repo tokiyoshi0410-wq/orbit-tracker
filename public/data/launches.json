@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-08-25T01:17:26.263Z",
+ "fetchedAt": "2026-08-25T04:39:01.080Z",
  "launches": [
-  {
-   "name": "Long March 6C | Unknown Payload",
-   "netMs": 1787628000000,
-   "status": "Go",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "pad": "Launch Complex 9A",
-   "site": "Taiyuan Satellite Launch Center, People's Republic of China",
-   "lat": 38.8583,
-   "lon": 111.5802
-  },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 10-49",
    "netMs": 1787650418000,
@@ -150,6 +140,16 @@
    "site": "Guiana Space Centre, French Guiana",
    "lat": 5.236,
    "lon": -52.775
+  },
+  {
+   "name": "Electron | LOXSAT 1",
+   "netMs": 1790726400000,
+   "status": "TBD",
+   "provider": "Rocket Lab",
+   "pad": "Unknown Pad",
+   "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+   "lat": -39.260881,
+   "lon": 177.865826
   }
  ]
 }
