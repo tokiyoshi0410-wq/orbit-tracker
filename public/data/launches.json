@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-08-28T04:04:51.866Z",
+ "fetchedAt": "2026-08-28T19:56:27.893Z",
  "launches": [
   {
    "name": "Falcon Heavy | Nancy Grace Roman Space Telescope",
@@ -10,16 +10,6 @@
    "site": "Kennedy Space Center, FL, USA",
    "lat": 28.60822681,
    "lon": -80.60428186
-  },
-  {
-   "name": "Angara 1.2 | Kosmos (Unknown Payload)",
-   "netMs": 1788134400000,
-   "status": "TBD",
-   "provider": "Russian Space Forces",
-   "pad": "35/1",
-   "site": "Plesetsk Cosmodrome, Russian Federation",
-   "lat": 62.927319,
-   "lon": 40.574897
   },
   {
    "name": "Electron | Owl Around The World (StriX Launch 11)",
@@ -73,7 +63,7 @@
   },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 15-24",
-   "netMs": 1788606780000,
+   "netMs": 1788692340000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
@@ -150,6 +140,16 @@
    "site": "Satish Dhawan Space Centre, India",
    "lat": 13.7199,
    "lon": 80.2304
+  },
+  {
+   "name": "Long March 12A | Flight 2",
+   "netMs": 1790726400000,
+   "status": "TBD",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "pad": "Long March 12 series Pad",
+   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+   "lat": 40.891596,
+   "lon": 100.217289
   }
  ]
 }
