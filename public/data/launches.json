@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-08-27T19:01:57.554Z",
+ "fetchedAt": "2026-08-28T04:04:51.866Z",
  "launches": [
-  {
-   "name": "Ariane 62 | MTG-I2",
-   "netMs": 1787861400000,
-   "status": "Go",
-   "provider": "Arianespace",
-   "pad": "Ariane Launch Area 4",
-   "site": "Guiana Space Centre, French Guiana",
-   "lat": 5.256319,
-   "lon": -52.786838
-  },
   {
    "name": "Falcon Heavy | Nancy Grace Roman Space Telescope",
    "netMs": 1788089160000,
@@ -150,6 +140,16 @@
    "site": "Vandenberg SFB, CA, USA",
    "lat": 34.632,
    "lon": -120.611
+  },
+  {
+   "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
+   "netMs": 1790726400000,
+   "status": "TBD",
+   "provider": "Indian Space Research Organization",
+   "pad": "Satish Dhawan Space Centre Second Launch Pad",
+   "site": "Satish Dhawan Space Centre, India",
+   "lat": 13.7199,
+   "lon": 80.2304
   }
  ]
 }
