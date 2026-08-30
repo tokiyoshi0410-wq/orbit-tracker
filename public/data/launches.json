@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-08-30T19:06:02.379Z",
+ "fetchedAt": "2026-08-30T22:28:20.849Z",
  "launches": [
-  {
-   "name": "Electron | Owl Around The World (StriX Launch 11)",
-   "netMs": 1788177900000,
-   "status": "Go",
-   "provider": "Rocket Lab",
-   "pad": "Unknown Pad",
-   "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-   "lat": -39.260881,
-   "lon": 177.865826
-  },
   {
    "name": "Pallas-1 | Demo Flight",
    "netMs": 1788228000000,
@@ -20,6 +10,16 @@
    "site": "Jiuquan Satellite Launch Center, People's Republic of China",
    "lat": 40.775962,
    "lon": 100.107214
+  },
+  {
+   "name": "Electron | Owl Around The World (StriX Launch 11)",
+   "netMs": 1788262200000,
+   "status": "Go",
+   "provider": "Rocket Lab",
+   "pad": "Unknown Pad",
+   "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+   "lat": -39.260881,
+   "lon": 177.865826
   },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 15-23",
