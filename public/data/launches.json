@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-08-29T22:28:57.970Z",
+ "fetchedAt": "2026-08-30T04:07:08.319Z",
  "launches": [
   {
    "name": "Falcon Heavy | Nancy Grace Roman Space Telescope",
@@ -82,16 +82,6 @@
    "lon": 63.564003
   },
   {
-   "name": "Falcon 9 Block 5 | Crew-13",
-   "netMs": 1789252440000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 40",
-   "site": "Cape Canaveral SFS, FL, USA",
-   "lat": 28.56194122,
-   "lon": -80.57735736
-  },
-  {
    "name": "Vega-C | Sentinel-3C & FLEX",
    "netMs": 1789435267000,
    "status": "Go",
@@ -110,6 +100,16 @@
    "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
    "lat": -39.260881,
    "lon": 177.865826
+  },
+  {
+   "name": "Falcon 9 Block 5 | Crew-13",
+   "netMs": 1790726400000,
+   "status": "TBD",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 40",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.56194122,
+   "lon": -80.57735736
   },
   {
    "name": "Falcon 9 Block 5 | O3b mPower 11-13",
