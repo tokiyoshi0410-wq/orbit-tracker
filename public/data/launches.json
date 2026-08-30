@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-08-30T04:07:08.319Z",
+ "fetchedAt": "2026-08-30T13:39:06.895Z",
  "launches": [
-  {
-   "name": "Falcon Heavy | Nancy Grace Roman Space Telescope",
-   "netMs": 1788089149000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Launch Complex 39A",
-   "site": "Kennedy Space Center, FL, USA",
-   "lat": 28.60822681,
-   "lon": -80.60428186
-  },
   {
    "name": "Electron | Owl Around The World (StriX Launch 11)",
    "netMs": 1788177900000,
@@ -80,6 +70,16 @@
    "site": "Baikonur Cosmodrome, Republic of Kazakhstan",
    "lat": 45.996034,
    "lon": 63.564003
+  },
+  {
+   "name": "Long March 8A | Unknown Payload",
+   "netMs": 1789142400000,
+   "status": "TBC",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "pad": "Commercial LC-1",
+   "site": "Wenchang Space Launch Site, People's Republic of China",
+   "lat": 19.597275,
+   "lon": 110.930753
   },
   {
    "name": "Vega-C | Sentinel-3C & FLEX",
