@@ -1,4 +1,33 @@
 {
-  "fetchedAt": "2026-08-30T13:36:44.967Z",
-  "groups": {}
+  "fetchedAt": "2026-08-30T19:04:50.629Z",
+  "groups": {
+    "active": {
+      "lines": 48147,
+      "objects": 16049
+    },
+    "stations": {
+      "lines": 63,
+      "objects": 21
+    },
+    "starlink": {
+      "lines": 32193,
+      "objects": 10731
+    },
+    "gps-ops": {
+      "lines": 96,
+      "objects": 32
+    },
+    "weather": {
+      "lines": 219,
+      "objects": 73
+    },
+    "science": {
+      "lines": 144,
+      "objects": 48
+    },
+    "fengyun-1c-debris": {
+      "lines": 5850,
+      "objects": 1950
+    }
+  }
 }
