@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-08-31T04:13:24.647Z",
+ "fetchedAt": "2026-08-31T15:54:35.129Z",
  "launches": [
   {
    "name": "Pallas-1 | Demo Flight",
@@ -13,7 +13,7 @@
   },
   {
    "name": "Electron | Owl Around The World (StriX Launch 11)",
-   "netMs": 1788262200000,
+   "netMs": 1788262680000,
    "status": "Go",
    "provider": "Rocket Lab",
    "pad": "Unknown Pad",
