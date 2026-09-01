@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-09-01T09:23:11.381Z",
+ "fetchedAt": "2026-09-01T16:13:04.835Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | Starlink Group 15-23",
@@ -13,7 +13,7 @@
   },
   {
    "name": "Electron | Owl Around The World (StriX Launch 11)",
-   "netMs": 1788346800000,
+   "netMs": 1788347460000,
    "status": "Go",
    "provider": "Rocket Lab",
    "pad": "Unknown Pad",
@@ -60,6 +60,16 @@
    "site": "Baikonur Cosmodrome, Republic of Kazakhstan",
    "lat": 45.996034,
    "lon": 63.564003
+  },
+  {
+   "name": "Falcon 9 Block 5 | USSF-xxx (\"R-2\")",
+   "netMs": 1789054620000,
+   "status": "TBC",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
   },
   {
    "name": "Long March 8A | Unknown Payload",
@@ -140,16 +150,6 @@
    "site": "SpaceX Starbase, TX, USA",
    "lat": 25.99677,
    "lon": -97.15799
-  },
-  {
-   "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-   "netMs": 1790726400000,
-   "status": "TBD",
-   "provider": "United Launch Alliance",
-   "pad": "Space Launch Complex 41",
-   "site": "Cape Canaveral SFS, FL, USA",
-   "lat": 28.58341025,
-   "lon": -80.58303644
   }
  ]
 }
