@@ -1,26 +1,6 @@
 {
- "fetchedAt": "2026-09-02T08:29:23.107Z",
+ "fetchedAt": "2026-09-02T16:07:06.621Z",
  "launches": [
-  {
-   "name": "Falcon 9 Block 5 | Starlink Group 15-23",
-   "netMs": 1788338532000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
-  {
-   "name": "Electron | Owl Around The World (StriX Launch 11)",
-   "netMs": 1788347460000,
-   "status": "Go",
-   "provider": "Rocket Lab",
-   "pad": "Rocket Lab Launch Complex 1B",
-   "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-   "lat": -39.262833,
-   "lon": 177.864469
-  },
   {
    "name": "GSLV Mk II | GISAT-1A (EOS-05)",
    "netMs": 1788470700000,
@@ -50,6 +30,16 @@
    "site": "Vandenberg SFB, CA, USA",
    "lat": 34.632,
    "lon": -120.611
+  },
+  {
+   "name": "Long March 2D/YZ-3 | Unknown Payload",
+   "netMs": 1788944400000,
+   "status": "Go",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "pad": "Launch Area 94 (SLS-2 / 603)",
+   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+   "lat": 40.960482,
+   "lon": 100.298059
   },
   {
    "name": "Soyuz 2.1b | Progress MS-35 (96P)",
@@ -150,6 +140,16 @@
    "site": "SpaceX Starbase, TX, USA",
    "lat": 25.99677,
    "lon": -97.15799
+  },
+  {
+   "name": "Vulcan VC6L | Amazon Leo (LV-01)",
+   "netMs": 1790726400000,
+   "status": "TBD",
+   "provider": "United Launch Alliance",
+   "pad": "Space Launch Complex 41",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.58341025,
+   "lon": -80.58303644
   }
  ]
 }
