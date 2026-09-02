@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-09-02T16:07:06.621Z",
+ "fetchedAt": "2026-09-02T22:24:54.487Z",
  "launches": [
   {
    "name": "GSLV Mk II | GISAT-1A (EOS-05)",
@@ -52,9 +52,9 @@
    "lon": 63.564003
   },
   {
-   "name": "Falcon 9 Block 5 | USSF-xxx (\"R-2\")",
+   "name": "Falcon 9 Block 5 | USSF-153",
    "netMs": 1789054620000,
-   "status": "TBC",
+   "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
    "site": "Vandenberg SFB, CA, USA",

@@ -1,17 +1,17 @@
 {
-  "fetchedAt": "2026-09-02T16:06:40.967Z",
+  "fetchedAt": "2026-09-02T22:24:43.320Z",
   "groups": {
     "active": {
-      "lines": 48120,
-      "objects": 16040
+      "lines": 48105,
+      "objects": 16035
     },
     "stations": {
       "lines": 63,
       "objects": 21
     },
     "starlink": {
-      "lines": 32175,
-      "objects": 10725
+      "lines": 32169,
+      "objects": 10723
     },
     "oneweb": {
       "lines": 1953,
@@ -22,20 +22,20 @@
       "objects": 32
     },
     "weather": {
-      "lines": 219,
-      "objects": 73
+      "lines": 216,
+      "objects": 72
     },
     "science": {
-      "lines": 141,
-      "objects": 47
+      "lines": 138,
+      "objects": 46
     },
     "cosmos-1408-debris": {
       "lines": 9,
       "objects": 3
     },
     "fengyun-1c-debris": {
-      "lines": 5841,
-      "objects": 1947
+      "lines": 5859,
+      "objects": 1953
     },
     "cosmos-2251-debris": {
       "lines": 1752,
