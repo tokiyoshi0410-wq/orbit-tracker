@@ -1,10 +1,10 @@
 {
- "fetchedAt": "2026-09-03T19:10:57.241Z",
+ "fetchedAt": "2026-09-03T22:21:22.970Z",
  "launches": [
   {
    "name": "GSLV Mk II | GISAT-1A (EOS-05)",
    "netMs": 1788470700000,
-   "status": "Go",
+   "status": "Success",
    "provider": "Indian Space Research Organization",
    "pad": "Satish Dhawan Space Centre Second Launch Pad",
    "site": "Satish Dhawan Space Centre, India",
