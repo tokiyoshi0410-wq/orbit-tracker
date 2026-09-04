@@ -1,9 +1,9 @@
 {
- "fetchedAt": "2026-09-04T08:32:34.110Z",
+ "fetchedAt": "2026-09-04T15:53:52.073Z",
  "launches": [
   {
    "name": "Spectrum | Onward and Upward",
-   "netMs": 1788552000000,
+   "netMs": 1788638400000,
    "status": "TBC",
    "provider": "Isar Aerospace",
    "pad": "Orbital Launch Pad",
