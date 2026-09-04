@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-09-04T18:51:31.915Z",
+ "fetchedAt": "2026-09-04T22:14:22.108Z",
  "launches": [
   {
    "name": "Spectrum | Onward and Upward",
@@ -62,6 +62,16 @@
    "lon": 110.930753
   },
   {
+   "name": "Falcon 9 Block 5 | O3b mPower 11-13",
+   "netMs": 1789325400000,
+   "status": "TBC",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 40",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.56194122,
+   "lon": -80.57735736
+  },
+  {
    "name": "Vega-C | Sentinel-3C & FLEX",
    "netMs": 1789435267000,
    "status": "Go",
@@ -83,16 +93,6 @@
   },
   {
    "name": "Falcon 9 Block 5 | Crew-13",
-   "netMs": 1790726400000,
-   "status": "TBD",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 40",
-   "site": "Cape Canaveral SFS, FL, USA",
-   "lat": 28.56194122,
-   "lon": -80.57735736
-  },
-  {
-   "name": "Falcon 9 Block 5 | O3b mPower 11-13",
    "netMs": 1790726400000,
    "status": "TBD",
    "provider": "SpaceX",
