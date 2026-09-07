@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-09-07T09:01:15.271Z",
+ "fetchedAt": "2026-09-07T17:24:44.278Z",
  "launches": [
-  {
-   "name": "Long March 2D/YZ-3 | Unknown Payload",
-   "netMs": 1788944400000,
-   "status": "Go",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "pad": "Launch Area 94 (SLS-2 / 603)",
-   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-   "lat": 40.960482,
-   "lon": 100.298059
-  },
   {
    "name": "Soyuz 2.1b | Progress MS-35 (96P)",
    "netMs": 1788970503000,
@@ -20,6 +10,16 @@
    "site": "Baikonur Cosmodrome, Republic of Kazakhstan",
    "lat": 45.996034,
    "lon": 63.564003
+  },
+  {
+   "name": "Long March 2D/YZ-3 | Unknown Payload",
+   "netMs": 1789030800000,
+   "status": "Go",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "pad": "Launch Area 94 (SLS-2 / 603)",
+   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+   "lat": 40.960482,
+   "lon": 100.298059
   },
   {
    "name": "Falcon 9 Block 5 | USSF-153",
