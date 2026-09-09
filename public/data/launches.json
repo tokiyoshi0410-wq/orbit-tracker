@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-09-09T16:03:50.182Z",
+ "fetchedAt": "2026-09-09T22:18:46.790Z",
  "launches": [
   {
    "name": "Long March 2D/YZ-3 | Unknown Payload",
@@ -60,6 +60,16 @@
    "site": "Haiyang Oriental Spaceport",
    "lat": 31.2,
    "lon": 123.7
+  },
+  {
+   "name": "Falcon 9 Block 5 | USSF-259",
+   "netMs": 1789520400000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
   },
   {
    "name": "Soyuz 2.1b | Progress MS-35 (96P)",
@@ -140,16 +150,6 @@
    "site": "Wenchang Space Launch Site, People's Republic of China",
    "lat": 19.597275,
    "lon": 110.930753
-  },
-  {
-   "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-   "netMs": 1790726400000,
-   "status": "TBD",
-   "provider": "United Launch Alliance",
-   "pad": "Space Launch Complex 41",
-   "site": "Cape Canaveral SFS, FL, USA",
-   "lat": 28.58341025,
-   "lon": -80.58303644
   }
  ]
 }
