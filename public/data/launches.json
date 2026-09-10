@@ -1,20 +1,10 @@
 {
- "fetchedAt": "2026-09-10T08:42:32.115Z",
+ "fetchedAt": "2026-09-10T15:57:47.498Z",
  "launches": [
   {
-   "name": "Long March 2D/YZ-3 | Unknown Payload",
-   "netMs": 1789030800000,
-   "status": "Go",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "pad": "Launch Area 94 (SLS-2 / 603)",
-   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-   "lat": 40.960482,
-   "lon": 100.298059
-  },
-  {
    "name": "Falcon 9 Block 5 | USSF-153",
-   "netMs": 1789054920000,
-   "status": "Go",
+   "netMs": 1789054950000,
+   "status": "In Flight",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
    "site": "Vandenberg SFB, CA, USA",
@@ -50,6 +40,16 @@
    "site": "Guiana Space Centre, French Guiana",
    "lat": 5.236,
    "lon": -52.775
+  },
+  {
+   "name": "Zhuque-2E Block 2 | Unknown Payload",
+   "netMs": 1789453500000,
+   "status": "Go",
+   "provider": "LandSpace",
+   "pad": "Launch Area 96A",
+   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+   "lat": 40.91491,
+   "lon": 100.245488
   },
   {
    "name": "Gravity-1 | Unknown Payload",
