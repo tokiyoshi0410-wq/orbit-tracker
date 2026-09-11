@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-09-11T03:27:08.128Z",
+ "fetchedAt": "2026-09-11T08:40:41.651Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | O3b mPower 11-13",
@@ -72,6 +72,16 @@
    "lon": 110.936481
   },
   {
+   "name": "Kuaizhou 11 | Unknown Payload",
+   "netMs": 1789612500000,
+   "status": "Go",
+   "provider": "ExPace",
+   "pad": "Launch Area 95A",
+   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+   "lat": 40.969117,
+   "lon": 100.343333
+  },
+  {
    "name": "Starship | Flight 14",
    "netMs": 1789689600000,
    "status": "TBD",
@@ -80,6 +90,16 @@
    "site": "SpaceX Starbase, TX, USA",
    "lat": 25.99677,
    "lon": -97.15799
+  },
+  {
+   "name": "Long March 2D | Unknown Payload",
+   "netMs": 1789815000000,
+   "status": "Go",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "pad": "Launch Complex 9",
+   "site": "Taiyuan Satellite Launch Center, People's Republic of China",
+   "lat": 38.863128,
+   "lon": 111.589567
   },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 15-27",
@@ -130,26 +150,6 @@
    "site": "Jiuquan Satellite Launch Center, People's Republic of China",
    "lat": 40.891596,
    "lon": 100.217289
-  },
-  {
-   "name": "Long March 8A | Unknown Payload",
-   "netMs": 1790726400000,
-   "status": "TBD",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "pad": "Commercial LC-1",
-   "site": "Wenchang Space Launch Site, People's Republic of China",
-   "lat": 19.597275,
-   "lon": 110.930753
-  },
-  {
-   "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-   "netMs": 1790726400000,
-   "status": "TBD",
-   "provider": "United Launch Alliance",
-   "pad": "Space Launch Complex 41",
-   "site": "Cape Canaveral SFS, FL, USA",
-   "lat": 28.58341025,
-   "lon": -80.58303644
   }
  ]
 }
