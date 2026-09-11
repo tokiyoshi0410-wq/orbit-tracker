@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-09-11T16:01:57.975Z",
+ "fetchedAt": "2026-09-11T22:18:06.130Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | O3b mPower 11-13",
@@ -83,8 +83,8 @@
   },
   {
    "name": "Starship | Flight 14",
-   "netMs": 1789689600000,
-   "status": "TBD",
+   "netMs": 1789733700000,
+   "status": "TBC",
    "provider": "SpaceX",
    "pad": "Orbital Launch Pad 2",
    "site": "SpaceX Starbase, TX, USA",
