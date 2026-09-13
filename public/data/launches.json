@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-09-13T18:34:53.694Z",
+ "fetchedAt": "2026-09-13T22:12:52.377Z",
  "launches": [
-  {
-   "name": "Falcon 9 Block 5 | O3b mPower 11-13",
-   "netMs": 1789325340000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 40",
-   "site": "Cape Canaveral SFS, FL, USA",
-   "lat": 28.56194122,
-   "lon": -80.57735736
-  },
   {
    "name": "Vega-C | Sentinel-3C & FLEX",
    "netMs": 1789435267000,
@@ -150,6 +140,16 @@
    "site": "Jiuquan Satellite Launch Center, People's Republic of China",
    "lat": 40.891596,
    "lon": 100.217289
+  },
+  {
+   "name": "Long March 8A | Unknown Payload",
+   "netMs": 1790726400000,
+   "status": "TBD",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "pad": "Commercial LC-1",
+   "site": "Wenchang Space Launch Site, People's Republic of China",
+   "lat": 19.597275,
+   "lon": 110.930753
   }
  ]
 }
