@@ -1,17 +1,17 @@
 {
-  "fetchedAt": "2026-09-15T03:47:55.518Z",
+  "fetchedAt": "2026-09-15T09:14:53.057Z",
   "groups": {
     "active": {
-      "lines": 48042,
-      "objects": 16014
+      "lines": 48036,
+      "objects": 16012
     },
     "stations": {
       "lines": 60,
       "objects": 20
     },
     "starlink": {
-      "lines": 32124,
-      "objects": 10708
+      "lines": 32121,
+      "objects": 10707
     },
     "oneweb": {
       "lines": 1953,
@@ -38,8 +38,8 @@
       "objects": 1971
     },
     "cosmos-2251-debris": {
-      "lines": 1752,
-      "objects": 584
+      "lines": 1749,
+      "objects": 583
     },
     "iridium-33-debris": {
       "lines": 330,
