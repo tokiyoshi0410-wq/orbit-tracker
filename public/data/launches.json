@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-09-14T22:58:47.704Z",
+ "fetchedAt": "2026-09-15T03:48:12.908Z",
  "launches": [
-  {
-   "name": "Vega-C | Sentinel-3C & FLEX",
-   "netMs": 1789435267000,
-   "status": "Go",
-   "provider": "Avio S.p.A",
-   "pad": "Ariane Launch Area 1 (ELV)",
-   "site": "Guiana Space Centre, French Guiana",
-   "lat": 5.236,
-   "lon": -52.775
-  },
   {
    "name": "Zhuque-2E Block 2 | Unknown Payload",
    "netMs": 1789453500000,
@@ -150,6 +140,16 @@
    "site": "Wenchang Space Launch Site, People's Republic of China",
    "lat": 19.597275,
    "lon": 110.930753
+  },
+  {
+   "name": "Vulcan VC6L | Amazon Leo (LV-01)",
+   "netMs": 1790726400000,
+   "status": "TBD",
+   "provider": "United Launch Alliance",
+   "pad": "Space Launch Complex 41",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.58341025,
+   "lon": -80.58303644
   }
  ]
 }
