@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-09-15T16:26:58.844Z",
+  "fetchedAt": "2026-09-15T22:44:03.168Z",
   "groups": {
     "active": {
-      "lines": 48036,
-      "objects": 16012
+      "lines": 48030,
+      "objects": 16010
     },
     "stations": {
       "lines": 60,
