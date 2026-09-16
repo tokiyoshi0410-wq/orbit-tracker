@@ -1,26 +1,6 @@
 {
- "fetchedAt": "2026-09-15T22:44:14.701Z",
+ "fetchedAt": "2026-09-16T03:45:15.854Z",
  "launches": [
-  {
-   "name": "Gravity-1 | SpaceSail Polar Group #16",
-   "netMs": 1789509600000,
-   "status": "Success",
-   "provider": "Orienspace Technology",
-   "pad": "Yellow Sea (launch location 5)",
-   "site": "Haiyang Oriental Spaceport",
-   "lat": 31.2,
-   "lon": 123.7
-  },
-  {
-   "name": "Falcon 9 Block 5 | USSF-259",
-   "netMs": 1789525118000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
   {
    "name": "Soyuz 2.1b | Progress MS-35 (96P)",
    "netMs": 1789565633000,
@@ -40,6 +20,16 @@
    "site": "Wenchang Space Launch Site, People's Republic of China",
    "lat": 19.59755,
    "lon": 110.936481
+  },
+  {
+   "name": "Falcon 9 Block 5 | USSF-259",
+   "netMs": 1789606800000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
   },
   {
    "name": "Kuaizhou 11 | Unknown Payload",
@@ -150,6 +140,16 @@
    "site": "Wenchang Space Launch Site, People's Republic of China",
    "lat": 19.597275,
    "lon": 110.930753
+  },
+  {
+   "name": "Vulcan VC6L | Amazon Leo (LV-01)",
+   "netMs": 1790726400000,
+   "status": "TBD",
+   "provider": "United Launch Alliance",
+   "pad": "Space Launch Complex 41",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.58341025,
+   "lon": -80.58303644
   }
  ]
 }
