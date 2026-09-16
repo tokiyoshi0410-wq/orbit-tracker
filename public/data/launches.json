@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-09-16T09:08:07.982Z",
+ "fetchedAt": "2026-09-16T16:18:34.588Z",
  "launches": [
-  {
-   "name": "Soyuz 2.1b | Progress MS-35 (96P)",
-   "netMs": 1789565633000,
-   "status": "Go",
-   "provider": "Russian Federal Space Agency (ROSCOSMOS)",
-   "pad": "31/6",
-   "site": "Baikonur Cosmodrome, Republic of Kazakhstan",
-   "lat": 45.996034,
-   "lon": 63.564003
-  },
   {
    "name": "Long March 12 | Unknown Payload",
    "netMs": 1789605000000,
@@ -93,7 +83,7 @@
   },
   {
    "name": "Falcon 9 Block 5 | USSF-xxx (\"R-3\")",
-   "netMs": 1790509320000,
+   "netMs": 1790423760000,
    "status": "TBC",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
@@ -110,16 +100,6 @@
    "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
    "lat": -39.260881,
    "lon": 177.865826
-  },
-  {
-   "name": "Falcon 9 Block 5 | Crew-13",
-   "netMs": 1790726400000,
-   "status": "TBD",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 40",
-   "site": "Cape Canaveral SFS, FL, USA",
-   "lat": 28.56194122,
-   "lon": -80.57735736
   },
   {
    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
@@ -150,6 +130,26 @@
    "site": "Wenchang Space Launch Site, People's Republic of China",
    "lat": 19.597275,
    "lon": 110.930753
+  },
+  {
+   "name": "Vulcan VC6L | Amazon Leo (LV-01)",
+   "netMs": 1790726400000,
+   "status": "TBD",
+   "provider": "United Launch Alliance",
+   "pad": "Space Launch Complex 41",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.58341025,
+   "lon": -80.58303644
+  },
+  {
+   "name": "Electron | 6x HawkEye 360",
+   "netMs": 1790726400000,
+   "status": "TBD",
+   "provider": "Rocket Lab",
+   "pad": "Unknown Pad",
+   "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+   "lat": -39.260881,
+   "lon": 177.865826
   }
  ]
 }
