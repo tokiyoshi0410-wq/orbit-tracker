@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-09-16T16:18:34.588Z",
+ "fetchedAt": "2026-09-16T22:40:52.490Z",
  "launches": [
   {
    "name": "Long March 12 | Unknown Payload",
@@ -13,7 +13,7 @@
   },
   {
    "name": "Falcon 9 Block 5 | USSF-259",
-   "netMs": 1789606800000,
+   "netMs": 1789607276000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
@@ -72,7 +72,7 @@
    "lon": 100.22514
   },
   {
-   "name": "Starship | Flight 14",
+   "name": "Starship | Starlink Group 31-1 (Starship Flight 14)",
    "netMs": 1790079300000,
    "status": "Go",
    "provider": "SpaceX",
@@ -82,9 +82,9 @@
    "lon": -97.15799
   },
   {
-   "name": "Falcon 9 Block 5 | USSF-xxx (\"R-3\")",
+   "name": "Falcon 9 Block 5 | USSF-385",
    "netMs": 1790423760000,
-   "status": "TBC",
+   "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
    "site": "Vandenberg SFB, CA, USA",
