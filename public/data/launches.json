@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-09-18T08:51:13.113Z",
+ "fetchedAt": "2026-09-18T15:58:27.049Z",
  "launches": [
   {
    "name": "Electron | Owl By The Dozen (StriX Launch 12)",
@@ -42,6 +42,26 @@
    "lon": 100.22514
   },
   {
+   "name": "Long March 8A | Unknown Payload",
+   "netMs": 1790170200000,
+   "status": "Go",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "pad": "Commercial LC-1",
+   "site": "Wenchang Space Launch Site, People's Republic of China",
+   "lat": 19.597275,
+   "lon": 110.930753
+  },
+  {
+   "name": "Long March 6A | Unknown Payload",
+   "netMs": 1790239500000,
+   "status": "Go",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "pad": "Launch Complex 9A",
+   "site": "Taiyuan Satellite Launch Center, People's Republic of China",
+   "lat": 38.8583,
+   "lon": 111.5802
+  },
+  {
    "name": "Falcon 9 Block 5 | USSF-385",
    "netMs": 1790423760000,
    "status": "Go",
@@ -82,16 +102,6 @@
    "lon": 100.217289
   },
   {
-   "name": "Long March 8A | Unknown Payload",
-   "netMs": 1790726400000,
-   "status": "TBD",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "pad": "Commercial LC-1",
-   "site": "Wenchang Space Launch Site, People's Republic of China",
-   "lat": 19.597275,
-   "lon": 110.930753
-  },
-  {
    "name": "Vulcan VC6L | Amazon Leo (LV-01)",
    "netMs": 1790726400000,
    "status": "TBD",
@@ -122,6 +132,16 @@
    "lon": 177.865826
   },
   {
+   "name": "Falcon 9 Block 5 | Crew-13",
+   "netMs": 1790867406000,
+   "status": "TBC",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 40",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.56194122,
+   "lon": -80.57735736
+  },
+  {
    "name": "SR75 | Flight 2",
    "netMs": 1791158400000,
    "status": "TBD",
@@ -130,26 +150,6 @@
    "site": "SaxaVord Spaceport",
    "lat": 60.8184,
    "lon": -0.7692
-  },
-  {
-   "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
-   "netMs": 1791331200000,
-   "status": "TBD",
-   "provider": "Arianespace",
-   "pad": "Ariane Launch Area 4",
-   "site": "Guiana Space Centre, French Guiana",
-   "lat": 5.256319,
-   "lon": -52.786838
-  },
-  {
-   "name": "Nuri | NeonSat-2 to 6",
-   "netMs": 1791343380000,
-   "status": "Go",
-   "provider": "Korea Aerospace Research Institute",
-   "pad": "LC-2",
-   "site": "Naro Space Center, South Korea",
-   "lat": 34.431867,
-   "lon": 127.535069
   }
  ]
 }
