@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-09-17T22:42:36.410Z",
+ "fetchedAt": "2026-09-18T03:37:11.601Z",
  "launches": [
   {
    "name": "Electron | Owl By The Dozen (StriX Launch 12)",
@@ -72,16 +72,6 @@
    "lon": 177.865826
   },
   {
-   "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
-   "netMs": 1790726400000,
-   "status": "TBD",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
-  {
    "name": "Long March 12A | Flight 2",
    "netMs": 1790726400000,
    "status": "TBD",
@@ -142,14 +132,24 @@
    "lon": 177.865826
   },
   {
-   "name": "Themis Demonstrator | T1H-1",
-   "netMs": 1790726400000,
+   "name": "SR75 | Flight 2",
+   "netMs": 1791158400000,
    "status": "TBD",
-   "provider": "European Space Agency",
-   "pad": "Launch Complex 3B",
-   "site": "Esrange Space Center",
-   "lat": 67.877368,
-   "lon": 21.165001
+   "provider": "HyImpulse",
+   "pad": "Unknown Pad",
+   "site": "SaxaVord Spaceport",
+   "lat": 60.8184,
+   "lon": -0.7692
+  },
+  {
+   "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
+   "netMs": 1791331200000,
+   "status": "TBD",
+   "provider": "Arianespace",
+   "pad": "Ariane Launch Area 4",
+   "site": "Guiana Space Centre, French Guiana",
+   "lat": 5.256319,
+   "lon": -52.786838
   }
  ]
 }
