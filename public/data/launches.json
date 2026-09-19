@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-09-19T18:27:11.989Z",
+ "fetchedAt": "2026-09-19T22:11:26.334Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | Starlink Group 15-27",
@@ -92,6 +92,16 @@
    "lon": -80.58303644
   },
   {
+   "name": "Falcon 9 Block 5 | Starlink Group 15-25",
+   "netMs": 1790776800000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
+  },
+  {
    "name": "Falcon 9 Block 5 | Crew-13",
    "netMs": 1790867406000,
    "status": "TBC",
@@ -140,16 +150,6 @@
    "site": "Tanegashima Space Center, Japan",
    "lat": 30.400938,
    "lon": 130.97564
-  },
-  {
-   "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
-   "netMs": 1793404800000,
-   "status": "TBD",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 40",
-   "site": "Cape Canaveral SFS, FL, USA",
-   "lat": 28.56194122,
-   "lon": -80.57735736
   }
  ]
 }
