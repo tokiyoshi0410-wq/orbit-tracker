@@ -1,10 +1,10 @@
 {
- "fetchedAt": "2026-09-18T22:21:25.355Z",
+ "fetchedAt": "2026-09-19T03:34:23.497Z",
  "launches": [
   {
    "name": "Electron | Owl By The Dozen (StriX Launch 12)",
-   "netMs": 1789787700000,
-   "status": "Go",
+   "netMs": 1789788120000,
+   "status": "In Flight",
    "provider": "Rocket Lab",
    "pad": "Rocket Lab Launch Complex 1B",
    "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
