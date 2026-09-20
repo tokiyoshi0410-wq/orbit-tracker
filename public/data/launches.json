@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-09-19T22:11:26.334Z",
+ "fetchedAt": "2026-09-20T03:50:09.400Z",
  "launches": [
-  {
-   "name": "Falcon 9 Block 5 | Starlink Group 15-27",
-   "netMs": 1789868820000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
   {
    "name": "Kinetica 1 | Unknown Payload",
    "netMs": 1789876800000,
@@ -72,26 +62,6 @@
    "lon": -97.15799
   },
   {
-   "name": "Long March 12A | Flight 2",
-   "netMs": 1790726400000,
-   "status": "TBD",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "pad": "Long March 12 series Pad",
-   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-   "lat": 40.891596,
-   "lon": 100.217289
-  },
-  {
-   "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-   "netMs": 1790726400000,
-   "status": "TBD",
-   "provider": "United Launch Alliance",
-   "pad": "Space Launch Complex 41",
-   "site": "Cape Canaveral SFS, FL, USA",
-   "lat": 28.58341025,
-   "lon": -80.58303644
-  },
-  {
    "name": "Falcon 9 Block 5 | Starlink Group 15-25",
    "netMs": 1790776800000,
    "status": "Go",
@@ -150,6 +120,36 @@
    "site": "Tanegashima Space Center, Japan",
    "lat": 30.400938,
    "lon": 130.97564
+  },
+  {
+   "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
+   "netMs": 1793404800000,
+   "status": "TBD",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 40",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.56194122,
+   "lon": -80.57735736
+  },
+  {
+   "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
+   "netMs": 1793404800000,
+   "status": "TBD",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 40",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.56194122,
+   "lon": -80.57735736
+  },
+  {
+   "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
+   "netMs": 1793404800000,
+   "status": "TBD",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
   }
  ]
 }
