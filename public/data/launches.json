@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-09-20T03:50:09.400Z",
+ "fetchedAt": "2026-09-20T09:07:52.868Z",
  "launches": [
-  {
-   "name": "Kinetica 1 | Unknown Payload",
-   "netMs": 1789876800000,
-   "status": "Go",
-   "provider": "CAS Space",
-   "pad": "Launch Area 130",
-   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-   "lat": 40.8182,
-   "lon": 100.22514
-  },
   {
    "name": "Long March 8A | Unknown Payload",
    "netMs": 1790170200000,
@@ -143,6 +133,16 @@
   },
   {
    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
+   "netMs": 1793404800000,
+   "status": "TBD",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
+  },
+  {
+   "name": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
    "netMs": 1793404800000,
    "status": "TBD",
    "provider": "SpaceX",
