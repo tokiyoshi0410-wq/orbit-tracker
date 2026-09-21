@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-09-21T17:57:43.133Z",
+ "fetchedAt": "2026-09-21T23:02:29.064Z",
  "launches": [
   {
    "name": "Long March 8A | Unknown Payload",
@@ -72,6 +72,16 @@
    "lon": -80.57735736
   },
   {
+   "name": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
+   "netMs": 1790878080000,
+   "status": "TBC",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
+  },
+  {
    "name": "SR75 | Flight 2",
    "netMs": 1791158400000,
    "status": "TBD",
@@ -133,16 +143,6 @@
   },
   {
    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
-   "netMs": 1793404800000,
-   "status": "TBD",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
-  {
-   "name": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
    "netMs": 1793404800000,
    "status": "TBD",
    "provider": "SpaceX",
