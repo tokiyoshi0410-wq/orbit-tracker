@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-09-21T23:02:29.064Z",
+ "fetchedAt": "2026-09-22T03:44:33.960Z",
  "launches": [
   {
    "name": "Long March 8A | Unknown Payload",
@@ -52,16 +52,6 @@
    "lon": -97.15799
   },
   {
-   "name": "Falcon 9 Block 5 | Starlink Group 15-25",
-   "netMs": 1790784000000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
-  {
    "name": "Falcon 9 Block 5 | Crew-13",
    "netMs": 1790867406000,
    "status": "TBC",
@@ -110,6 +100,16 @@
    "site": "Naro Space Center, South Korea",
    "lat": 34.431867,
    "lon": 127.535069
+  },
+  {
+   "name": "Falcon 9 Block 5 | Starlink Group 15-25",
+   "netMs": 1791648000000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
   },
   {
    "name": "H3-24 | Martian Moon eXplorer (MMX)",
