@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-09-22T16:28:10.507Z",
+ "fetchedAt": "2026-09-22T22:46:36.673Z",
  "launches": [
   {
    "name": "Long March 8A | Unknown Payload",
@@ -54,7 +54,7 @@
   {
    "name": "Falcon 9 Block 5 | Crew-13",
    "netMs": 1790867406000,
-   "status": "TBC",
+   "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 40",
    "site": "Cape Canaveral SFS, FL, USA",
@@ -112,6 +112,16 @@
    "lon": -120.611
   },
   {
+   "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
+   "netMs": 1792022400000,
+   "status": "TBD",
+   "provider": "Indian Space Research Organization",
+   "pad": "Satish Dhawan Space Centre Second Launch Pad",
+   "site": "Satish Dhawan Space Centre, India",
+   "lat": 13.7199,
+   "lon": 80.2304
+  },
+  {
    "name": "H3-24 | Martian Moon eXplorer (MMX)",
    "netMs": 1792438863000,
    "status": "Go",
@@ -140,16 +150,6 @@
    "site": "Cape Canaveral SFS, FL, USA",
    "lat": 28.56194122,
    "lon": -80.57735736
-  },
-  {
-   "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
-   "netMs": 1793404800000,
-   "status": "TBD",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
   }
  ]
 }
