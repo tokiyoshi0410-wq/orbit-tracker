@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-09-23T09:08:16.066Z",
+ "fetchedAt": "2026-09-23T16:17:22.770Z",
  "launches": [
-  {
-   "name": "Long March 8A | Unknown Payload",
-   "netMs": 1790170200000,
-   "status": "Go",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "pad": "Commercial LC-1",
-   "site": "Wenchang Space Launch Site, People's Republic of China",
-   "lat": 19.597275,
-   "lon": 110.930753
-  },
   {
    "name": "Long March 6A | Unknown Payload",
    "netMs": 1790239500000,
@@ -150,6 +140,16 @@
    "site": "Cape Canaveral SFS, FL, USA",
    "lat": 28.56194122,
    "lon": -80.57735736
+  },
+  {
+   "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
+   "netMs": 1793404800000,
+   "status": "TBD",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
   }
  ]
 }
