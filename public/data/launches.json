@@ -1,9 +1,9 @@
 {
- "fetchedAt": "2026-09-24T16:39:06.436Z",
+ "fetchedAt": "2026-09-24T23:05:55.955Z",
  "launches": [
   {
    "name": "Electron | Owlright, Owlright, Owlright (StriX Launch 13)",
-   "netMs": 1790381700000,
+   "netMs": 1790382360000,
    "status": "Go",
    "provider": "Rocket Lab",
    "pad": "Rocket Lab Launch Complex 1B",
