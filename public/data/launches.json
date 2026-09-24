@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-09-24T09:03:15.449Z",
+ "fetchedAt": "2026-09-24T16:39:06.436Z",
  "launches": [
-  {
-   "name": "Long March 6A | Unknown Payload",
-   "netMs": 1790239500000,
-   "status": "Go",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "pad": "Launch Complex 9A",
-   "site": "Taiyuan Satellite Launch Center, People's Republic of China",
-   "lat": 38.8583,
-   "lon": 111.5802
-  },
   {
    "name": "Electron | Owlright, Owlright, Owlright (StriX Launch 13)",
    "netMs": 1790381700000,
@@ -60,6 +50,16 @@
    "site": "Vandenberg SFB, CA, USA",
    "lat": 34.632,
    "lon": -120.611
+  },
+  {
+   "name": "Falcon Heavy | NROL-97",
+   "netMs": 1790913180000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Launch Complex 39A",
+   "site": "Kennedy Space Center, FL, USA",
+   "lat": 28.60822681,
+   "lon": -80.60428186
   },
   {
    "name": "SR75 | Flight 2",
