@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-09-25T09:26:51.472Z",
+ "fetchedAt": "2026-09-25T16:44:57.499Z",
  "launches": [
   {
    "name": "Electron | Owlright, Owlright, Owlright (StriX Launch 13)",
@@ -13,7 +13,7 @@
   },
   {
    "name": "Falcon 9 Block 5 | USSF-385",
-   "netMs": 1790423760000,
+   "netMs": 1790427373000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
@@ -72,16 +72,6 @@
    "lon": -0.7692
   },
   {
-   "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
-   "netMs": 1791331200000,
-   "status": "TBD",
-   "provider": "Arianespace",
-   "pad": "Ariane Launch Area 4",
-   "site": "Guiana Space Centre, French Guiana",
-   "lat": 5.256319,
-   "lon": -52.786838
-  },
-  {
    "name": "Nuri | NeonSat-2 to 6",
    "netMs": 1791343380000,
    "status": "Go",
@@ -120,6 +110,16 @@
    "site": "Tanegashima Space Center, Japan",
    "lat": 30.400938,
    "lon": 130.97564
+  },
+  {
+   "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
+   "netMs": 1793404800000,
+   "status": "TBD",
+   "provider": "Arianespace",
+   "pad": "Ariane Launch Area 4",
+   "site": "Guiana Space Centre, French Guiana",
+   "lat": 5.256319,
+   "lon": -52.786838
   },
   {
    "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
