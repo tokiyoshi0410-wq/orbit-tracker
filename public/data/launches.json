@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-09-25T16:44:57.499Z",
+ "fetchedAt": "2026-09-25T23:08:22.238Z",
  "launches": [
   {
    "name": "Electron | Owlright, Owlright, Owlright (StriX Launch 13)",
@@ -13,7 +13,7 @@
   },
   {
    "name": "Falcon 9 Block 5 | USSF-385",
-   "netMs": 1790427373000,
+   "netMs": 1790431254000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
@@ -70,6 +70,16 @@
    "site": "SaxaVord Spaceport",
    "lat": 60.8184,
    "lon": -0.7692
+  },
+  {
+   "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
+   "netMs": 1791187560000,
+   "status": "TBC",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
   },
   {
    "name": "Nuri | NeonSat-2 to 6",
@@ -140,16 +150,6 @@
    "site": "Cape Canaveral SFS, FL, USA",
    "lat": 28.56194122,
    "lon": -80.57735736
-  },
-  {
-   "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
-   "netMs": 1793404800000,
-   "status": "TBD",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
   }
  ]
 }
