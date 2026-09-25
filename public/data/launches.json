@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-09-24T23:05:55.955Z",
+ "fetchedAt": "2026-09-25T03:51:07.052Z",
  "launches": [
   {
    "name": "Electron | Owlright, Owlright, Owlright (StriX Launch 13)",
@@ -43,8 +43,8 @@
   },
   {
    "name": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
-   "netMs": 1790878080000,
-   "status": "TBC",
+   "netMs": 1790878680000,
+   "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
    "site": "Vandenberg SFB, CA, USA",
