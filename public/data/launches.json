@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-09-25T23:08:22.238Z",
+ "fetchedAt": "2026-09-26T03:56:52.208Z",
  "launches": [
-  {
-   "name": "Electron | Owlright, Owlright, Owlright (StriX Launch 13)",
-   "netMs": 1790382360000,
-   "status": "Go",
-   "provider": "Rocket Lab",
-   "pad": "Rocket Lab Launch Complex 1B",
-   "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-   "lat": -39.262833,
-   "lon": 177.864469
-  },
   {
    "name": "Falcon 9 Block 5 | USSF-385",
    "netMs": 1790431254000,
@@ -150,6 +140,16 @@
    "site": "Cape Canaveral SFS, FL, USA",
    "lat": 28.56194122,
    "lon": -80.57735736
+  },
+  {
+   "name": "Long March 12A | Flight 2",
+   "netMs": 1793404800000,
+   "status": "TBD",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "pad": "Long March 12 series Pad",
+   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+   "lat": 40.891596,
+   "lon": 100.217289
   }
  ]
 }
