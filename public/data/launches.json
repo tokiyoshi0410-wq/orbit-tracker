@@ -1,10 +1,10 @@
 {
- "fetchedAt": "2026-09-26T19:07:56.595Z",
+ "fetchedAt": "2026-09-26T22:25:58.711Z",
  "launches": [
   {
    "name": "Starship | Starlink Group 31-1 (Starship Flight 14)",
    "netMs": 1790597700000,
-   "status": "TBC",
+   "status": "Go",
    "provider": "SpaceX",
    "pad": "Orbital Launch Pad 2",
    "site": "SpaceX Starbase, TX, USA",
