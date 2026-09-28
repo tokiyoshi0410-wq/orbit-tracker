@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-09-28T04:08:56.376Z",
+ "fetchedAt": "2026-09-28T16:32:30.639Z",
  "launches": [
-  {
-   "name": "Starship | Starlink Group 31-1 (Starship Flight 14)",
-   "netMs": 1790597700000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Orbital Launch Pad 2",
-   "site": "SpaceX Starbase, TX, USA",
-   "lat": 25.99677,
-   "lon": -97.15799
-  },
   {
    "name": "Falcon 9 Block 5 | Crew-13",
    "netMs": 1790867406000,
@@ -150,6 +140,16 @@
    "site": "Satish Dhawan Space Centre, India",
    "lat": 13.733,
    "lon": 80.235
+  },
+  {
+   "name": "Vulcan VC6L | Amazon Leo (LV-01)",
+   "netMs": 1793404800000,
+   "status": "TBD",
+   "provider": "United Launch Alliance",
+   "pad": "Space Launch Complex 41",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.58341025,
+   "lon": -80.58303644
   }
  ]
 }
