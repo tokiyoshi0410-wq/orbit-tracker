@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-09-29T10:27:19.718Z",
+ "fetchedAt": "2026-09-29T17:47:52.842Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | Crew-13",
@@ -73,8 +73,8 @@
   },
   {
    "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
-   "netMs": 1792022400000,
-   "status": "TBD",
+   "netMs": 1791910800000,
+   "status": "TBC",
    "provider": "Indian Space Research Organization",
    "pad": "Satish Dhawan Space Centre Second Launch Pad",
    "site": "Satish Dhawan Space Centre, India",
