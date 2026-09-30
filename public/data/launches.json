@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-09-30T14:41:17.861Z",
+ "fetchedAt": "2026-09-30T20:36:35.791Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | Crew-13",
@@ -43,8 +43,8 @@
   },
   {
    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
-   "netMs": 1791187560000,
-   "status": "TBC",
+   "netMs": 1791188160000,
+   "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
    "site": "Vandenberg SFB, CA, USA",
