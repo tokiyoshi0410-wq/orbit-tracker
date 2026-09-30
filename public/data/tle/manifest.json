@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-29T23:29:31.336Z",
+  "fetchedAt": "2026-09-30T04:25:35.512Z",
   "groups": {
     "active": {
       "lines": 47907,
@@ -34,16 +34,16 @@
       "objects": 3
     },
     "fengyun-1c-debris": {
-      "lines": 5907,
-      "objects": 1969
+      "lines": 5943,
+      "objects": 1981
     },
     "cosmos-2251-debris": {
       "lines": 1749,
       "objects": 583
     },
     "iridium-33-debris": {
-      "lines": 330,
-      "objects": 110
+      "lines": 333,
+      "objects": 111
     }
   }
 }
