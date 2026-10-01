@@ -1,26 +1,6 @@
 {
- "fetchedAt": "2026-10-01T04:37:14.550Z",
+ "fetchedAt": "2026-10-01T20:50:57.169Z",
  "launches": [
-  {
-   "name": "Falcon 9 Block 5 | Crew-13",
-   "netMs": 1790867406000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 40",
-   "site": "Cape Canaveral SFS, FL, USA",
-   "lat": 28.56194122,
-   "lon": -80.57735736
-  },
-  {
-   "name": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
-   "netMs": 1790878680000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
   {
    "name": "Falcon Heavy | NROL-97",
    "netMs": 1790913180000,
@@ -32,18 +12,8 @@
    "lon": -80.60428186
   },
   {
-   "name": "SR75 | Flight 2",
-   "netMs": 1791158400000,
-   "status": "TBD",
-   "provider": "HyImpulse",
-   "pad": "Unknown Pad",
-   "site": "SaxaVord Spaceport",
-   "lat": 60.8184,
-   "lon": -0.7692
-  },
-  {
    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
-   "netMs": 1791188160000,
+   "netMs": 1791188220000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
@@ -80,6 +50,16 @@
    "site": "Vandenberg SFB, CA, USA",
    "lat": 34.632,
    "lon": -120.611
+  },
+  {
+   "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
+   "netMs": 1791849600000,
+   "status": "TBD",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 40",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.56194122,
+   "lon": -80.57735736
   },
   {
    "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
@@ -122,16 +102,6 @@
    "lon": -80.57735736
   },
   {
-   "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
-   "netMs": 1793404800000,
-   "status": "TBD",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 40",
-   "site": "Cape Canaveral SFS, FL, USA",
-   "lat": 28.56194122,
-   "lon": -80.57735736
-  },
-  {
    "name": "Long March 12A | Flight 2",
    "netMs": 1793404800000,
    "status": "TBD",
@@ -150,6 +120,36 @@
    "site": "Satish Dhawan Space Centre, India",
    "lat": 13.733,
    "lon": 80.235
+  },
+  {
+   "name": "Vulcan VC6L | Amazon Leo (LV-01)",
+   "netMs": 1793404800000,
+   "status": "TBD",
+   "provider": "United Launch Alliance",
+   "pad": "Space Launch Complex 41",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.58341025,
+   "lon": -80.58303644
+  },
+  {
+   "name": "Soyuz 2.1b | Progress MS-36 (97P)",
+   "netMs": 1795496580000,
+   "status": "TBC",
+   "provider": "Russian Federal Space Agency (ROSCOSMOS)",
+   "pad": "31/6",
+   "site": "Baikonur Cosmodrome, Republic of Kazakhstan",
+   "lat": 45.996034,
+   "lon": 63.564003
+  },
+  {
+   "name": "Ariane 62 | Metop-SG B1",
+   "netMs": 1795996800000,
+   "status": "TBD",
+   "provider": "Arianespace",
+   "pad": "Ariane Launch Area 4",
+   "site": "Guiana Space Centre, French Guiana",
+   "lat": 5.256319,
+   "lon": -52.786838
   }
  ]
 }
