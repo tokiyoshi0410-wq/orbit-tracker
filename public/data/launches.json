@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-10-02T04:29:20.209Z",
+ "fetchedAt": "2026-10-02T14:31:02.756Z",
  "launches": [
-  {
-   "name": "Falcon Heavy | NROL-97",
-   "netMs": 1790913240000,
-   "status": "In Flight",
-   "provider": "SpaceX",
-   "pad": "Launch Complex 39A",
-   "site": "Kennedy Space Center, FL, USA",
-   "lat": 28.60822681,
-   "lon": -80.60428186
-  },
   {
    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
    "netMs": 1791188220000,
@@ -150,6 +140,16 @@
    "site": "Guiana Space Centre, French Guiana",
    "lat": 5.256319,
    "lon": -52.786838
+  },
+  {
+   "name": "LVM-3 | Gaganyaan-1",
+   "netMs": 1795996800000,
+   "status": "TBD",
+   "provider": "Indian Space Research Organization",
+   "pad": "Satish Dhawan Space Centre Second Launch Pad",
+   "site": "Satish Dhawan Space Centre, India",
+   "lat": 13.7199,
+   "lon": 80.2304
   }
  ]
 }
