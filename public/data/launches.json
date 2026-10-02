@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-02T14:31:02.756Z",
+ "fetchedAt": "2026-10-02T20:24:14.042Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
@@ -43,8 +43,8 @@
   },
   {
    "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
-   "netMs": 1791887580000,
-   "status": "TBC",
+   "netMs": 1791887624000,
+   "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 40",
    "site": "Cape Canaveral SFS, FL, USA",
