@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-04T13:45:45.510Z",
+ "fetchedAt": "2026-10-04T19:16:03.357Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
@@ -142,14 +142,14 @@
    "lon": -52.786838
   },
   {
-   "name": "LVM-3 | Gaganyaan-1",
+   "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
    "netMs": 1795996800000,
    "status": "TBD",
-   "provider": "Indian Space Research Organization",
-   "pad": "Satish Dhawan Space Centre Second Launch Pad",
-   "site": "Satish Dhawan Space Centre, India",
-   "lat": 13.7199,
-   "lon": 80.2304
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 40",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.56194122,
+   "lon": -80.57735736
   }
  ]
 }
