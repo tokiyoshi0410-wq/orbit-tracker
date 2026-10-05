@@ -1,9 +1,9 @@
 {
- "fetchedAt": "2026-10-05T04:31:55.202Z",
+ "fetchedAt": "2026-10-05T16:55:44.141Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
-   "netMs": 1791188241000,
+   "netMs": 1791274620000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
