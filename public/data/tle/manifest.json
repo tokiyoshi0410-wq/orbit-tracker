@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-10-05T16:52:14.283Z",
+  "fetchedAt": "2026-10-06T01:09:49.427Z",
   "groups": {
     "active": {
-      "lines": 47874,
-      "objects": 15958
+      "lines": 47877,
+      "objects": 15959
     },
     "stations": {
       "lines": 60,
@@ -22,8 +22,8 @@
       "objects": 32
     },
     "weather": {
-      "lines": 213,
-      "objects": 71
+      "lines": 216,
+      "objects": 72
     },
     "science": {
       "lines": 138,
@@ -34,12 +34,16 @@
       "objects": 3
     },
     "fengyun-1c-debris": {
-      "lines": 5946,
-      "objects": 1982
+      "lines": 5952,
+      "objects": 1984
+    },
+    "cosmos-2251-debris": {
+      "lines": 1758,
+      "objects": 586
     },
     "iridium-33-debris": {
-      "lines": 330,
-      "objects": 110
+      "lines": 327,
+      "objects": 109
     }
   }
 }
