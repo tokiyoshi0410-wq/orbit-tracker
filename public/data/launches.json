@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-08T15:16:39.907Z",
+ "fetchedAt": "2026-10-08T21:04:32.088Z",
  "launches": [
   {
    "name": "Long March 12 | Unknown Payload",
@@ -42,9 +42,9 @@
    "lon": -80.57735736
   },
   {
-   "name": "Falcon 9 Block 5 | USSF-xxx (\"TH-2\")",
+   "name": "Falcon 9 Block 5 | USSF-481",
    "netMs": 1792107840000,
-   "status": "TBC",
+   "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
    "site": "Vandenberg SFB, CA, USA",
@@ -60,6 +60,16 @@
    "site": "Tanegashima Space Center, Japan",
    "lat": 30.400938,
    "lon": 130.97564
+  },
+  {
+   "name": "Vulcan VC6L | Amazon Leo (LV-01)",
+   "netMs": 1793232000000,
+   "status": "TBD",
+   "provider": "United Launch Alliance",
+   "pad": "Space Launch Complex 41",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.58341025,
+   "lon": -80.58303644
   },
   {
    "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
@@ -110,16 +120,6 @@
    "site": "Satish Dhawan Space Centre, India",
    "lat": 13.733,
    "lon": 80.235
-  },
-  {
-   "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-   "netMs": 1793404800000,
-   "status": "TBD",
-   "provider": "United Launch Alliance",
-   "pad": "Space Launch Complex 41",
-   "site": "Cape Canaveral SFS, FL, USA",
-   "lat": 28.58341025,
-   "lon": -80.58303644
   },
   {
    "name": "Soyuz 2.1b | Progress MS-36 (97P)",
