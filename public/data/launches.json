@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-10-09T15:01:48.045Z",
+ "fetchedAt": "2026-10-09T20:35:46.776Z",
  "launches": [
-  {
-   "name": "Long March 12 | Unknown Payload",
-   "netMs": 1791573900000,
-   "status": "Go",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "pad": "Commercial LC-2",
-   "site": "Wenchang Space Launch Site, People's Republic of China",
-   "lat": 19.59755,
-   "lon": 110.936481
-  },
   {
    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
    "netMs": 1791617940000,
@@ -150,6 +140,16 @@
    "site": "Cape Canaveral SFS, FL, USA",
    "lat": 28.56194122,
    "lon": -80.57735736
+  },
+  {
+   "name": "LVM-3 | Gaganyaan-1",
+   "netMs": 1795996800000,
+   "status": "TBD",
+   "provider": "Indian Space Research Organization",
+   "pad": "Satish Dhawan Space Centre Second Launch Pad",
+   "site": "Satish Dhawan Space Centre, India",
+   "lat": 13.7199,
+   "lon": 80.2304
   }
  ]
 }
