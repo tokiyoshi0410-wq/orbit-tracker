@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-10-10T04:46:04.279Z",
+ "fetchedAt": "2026-10-10T14:17:33.927Z",
  "launches": [
-  {
-   "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
-   "netMs": 1791617984000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 15-25",
    "netMs": 1791846000000,
@@ -42,7 +32,7 @@
    "lon": -120.611
   },
   {
-   "name": "H3-24 | Martian Moon eXplorer (MMX)",
+   "name": "H3-24 | Martian Moons eXploration (MMX)",
    "netMs": 1792438863000,
    "status": "Go",
    "provider": "Mitsubishi Heavy Industries",
@@ -150,6 +140,16 @@
    "site": "Satish Dhawan Space Centre, India",
    "lat": 13.7199,
    "lon": 80.2304
+  },
+  {
+   "name": "PSLV-XL | TDS-01",
+   "netMs": 1795996800000,
+   "status": "TBD",
+   "provider": "Indian Space Research Organization",
+   "pad": "Satish Dhawan Space Centre First Launch Pad",
+   "site": "Satish Dhawan Space Centre, India",
+   "lat": 13.733,
+   "lon": 80.235
   }
  ]
 }
