@@ -1,9 +1,9 @@
 {
- "fetchedAt": "2026-10-12T04:45:59.054Z",
+ "fetchedAt": "2026-10-12T17:30:12.236Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | Starlink Group 15-25",
-   "netMs": 1791850307000,
+   "netMs": 1791850304000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
@@ -40,6 +40,16 @@
    "site": "Tanegashima Space Center, Japan",
    "lat": 30.400938,
    "lon": 130.97564
+  },
+  {
+   "name": "Falcon 9 Block 5 | Starlink Group 15-15",
+   "netMs": 1792534440000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
   },
   {
    "name": "Vulcan VC6L | Amazon Leo (LV-01)",
@@ -140,16 +150,6 @@
    "site": "Satish Dhawan Space Centre, India",
    "lat": 13.7199,
    "lon": 80.2304
-  },
-  {
-   "name": "PSLV-XL | TDS-01",
-   "netMs": 1795996800000,
-   "status": "TBD",
-   "provider": "Indian Space Research Organization",
-   "pad": "Satish Dhawan Space Centre First Launch Pad",
-   "site": "Satish Dhawan Space Centre, India",
-   "lat": 13.733,
-   "lon": 80.235
   }
  ]
 }
