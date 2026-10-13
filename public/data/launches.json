@@ -1,10 +1,10 @@
 {
- "fetchedAt": "2026-10-13T01:51:47.156Z",
+ "fetchedAt": "2026-10-13T11:28:38.908Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
    "netMs": 1791887624000,
-   "status": "Go",
+   "status": "Success",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 40",
    "site": "Cape Canaveral SFS, FL, USA",
