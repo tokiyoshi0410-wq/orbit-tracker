@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-10-14T09:20:37.813Z",
+ "fetchedAt": "2026-10-14T16:42:24.991Z",
  "launches": [
-  {
-   "name": "Zhuque-2E | Unknown Payload",
-   "netMs": 1791978000000,
-   "status": "Go",
-   "provider": "LandSpace",
-   "pad": "Launch Area 96A",
-   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-   "lat": 40.91491,
-   "lon": 100.245488
-  },
   {
    "name": "Falcon 9 Block 5 | USSF-481",
    "netMs": 1792107840000,
@@ -132,6 +122,16 @@
    "lon": 177.865826
   },
   {
+   "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
+   "netMs": 1795392000000,
+   "status": "TBD",
+   "provider": "Arianespace",
+   "pad": "Ariane Launch Area 4",
+   "site": "Guiana Space Centre, French Guiana",
+   "lat": 5.256319,
+   "lon": -52.786838
+  },
+  {
    "name": "Soyuz 2.1b | Progress MS-36 (97P)",
    "netMs": 1795496580000,
    "status": "TBC",
@@ -142,14 +142,14 @@
    "lon": 63.564003
   },
   {
-   "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
+   "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
    "netMs": 1795996800000,
    "status": "TBD",
-   "provider": "Arianespace",
-   "pad": "Ariane Launch Area 4",
-   "site": "Guiana Space Centre, French Guiana",
-   "lat": 5.256319,
-   "lon": -52.786838
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 40",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.56194122,
+   "lon": -80.57735736
   }
  ]
 }
