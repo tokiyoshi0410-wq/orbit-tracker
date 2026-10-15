@@ -1,9 +1,9 @@
 {
- "fetchedAt": "2026-10-15T08:56:09.325Z",
+ "fetchedAt": "2026-10-15T16:28:02.822Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | USSF-481",
-   "netMs": 1792107840000,
+   "netMs": 1792108625000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
