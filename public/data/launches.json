@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-16T08:47:55.940Z",
+ "fetchedAt": "2026-10-16T16:15:46.556Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
@@ -53,8 +53,8 @@
   },
   {
    "name": "Long March 8A | Unknown Payload",
-   "netMs": 1792634400000,
-   "status": "TBC",
+   "netMs": 1792637820000,
+   "status": "Go",
    "provider": "China Aerospace Science and Technology Corporation",
    "pad": "Commercial LC-1",
    "site": "Wenchang Space Launch Site, People's Republic of China",
