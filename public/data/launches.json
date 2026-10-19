@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-10-19T18:26:19.354Z",
+ "fetchedAt": "2026-10-19T23:22:45.881Z",
  "launches": [
-  {
-   "name": "H3-24 | Martian Moons eXploration (MMX)",
-   "netMs": 1792438863000,
-   "status": "Go",
-   "provider": "Mitsubishi Heavy Industries",
-   "pad": "Yoshinobu Launch Complex LP-2",
-   "site": "Tanegashima Space Center, Japan",
-   "lat": 30.400938,
-   "lon": 130.97564
-  },
   {
    "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
    "netMs": 1792492200000,
@@ -43,13 +33,13 @@
   },
   {
    "name": "Electron | We're Not Hawking Around (3x HawkEye 360)",
-   "netMs": 1792558800000,
-   "status": "TBC",
+   "netMs": 1792566000000,
+   "status": "Go",
    "provider": "Rocket Lab",
-   "pad": "Unknown Pad",
+   "pad": "Rocket Lab Launch Complex 1A",
    "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-   "lat": -39.260881,
-   "lon": 177.865826
+   "lat": -39.262833,
+   "lon": 177.864469
   },
   {
    "name": "Long March 8A | Unknown Payload",
@@ -150,6 +140,16 @@
    "site": "Vandenberg SFB, CA, USA",
    "lat": 34.632,
    "lon": -120.611
+  },
+  {
+   "name": "Electron | The Sea God Surveys (iQPS Launch 9)",
+   "netMs": 1793750400000,
+   "status": "TBD",
+   "provider": "Rocket Lab",
+   "pad": "Unknown Pad",
+   "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+   "lat": -39.260881,
+   "lon": 177.865826
   }
  ]
 }
