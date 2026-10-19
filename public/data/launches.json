@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-10-19T03:38:03.580Z",
+ "fetchedAt": "2026-10-19T09:39:58.282Z",
  "launches": [
-  {
-   "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
-   "netMs": 1792405800000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 40",
-   "site": "Cape Canaveral SFS, FL, USA",
-   "lat": 28.56194122,
-   "lon": -80.57735736
-  },
   {
    "name": "H3-24 | Martian Moons eXploration (MMX)",
    "netMs": 1792438863000,
@@ -20,6 +10,16 @@
    "site": "Tanegashima Space Center, Japan",
    "lat": 30.400938,
    "lon": 130.97564
+  },
+  {
+   "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
+   "netMs": 1792492200000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 40",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.56194122,
+   "lon": -80.57735736
   },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 15-15",
