@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-19T23:22:45.881Z",
+ "fetchedAt": "2026-10-20T03:48:37.512Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
@@ -13,7 +13,7 @@
   },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 15-15",
-   "netMs": 1792534440000,
+   "netMs": 1792537763000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
