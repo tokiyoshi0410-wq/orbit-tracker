@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-21T16:45:13.401Z",
+  "fetchedAt": "2026-10-21T23:02:23.546Z",
   "groups": {
     "active": {
       "lines": 47766,
@@ -16,6 +16,18 @@
     "oneweb": {
       "lines": 1953,
       "objects": 651
+    },
+    "gps-ops": {
+      "lines": 96,
+      "objects": 32
+    },
+    "weather": {
+      "lines": 216,
+      "objects": 72
+    },
+    "science": {
+      "lines": 138,
+      "objects": 46
     },
     "cosmos-1408-debris": {
       "lines": 9,
