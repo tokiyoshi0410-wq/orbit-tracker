@@ -1,10 +1,10 @@
 {
- "fetchedAt": "2026-10-22T16:45:44.730Z",
+ "fetchedAt": "2026-10-22T22:59:56.164Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | Starlink Group 15-15",
    "netMs": 1792709478000,
-   "status": "Go",
+   "status": "Hold",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
    "site": "Vandenberg SFB, CA, USA",
@@ -14,7 +14,7 @@
   {
    "name": "Electron | We're Not Hawking Around (3x HawkEye 360)",
    "netMs": 1792738800000,
-   "status": "TBC",
+   "status": "Go",
    "provider": "Rocket Lab",
    "pad": "Rocket Lab Launch Complex 1A",
    "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
