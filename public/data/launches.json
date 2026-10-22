@@ -1,9 +1,9 @@
 {
- "fetchedAt": "2026-10-22T09:12:39.884Z",
+ "fetchedAt": "2026-10-22T16:45:44.730Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | Starlink Group 15-15",
-   "netMs": 1792708824000,
+   "netMs": 1792709478000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
@@ -83,7 +83,7 @@
   },
   {
    "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
-   "netMs": 1793404800000,
+   "netMs": 1793318400000,
    "status": "TBD",
    "provider": "Indian Space Research Organization",
    "pad": "Satish Dhawan Space Centre Second Launch Pad",
@@ -102,16 +102,6 @@
    "lon": 100.217289
   },
   {
-   "name": "SSLV | AayulSAT-1A & others",
-   "netMs": 1793404800000,
-   "status": "TBD",
-   "provider": "Indian Space Research Organization",
-   "pad": "Satish Dhawan Space Centre First Launch Pad",
-   "site": "Satish Dhawan Space Centre, India",
-   "lat": 13.733,
-   "lon": 80.235
-  },
-  {
    "name": "Electron | The Sea God Surveys (iQPS Launch 9)",
    "netMs": 1793750400000,
    "status": "TBD",
@@ -120,6 +110,16 @@
    "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
    "lat": -39.260881,
    "lon": 177.865826
+  },
+  {
+   "name": "Falcon 9 Block 5 | Starlink Group 15-21",
+   "netMs": 1793855640000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
   },
   {
    "name": "Falcon 9 Block 5 | NROL-195",
@@ -142,14 +142,14 @@
    "lon": 177.865826
   },
   {
-   "name": "Falcon 9 Block 5 | Starlink Group 15-21",
-   "netMs": 1794268800000,
+   "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
+   "netMs": 1795392000000,
    "status": "TBD",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
+   "provider": "Arianespace",
+   "pad": "Ariane Launch Area 4",
+   "site": "Guiana Space Centre, French Guiana",
+   "lat": 5.256319,
+   "lon": -52.786838
   }
  ]
 }
