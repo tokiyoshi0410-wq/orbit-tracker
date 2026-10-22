@@ -1,9 +1,9 @@
 {
- "fetchedAt": "2026-10-21T23:02:34.667Z",
+ "fetchedAt": "2026-10-22T03:39:05.739Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | Starlink Group 15-15",
-   "netMs": 1792625937000,
+   "netMs": 1792708824000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
@@ -13,7 +13,7 @@
   },
   {
    "name": "Electron | We're Not Hawking Around (3x HawkEye 360)",
-   "netMs": 1792652400000,
+   "netMs": 1792738800000,
    "status": "TBC",
    "provider": "Rocket Lab",
    "pad": "Rocket Lab Launch Complex 1A",
@@ -53,17 +53,7 @@
   },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 15-16",
-   "netMs": 1792905240000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
-  {
-   "name": "Falcon 9 Block 5 | Starlink Group 15-18",
-   "netMs": 1793161860000,
+   "netMs": 1792990800000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
@@ -80,6 +70,16 @@
    "site": "Cape Canaveral SFS, FL, USA",
    "lat": 28.58341025,
    "lon": -80.58303644
+  },
+  {
+   "name": "Falcon 9 Block 5 | Starlink Group 15-18",
+   "netMs": 1793247420000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
   },
   {
    "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
