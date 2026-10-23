@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-10-22T22:59:56.164Z",
+ "fetchedAt": "2026-10-23T03:43:41.211Z",
  "launches": [
-  {
-   "name": "Falcon 9 Block 5 | Starlink Group 15-15",
-   "netMs": 1792709478000,
-   "status": "Hold",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
   {
    "name": "Electron | We're Not Hawking Around (3x HawkEye 360)",
    "netMs": 1792738800000,
@@ -40,6 +30,16 @@
    "site": "Jiuquan Satellite Launch Center, People's Republic of China",
    "lat": 40.960482,
    "lon": 100.298059
+  },
+  {
+   "name": "Falcon 9 Block 5 | Starlink Group 15-15",
+   "netMs": 1792791000000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
   },
   {
    "name": "Long March 8A | Unknown Payload",
