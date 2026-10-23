@@ -1,20 +1,10 @@
 {
- "fetchedAt": "2026-10-23T16:41:13.771Z",
+ "fetchedAt": "2026-10-23T22:56:10.962Z",
  "launches": [
   {
-   "name": "Long March 4B | Unknown Payload",
-   "netMs": 1792783500000,
-   "status": "Go",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "pad": "Launch Area 94 (SLS-2 / 603)",
-   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-   "lat": 40.960482,
-   "lon": 100.298059
-  },
-  {
    "name": "Falcon 9 Block 5 | Starlink Group 15-15",
-   "netMs": 1792794533000,
-   "status": "Go",
+   "netMs": 1792795724000,
+   "status": "In Flight",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
    "site": "Vandenberg SFB, CA, USA",
@@ -150,6 +140,16 @@
    "site": "Cape Canaveral SFS, FL, USA",
    "lat": 28.56194122,
    "lon": -80.57735736
+  },
+  {
+   "name": "LVM-3 | Gaganyaan-1",
+   "netMs": 1795996800000,
+   "status": "TBD",
+   "provider": "Indian Space Research Organization",
+   "pad": "Satish Dhawan Space Centre Second Launch Pad",
+   "site": "Satish Dhawan Space Centre, India",
+   "lat": 13.7199,
+   "lon": 80.2304
   }
  ]
 }
