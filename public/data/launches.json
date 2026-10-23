@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-10-23T09:09:06.531Z",
+ "fetchedAt": "2026-10-23T16:41:13.771Z",
  "launches": [
-  {
-   "name": "Long March 6A | Unknown Payload",
-   "netMs": 1792750500000,
-   "status": "Go",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "pad": "Launch Complex 9A",
-   "site": "Taiyuan Satellite Launch Center, People's Republic of China",
-   "lat": 38.8583,
-   "lon": 111.5802
-  },
   {
    "name": "Long March 4B | Unknown Payload",
    "netMs": 1792783500000,
@@ -23,7 +13,7 @@
   },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 15-15",
-   "netMs": 1792791000000,
+   "netMs": 1792794533000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
@@ -43,7 +33,7 @@
   },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 15-16",
-   "netMs": 1792990800000,
+   "netMs": 1793076300000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
@@ -63,7 +53,7 @@
   },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 15-18",
-   "netMs": 1793247420000,
+   "netMs": 1793332920000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
@@ -150,6 +140,16 @@
    "site": "Baikonur Cosmodrome, Republic of Kazakhstan",
    "lat": 45.996034,
    "lon": 63.564003
+  },
+  {
+   "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
+   "netMs": 1795996800000,
+   "status": "TBD",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 40",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.56194122,
+   "lon": -80.57735736
   }
  ]
 }
