@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-10-23T03:43:41.211Z",
+ "fetchedAt": "2026-10-23T09:09:06.531Z",
  "launches": [
-  {
-   "name": "Electron | We're Not Hawking Around (3x HawkEye 360)",
-   "netMs": 1792738800000,
-   "status": "Go",
-   "provider": "Rocket Lab",
-   "pad": "Rocket Lab Launch Complex 1A",
-   "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-   "lat": -39.262833,
-   "lon": 177.864469
-  },
   {
    "name": "Long March 6A | Unknown Payload",
    "netMs": 1792750500000,
@@ -83,8 +73,8 @@
   },
   {
    "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
-   "netMs": 1793318400000,
-   "status": "TBD",
+   "netMs": 1793379600000,
+   "status": "TBC",
    "provider": "Indian Space Research Organization",
    "pad": "Satish Dhawan Space Centre Second Launch Pad",
    "site": "Satish Dhawan Space Centre, India",
@@ -103,7 +93,7 @@
   },
   {
    "name": "Electron | The Sea God Surveys (iQPS Launch 9)",
-   "netMs": 1793750400000,
+   "netMs": 1793664000000,
    "status": "TBD",
    "provider": "Rocket Lab",
    "pad": "Unknown Pad",
@@ -150,6 +140,16 @@
    "site": "Guiana Space Centre, French Guiana",
    "lat": 5.256319,
    "lon": -52.786838
+  },
+  {
+   "name": "Soyuz 2.1b | Progress MS-36 (97P)",
+   "netMs": 1795496580000,
+   "status": "TBC",
+   "provider": "Russian Federal Space Agency (ROSCOSMOS)",
+   "pad": "31/6",
+   "site": "Baikonur Cosmodrome, Republic of Kazakhstan",
+   "lat": 45.996034,
+   "lon": 63.564003
   }
  ]
 }
