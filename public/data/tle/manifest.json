@@ -1,4 +1,49 @@
 {
-  "fetchedAt": "2026-10-24T08:41:36.974Z",
-  "groups": {}
+  "fetchedAt": "2026-10-24T15:30:49.308Z",
+  "groups": {
+    "active": {
+      "lines": 47736,
+      "objects": 15912
+    },
+    "stations": {
+      "lines": 48,
+      "objects": 16
+    },
+    "starlink": {
+      "lines": 31923,
+      "objects": 10641
+    },
+    "oneweb": {
+      "lines": 1953,
+      "objects": 651
+    },
+    "gps-ops": {
+      "lines": 96,
+      "objects": 32
+    },
+    "weather": {
+      "lines": 216,
+      "objects": 72
+    },
+    "science": {
+      "lines": 138,
+      "objects": 46
+    },
+    "cosmos-1408-debris": {
+      "lines": 9,
+      "objects": 3
+    },
+    "fengyun-1c-debris": {
+      "lines": 5940,
+      "objects": 1980
+    },
+    "cosmos-2251-debris": {
+      "lines": 1758,
+      "objects": 586
+    },
+    "iridium-33-debris": {
+      "lines": 327,
+      "objects": 109
+    }
+  }
 }

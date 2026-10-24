@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-24T08:43:58.352Z",
+ "fetchedAt": "2026-10-24T15:31:10.354Z",
  "launches": [
   {
    "name": "Long March 8A | Unknown Payload",
@@ -20,16 +20,6 @@
    "site": "Vandenberg SFB, CA, USA",
    "lat": 34.632,
    "lon": -120.611
-  },
-  {
-   "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-   "netMs": 1793232000000,
-   "status": "TBD",
-   "provider": "United Launch Alliance",
-   "pad": "Space Launch Complex 41",
-   "site": "Cape Canaveral SFS, FL, USA",
-   "lat": 28.58341025,
-   "lon": -80.58303644
   },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 15-18",
@@ -120,6 +110,16 @@
    "site": "Baikonur Cosmodrome, Republic of Kazakhstan",
    "lat": 45.996034,
    "lon": 63.564003
+  },
+  {
+   "name": "Long March 2F/G | Shenzhou 24",
+   "netMs": 1795564800000,
+   "status": "TBD",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "pad": "Launch Area 91 (SLS-1 / 921)",
+   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+   "lat": 40.957893,
+   "lon": 100.290944
   },
   {
    "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
