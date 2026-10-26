@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-26T09:49:31.683Z",
+ "fetchedAt": "2026-10-26T18:22:28.256Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | Starlink Group 15-16",
@@ -23,8 +23,8 @@
   },
   {
    "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
-   "netMs": 1793379600000,
-   "status": "TBC",
+   "netMs": 1793384460000,
+   "status": "Go",
    "provider": "Indian Space Research Organization",
    "pad": "Satish Dhawan Space Centre Second Launch Pad",
    "site": "Satish Dhawan Space Centre, India",
@@ -32,14 +32,14 @@
    "lon": 80.2304
   },
   {
-   "name": "Long March 12A | Flight 2",
-   "netMs": 1793404800000,
-   "status": "TBD",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "pad": "Long March 12 series Pad",
-   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-   "lat": 40.891596,
-   "lon": 100.217289
+   "name": "Falcon 9 Block 5 | USSF-432",
+   "netMs": 1793584560000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
   },
   {
    "name": "Electron | The Sea God Surveys (iQPS Launch 9)",
@@ -55,16 +55,6 @@
    "name": "Falcon 9 Block 5 | Starlink Group 15-21",
    "netMs": 1793855640000,
    "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
-  {
-   "name": "Falcon 9 Block 5 | NROL-195",
-   "netMs": 1793918040000,
-   "status": "TBC",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
    "site": "Vandenberg SFB, CA, USA",
@@ -120,6 +110,16 @@
    "site": "Cape Canaveral SFS, FL, USA",
    "lat": 28.56194122,
    "lon": -80.57735736
+  },
+  {
+   "name": "Falcon 9 Block 5 | NROL-195",
+   "netMs": 1795996800000,
+   "status": "TBD",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
   },
   {
    "name": "LVM-3 | Gaganyaan-1",
