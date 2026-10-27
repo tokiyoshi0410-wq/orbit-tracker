@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-10-27T04:02:39.776Z",
+ "fetchedAt": "2026-10-27T14:04:07.054Z",
  "launches": [
-  {
-   "name": "Falcon 9 Block 5 | Starlink Group 15-16",
-   "netMs": 1793079997000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 15-18",
    "netMs": 1793332920000,
@@ -150,6 +140,16 @@
    "site": "Sea Launch",
    "lat": 33.216667,
    "lon": 126.366667
+  },
+  {
+   "name": "PSLV-XL | TDS-01",
+   "netMs": 1795996800000,
+   "status": "TBD",
+   "provider": "Indian Space Research Organization",
+   "pad": "Satish Dhawan Space Centre First Launch Pad",
+   "site": "Satish Dhawan Space Centre, India",
+   "lat": 13.733,
+   "lon": 80.235
   }
  ]
 }
