@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-10-28T14:54:09.763Z",
+ "fetchedAt": "2026-10-28T20:49:44.801Z",
  "launches": [
-  {
-   "name": "Falcon 9 Block 5 | Starlink Group 15-18",
-   "netMs": 1793332920000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
   {
    "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
    "netMs": 1793384460000,
@@ -22,8 +12,8 @@
    "lon": 80.2304
   },
   {
-   "name": "Falcon 9 Block 5 | USSF-432",
-   "netMs": 1793584560000,
+   "name": "Falcon 9 Block 5 | Starlink Group 15-18",
+   "netMs": 1793418480000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
@@ -33,8 +23,8 @@
   },
   {
    "name": "Electron | The Sea God Surveys (iQPS Launch 9)",
-   "netMs": 1793664000000,
-   "status": "TBD",
+   "netMs": 1793609100000,
+   "status": "TBC",
    "provider": "Rocket Lab",
    "pad": "Unknown Pad",
    "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
@@ -42,14 +32,44 @@
    "lon": 177.865826
   },
   {
-   "name": "Falcon 9 Block 5 | Starlink Group 15-21",
-   "netMs": 1793846100000,
+   "name": "Kinetica 2 | SpaceSail Polar Group TBD?",
+   "netMs": 1793664600000,
+   "status": "Go",
+   "provider": "CAS Space",
+   "pad": "Launch Area 140",
+   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+   "lat": 40.81748,
+   "lon": 100.21939
+  },
+  {
+   "name": "Falcon 9 Block 5 | USSF-432",
+   "netMs": 1793670120000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
    "site": "Vandenberg SFB, CA, USA",
    "lat": 34.632,
    "lon": -120.611
+  },
+  {
+   "name": "Mir | Demo Flight",
+   "netMs": 1793768400000,
+   "status": "TBC",
+   "provider": "Agency for Defense Development",
+   "pad": "ADD Offshore launch platform",
+   "site": "Sea Launch",
+   "lat": 33.216667,
+   "lon": 126.366667
+  },
+  {
+   "name": "Ceres-2 | Unknown Payload",
+   "netMs": 1793826000000,
+   "status": "TBC",
+   "provider": "Galactic Energy",
+   "pad": "Launch Area 95A",
+   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+   "lat": 40.969117,
+   "lon": 100.343333
   },
   {
    "name": "Long March 12 | SatNet LEO Group TBD?",
@@ -62,6 +82,16 @@
    "lon": 110.936481
   },
   {
+   "name": "Falcon 9 Block 5 | Starlink Group 15-21",
+   "netMs": 1793931660000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
+  },
+  {
    "name": "Electron | The Mountain God Rises (iQPS Launch 10)",
    "netMs": 1794268800000,
    "status": "TBD",
@@ -70,6 +100,26 @@
    "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
    "lat": -39.260881,
    "lon": 177.865826
+  },
+  {
+   "name": "Falcon 9 Block 5 | USSF-xxx (\"R-5\")",
+   "netMs": 1794279780000,
+   "status": "TBC",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
+  },
+  {
+   "name": "Vulcan VC6L | Amazon Leo (LV-01)",
+   "netMs": 1794528000000,
+   "status": "TBD",
+   "provider": "United Launch Alliance",
+   "pad": "Space Launch Complex 41",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.58341025,
+   "lon": -80.58303644
   },
   {
    "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
@@ -100,56 +150,6 @@
    "site": "Jiuquan Satellite Launch Center, People's Republic of China",
    "lat": 40.957893,
    "lon": 100.290944
-  },
-  {
-   "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
-   "netMs": 1795996800000,
-   "status": "TBD",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 40",
-   "site": "Cape Canaveral SFS, FL, USA",
-   "lat": 28.56194122,
-   "lon": -80.57735736
-  },
-  {
-   "name": "Falcon 9 Block 5 | NROL-195",
-   "netMs": 1795996800000,
-   "status": "TBD",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
-  {
-   "name": "LVM-3 | Gaganyaan-1",
-   "netMs": 1795996800000,
-   "status": "TBD",
-   "provider": "Indian Space Research Organization",
-   "pad": "Satish Dhawan Space Centre Second Launch Pad",
-   "site": "Satish Dhawan Space Centre, India",
-   "lat": 13.7199,
-   "lon": 80.2304
-  },
-  {
-   "name": "Mir | Demo Flight",
-   "netMs": 1795996800000,
-   "status": "TBD",
-   "provider": "Agency for Defense Development",
-   "pad": "ADD Offshore launch platform",
-   "site": "Sea Launch",
-   "lat": 33.216667,
-   "lon": 126.366667
-  },
-  {
-   "name": "PSLV-XL | TDS-01",
-   "netMs": 1795996800000,
-   "status": "TBD",
-   "provider": "Indian Space Research Organization",
-   "pad": "Satish Dhawan Space Centre First Launch Pad",
-   "site": "Satish Dhawan Space Centre, India",
-   "lat": 13.733,
-   "lon": 80.235
   }
  ]
 }
