@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-10-30T14:52:53.139Z",
+ "fetchedAt": "2026-10-30T20:28:21.409Z",
  "launches": [
-  {
-   "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
-   "netMs": 1793384460000,
-   "status": "Go",
-   "provider": "Indian Space Research Organization",
-   "pad": "Satish Dhawan Space Centre Second Launch Pad",
-   "site": "Satish Dhawan Space Centre, India",
-   "lat": 13.7199,
-   "lon": 80.2304
-  },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 15-18",
    "netMs": 1793419342000,
@@ -150,6 +140,16 @@
    "site": "Guiana Space Centre, French Guiana",
    "lat": 5.256319,
    "lon": -52.786838
+  },
+  {
+   "name": "Soyuz 2.1b | Progress MS-36 (97P)",
+   "netMs": 1795496580000,
+   "status": "TBC",
+   "provider": "Russian Federal Space Agency (ROSCOSMOS)",
+   "pad": "31/6",
+   "site": "Baikonur Cosmodrome, Republic of Kazakhstan",
+   "lat": 45.996034,
+   "lon": 63.564003
   }
  ]
 }
