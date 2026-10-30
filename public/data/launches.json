@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-30T04:44:39.826Z",
+ "fetchedAt": "2026-10-30T14:52:53.139Z",
  "launches": [
   {
    "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
@@ -13,7 +13,7 @@
   },
   {
    "name": "Falcon 9 Block 5 | Starlink Group 15-18",
-   "netMs": 1793418480000,
+   "netMs": 1793419342000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
@@ -23,7 +23,7 @@
   },
   {
    "name": "Electron | The Sea God Surveys (iQPS Launch 9)",
-   "netMs": 1793609100000,
+   "netMs": 1793635200000,
    "status": "TBC",
    "provider": "Rocket Lab",
    "pad": "Unknown Pad",
@@ -72,9 +72,19 @@
    "lon": 100.343333
   },
   {
+   "name": "Long March 2C | Unknown Payload",
+   "netMs": 1793894400000,
+   "status": "Go",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "pad": "Launch Complex 3 (LC-3/LA-1)",
+   "site": "Xichang Satellite Launch Center, People's Republic of China",
+   "lat": 28.247059,
+   "lon": 102.029008
+  },
+  {
    "name": "Long March 12 | SatNet LEO Group TBD?",
-   "netMs": 1793908800000,
-   "status": "TBC",
+   "netMs": 1793913300000,
+   "status": "Go",
    "provider": "China Aerospace Science and Technology Corporation",
    "pad": "Commercial LC-2",
    "site": "Wenchang Space Launch Site, People's Republic of China",
@@ -122,6 +132,16 @@
    "lon": -80.58303644
   },
   {
+   "name": "Long March 8A | SatNet LEO Group TBD?",
+   "netMs": 1795172400000,
+   "status": "TBC",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "pad": "Commercial LC-1",
+   "site": "Wenchang Space Launch Site, People's Republic of China",
+   "lat": 19.597275,
+   "lon": 110.930753
+  },
+  {
    "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
    "netMs": 1795392000000,
    "status": "TBD",
@@ -130,26 +150,6 @@
    "site": "Guiana Space Centre, French Guiana",
    "lat": 5.256319,
    "lon": -52.786838
-  },
-  {
-   "name": "Soyuz 2.1b | Progress MS-36 (97P)",
-   "netMs": 1795496580000,
-   "status": "TBC",
-   "provider": "Russian Federal Space Agency (ROSCOSMOS)",
-   "pad": "31/6",
-   "site": "Baikonur Cosmodrome, Republic of Kazakhstan",
-   "lat": 45.996034,
-   "lon": 63.564003
-  },
-  {
-   "name": "Long March 2F/G | Shenzhou 24",
-   "netMs": 1795564800000,
-   "status": "TBD",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "pad": "Launch Area 91 (SLS-1 / 921)",
-   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-   "lat": 40.957893,
-   "lon": 100.290944
   }
  ]
 }
