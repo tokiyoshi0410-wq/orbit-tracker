@@ -1,20 +1,10 @@
 {
- "fetchedAt": "2026-10-31T04:29:17.899Z",
+ "fetchedAt": "2026-10-31T14:21:25.636Z",
  "launches": [
   {
-   "name": "Falcon 9 Block 5 | Starlink Group 15-18",
-   "netMs": 1793419474000,
-   "status": "In Flight",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
-  {
    "name": "Electron | The Sea God Surveys (iQPS Launch 9)",
-   "netMs": 1793635200000,
-   "status": "TBC",
+   "netMs": 1793637660000,
+   "status": "Go",
    "provider": "Rocket Lab",
    "pad": "Unknown Pad",
    "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
@@ -150,6 +140,16 @@
    "site": "Baikonur Cosmodrome, Republic of Kazakhstan",
    "lat": 45.996034,
    "lon": 63.564003
+  },
+  {
+   "name": "Long March 12 | SatNet LEO Group TBD?",
+   "netMs": 1795503600000,
+   "status": "TBC",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "pad": "Commercial LC-2",
+   "site": "Wenchang Space Launch Site, People's Republic of China",
+   "lat": 19.59755,
+   "lon": 110.936481
   }
  ]
 }
