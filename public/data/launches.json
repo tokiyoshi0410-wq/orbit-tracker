@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-01T14:47:17.849Z",
+ "fetchedAt": "2026-11-01T20:16:42.010Z",
  "launches": [
   {
    "name": "Electron | The Sea God Surveys (iQPS Launch 9)",
@@ -23,7 +23,7 @@
   },
   {
    "name": "Falcon 9 Block 5 | USSF-432",
-   "netMs": 1793670120000,
+   "netMs": 1793755680000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
