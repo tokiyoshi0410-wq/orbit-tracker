@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-01T20:16:42.010Z",
+ "fetchedAt": "2026-11-02T04:51:03.704Z",
  "launches": [
   {
    "name": "Electron | The Sea God Surveys (iQPS Launch 9)",
@@ -42,16 +42,6 @@
    "lon": 126.366667
   },
   {
-   "name": "Ceres-2 | Unknown Payload",
-   "netMs": 1793826000000,
-   "status": "TBC",
-   "provider": "Galactic Energy",
-   "pad": "Launch Area 95A",
-   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-   "lat": 40.969117,
-   "lon": 100.343333
-  },
-  {
    "name": "Long March 2C | Unknown Payload",
    "netMs": 1793894400000,
    "status": "Go",
@@ -72,14 +62,14 @@
    "lon": 110.936481
   },
   {
-   "name": "Falcon 9 Block 5 | Starlink Group 15-21",
-   "netMs": 1793931660000,
+   "name": "Ceres-2 | Unknown Payload",
+   "netMs": 1794008100000,
    "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
+   "provider": "Galactic Energy",
+   "pad": "Launch Area 95A",
+   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+   "lat": 40.969117,
+   "lon": 100.343333
   },
   {
    "name": "Electron | The Mountain God Rises (iQPS Launch 10)",
@@ -150,6 +140,16 @@
    "site": "Wenchang Space Launch Site, People's Republic of China",
    "lat": 19.59755,
    "lon": 110.936481
+  },
+  {
+   "name": "Long March 2F/G | Shenzhou 24",
+   "netMs": 1795564800000,
+   "status": "TBD",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "pad": "Launch Area 91 (SLS-1 / 921)",
+   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+   "lat": 40.957893,
+   "lon": 100.290944
   }
  ]
 }
