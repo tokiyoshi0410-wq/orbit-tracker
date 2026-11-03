@@ -1,26 +1,6 @@
 {
- "fetchedAt": "2026-11-02T17:57:20.417Z",
+ "fetchedAt": "2026-11-03T02:01:59.431Z",
  "launches": [
-  {
-   "name": "Kinetica 2 | SpaceSail Polar Group TBD?",
-   "netMs": 1793664600000,
-   "status": "Go",
-   "provider": "CAS Space",
-   "pad": "Launch Area 140",
-   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-   "lat": 40.81748,
-   "lon": 100.21939
-  },
-  {
-   "name": "Falcon 9 Block 5 | USSF-432",
-   "netMs": 1793755680000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
   {
    "name": "Mir | Demo Flight",
    "netMs": 1793768400000,
@@ -60,6 +40,16 @@
    "site": "Jiuquan Satellite Launch Center, People's Republic of China",
    "lat": 40.969117,
    "lon": 100.343333
+  },
+  {
+   "name": "Falcon 9 Block 5 | USSF-432",
+   "netMs": 1794012360000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
   },
   {
    "name": "Falcon 9 Block 5 | USSF-xxx (\"R-5\")",
@@ -150,6 +140,16 @@
    "site": "Andøya Spaceport",
    "lat": 69.1084,
    "lon": 15.5895
+  },
+  {
+   "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
+   "netMs": 1795967340000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 40",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.56194122,
+   "lon": -80.57735736
   }
  ]
 }
