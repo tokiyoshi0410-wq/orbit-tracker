@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-03T19:12:06.424Z",
+ "fetchedAt": "2026-11-04T00:25:43.870Z",
  "launches": [
   {
    "name": "Long March 2C | Unknown Payload",
@@ -42,9 +42,9 @@
    "lon": 110.936481
   },
   {
-   "name": "Falcon 9 Block 5 | USSF-xxx (\"R-5\")",
+   "name": "Falcon 9 Block 5 | USSF-627",
    "netMs": 1794279780000,
-   "status": "TBC",
+   "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
    "site": "Vandenberg SFB, CA, USA",
@@ -52,9 +52,9 @@
    "lon": -120.611
   },
   {
-   "name": "Falcon 9 Block 5 | USSF-xxx (\"R-6\")",
+   "name": "Falcon 9 Block 5 | USSF-317",
    "netMs": 1794543780000,
-   "status": "TBC",
+   "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
    "site": "Vandenberg SFB, CA, USA",
