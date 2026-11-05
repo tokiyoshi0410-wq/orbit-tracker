@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-11-05T11:56:27.989Z",
+ "fetchedAt": "2026-11-05T19:42:05.912Z",
  "launches": [
-  {
-   "name": "Long March 2C | Unknown Payload",
-   "netMs": 1793894400000,
-   "status": "Go",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "pad": "Launch Complex 3 (LC-3/LA-1)",
-   "site": "Xichang Satellite Launch Center, People's Republic of China",
-   "lat": 28.247059,
-   "lon": 102.029008
-  },
   {
    "name": "Ceres-2 | Unknown Payload",
    "netMs": 1794008100000,
@@ -150,6 +140,16 @@
    "site": "Jiuquan Satellite Launch Center, People's Republic of China",
    "lat": 40.957893,
    "lon": 100.290944
+  },
+  {
+   "name": "Spectrum | AT-Astra and Others (Spectrum Flight 3)",
+   "netMs": 1795723200000,
+   "status": "TBC",
+   "provider": "Isar Aerospace",
+   "pad": "Orbital Launch Pad",
+   "site": "Andøya Spaceport",
+   "lat": 69.1084,
+   "lon": 15.5895
   }
  ]
 }
