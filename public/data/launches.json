@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-05T00:45:35.256Z",
+ "fetchedAt": "2026-11-05T11:56:27.989Z",
  "launches": [
   {
    "name": "Long March 2C | Unknown Payload",
@@ -50,6 +50,26 @@
    "site": "Vandenberg SFB, CA, USA",
    "lat": 34.632,
    "lon": -120.611
+  },
+  {
+   "name": "Mir | Demo Flight",
+   "netMs": 1794290400000,
+   "status": "Go",
+   "provider": "Agency for Defense Development",
+   "pad": "ADD Offshore launch platform",
+   "site": "Sea Launch",
+   "lat": 33.216667,
+   "lon": 126.366667
+  },
+  {
+   "name": "Long March 2D | Unknown Payload",
+   "netMs": 1794397200000,
+   "status": "Go",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "pad": "Launch Area 94 (SLS-2 / 603)",
+   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+   "lat": 40.960482,
+   "lon": 100.298059
   },
   {
    "name": "Falcon 9 Block 5 | USSF-317",
@@ -130,26 +150,6 @@
    "site": "Jiuquan Satellite Launch Center, People's Republic of China",
    "lat": 40.957893,
    "lon": 100.290944
-  },
-  {
-   "name": "Spectrum | AT-Astra and Others (Spectrum Flight 3)",
-   "netMs": 1795723200000,
-   "status": "TBC",
-   "provider": "Isar Aerospace",
-   "pad": "Orbital Launch Pad",
-   "site": "Andøya Spaceport",
-   "lat": 69.1084,
-   "lon": 15.5895
-  },
-  {
-   "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
-   "netMs": 1795967340000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 40",
-   "site": "Cape Canaveral SFS, FL, USA",
-   "lat": 28.56194122,
-   "lon": -80.57735736
   }
  ]
 }
