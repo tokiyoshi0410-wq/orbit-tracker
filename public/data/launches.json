@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-06T00:49:54.086Z",
+ "fetchedAt": "2026-11-06T11:52:39.588Z",
  "launches": [
   {
    "name": "Ceres-2 | Unknown Payload",
@@ -93,8 +93,8 @@
   },
   {
    "name": "Electron | The Mountain God Rises (iQPS Launch 10)",
-   "netMs": 1794614400000,
-   "status": "TBD",
+   "netMs": 1794634200000,
+   "status": "Go",
    "provider": "Rocket Lab",
    "pad": "Unknown Pad",
    "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
