@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-06T11:52:39.588Z",
+ "fetchedAt": "2026-11-06T18:58:53.724Z",
  "launches": [
   {
    "name": "Ceres-2 | Unknown Payload",
@@ -13,7 +13,7 @@
   },
   {
    "name": "Falcon 9 Block 5 | USSF-432",
-   "netMs": 1794012360000,
+   "netMs": 1794012522000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
@@ -43,7 +43,7 @@
   },
   {
    "name": "Mir | Demo Flight",
-   "netMs": 1794290400000,
+   "netMs": 1794373200000,
    "status": "Go",
    "provider": "Agency for Defense Development",
    "pad": "ADD Offshore launch platform",
