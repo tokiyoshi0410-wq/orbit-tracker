@@ -1,26 +1,6 @@
 {
- "fetchedAt": "2026-11-06T23:58:31.149Z",
+ "fetchedAt": "2026-11-07T05:45:21.112Z",
  "launches": [
-  {
-   "name": "Ceres-2 | Unknown Payload",
-   "netMs": 1794008100000,
-   "status": "Go",
-   "provider": "Galactic Energy",
-   "pad": "Launch Area 95A",
-   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-   "lat": 40.969117,
-   "lon": 100.343333
-  },
-  {
-   "name": "Falcon 9 Block 5 | USSF-432",
-   "netMs": 1794012522000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
   {
    "name": "Long March 12 | SatNet LEO Group TBD?",
    "netMs": 1794169500000,
@@ -150,6 +130,26 @@
    "site": "Jiuquan Satellite Launch Center, People's Republic of China",
    "lat": 40.957893,
    "lon": 100.290944
+  },
+  {
+   "name": "Spectrum | AT-Astra and Others (Spectrum Flight 3)",
+   "netMs": 1795723200000,
+   "status": "TBC",
+   "provider": "Isar Aerospace",
+   "pad": "Orbital Launch Pad",
+   "site": "Andøya Spaceport",
+   "lat": 69.1084,
+   "lon": 15.5895
+  },
+  {
+   "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
+   "netMs": 1795967340000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 40",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.56194122,
+   "lon": -80.57735736
   }
  ]
 }
