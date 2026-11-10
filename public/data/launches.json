@@ -1,26 +1,6 @@
 {
- "fetchedAt": "2026-11-10T12:13:52.995Z",
+ "fetchedAt": "2026-11-10T21:41:44.760Z",
  "launches": [
-  {
-   "name": "Falcon 9 Block 5 | USSF-627",
-   "netMs": 1794365340000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
-  {
-   "name": "Mir | Demo Flight",
-   "netMs": 1794373200000,
-   "status": "Go",
-   "provider": "Agency for Defense Development",
-   "pad": "ADD Offshore launch platform",
-   "site": "Sea Launch",
-   "lat": 33.216667,
-   "lon": 126.366667
-  },
   {
    "name": "Long March 2D | Unknown Payload",
    "netMs": 1794397200000,
@@ -32,6 +12,16 @@
    "lon": 100.298059
   },
   {
+   "name": "Falcon 9 Block 5 | USSF-627",
+   "netMs": 1794450900000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
+  },
+  {
    "name": "Kuaizhou 11 | Unknown Payload",
    "netMs": 1794513000000,
    "status": "Go",
@@ -40,6 +30,16 @@
    "site": "Jiuquan Satellite Launch Center, People's Republic of China",
    "lat": 40.969117,
    "lon": 100.343333
+  },
+  {
+   "name": "Mir | Demo Flight",
+   "netMs": 1794546000000,
+   "status": "Go",
+   "provider": "Agency for Defense Development",
+   "pad": "ADD Offshore launch platform",
+   "site": "Sea Launch",
+   "lat": 33.216667,
+   "lon": 126.366667
   },
   {
    "name": "Vulcan VC6L | Amazon Leo (LV-01)",
@@ -62,16 +62,6 @@
    "lon": -97.15799
   },
   {
-   "name": "Falcon 9 Block 5 | USSF-317",
-   "netMs": 1794629340000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
-  {
    "name": "Electron | The Mountain God Rises (iQPS Launch 10)",
    "netMs": 1794634200000,
    "status": "Go",
@@ -82,8 +72,18 @@
    "lon": 177.865826
   },
   {
+   "name": "Falcon 9 Block 5 | USSF-317",
+   "netMs": 1794714900000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
+  },
+  {
    "name": "Falcon 9 Block 5 | USSF-266",
-   "netMs": 1794934680000,
+   "netMs": 1795020540000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
