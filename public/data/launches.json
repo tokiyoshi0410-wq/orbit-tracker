@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-11-11T22:30:42.620Z",
+ "fetchedAt": "2026-11-12T06:06:23.059Z",
  "launches": [
-  {
-   "name": "Falcon 9 Block 5 | USSF-627",
-   "netMs": 1794450978000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
   {
    "name": "Kuaizhou 11 | Unknown Payload",
    "netMs": 1794513000000,
@@ -20,16 +10,6 @@
    "site": "Jiuquan Satellite Launch Center, People's Republic of China",
    "lat": 40.969117,
    "lon": 100.343333
-  },
-  {
-   "name": "Mir | Demo Flight",
-   "netMs": 1794546000000,
-   "status": "Go",
-   "provider": "Agency for Defense Development",
-   "pad": "ADD Offshore launch platform",
-   "site": "Sea Launch",
-   "lat": 33.216667,
-   "lon": 126.366667
   },
   {
    "name": "Vulcan VC6L | Amazon Leo (LV-01)",
@@ -150,6 +130,26 @@
    "site": "Cape Canaveral SFS, FL, USA",
    "lat": 28.56194122,
    "lon": -80.57735736
+  },
+  {
+   "name": "Falcon 9 Block 5 | NROL-195",
+   "netMs": 1795996800000,
+   "status": "TBD",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
+  },
+  {
+   "name": "Falcon 9 Block 5 | OneWeb 21",
+   "netMs": 1795996800000,
+   "status": "TBD",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
   }
  ]
 }
