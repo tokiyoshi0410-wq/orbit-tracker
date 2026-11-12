@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-11-12T06:06:23.059Z",
+ "fetchedAt": "2026-11-12T16:37:50.934Z",
  "launches": [
-  {
-   "name": "Kuaizhou 11 | Unknown Payload",
-   "netMs": 1794513000000,
-   "status": "Go",
-   "provider": "ExPace",
-   "pad": "Launch Area 95A",
-   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-   "lat": 40.969117,
-   "lon": 100.343333
-  },
   {
    "name": "Vulcan VC6L | Amazon Leo (LV-01)",
    "netMs": 1794592440000,
@@ -30,6 +20,16 @@
    "site": "SpaceX Starbase, TX, USA",
    "lat": 25.99677,
    "lon": -97.15799
+  },
+  {
+   "name": "Soyuz 2.1b/Fregat-M | MKA Kinosputnik, KOEN and others",
+   "netMs": 1794617400000,
+   "status": "Go",
+   "provider": "Russian Federal Space Agency (ROSCOSMOS)",
+   "pad": "Cosmodrome Site 1S",
+   "site": "Vostochny Cosmodrome, Siberia, Russian Federation",
+   "lat": 51.884395,
+   "lon": 128.333932
   },
   {
    "name": "Electron | The Mountain God Rises (iQPS Launch 10)",
