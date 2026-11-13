@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-11-13T11:55:16.960Z",
+ "fetchedAt": "2026-11-13T19:18:54.414Z",
  "launches": [
-  {
-   "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-   "netMs": 1794592440000,
-   "status": "Go",
-   "provider": "United Launch Alliance",
-   "pad": "Space Launch Complex 41",
-   "site": "Cape Canaveral SFS, FL, USA",
-   "lat": 28.58341025,
-   "lon": -80.58303644
-  },
   {
    "name": "Starship | Starlink Group 31-2 (Starship Flight 15)",
    "netMs": 1794609900000,
@@ -23,7 +13,7 @@
   },
   {
    "name": "Soyuz 2.1b/Fregat-M | MKA Kinosputnik, KOEN and others",
-   "netMs": 1794617400000,
+   "netMs": 1794618960000,
    "status": "Go",
    "provider": "Russian Federal Space Agency (ROSCOSMOS)",
    "pad": "Cosmodrome Site 1S",
@@ -42,18 +32,18 @@
    "lon": 177.864469
   },
   {
-   "name": "Falcon 9 Block 5 | USSF-317",
-   "netMs": 1794971640000,
+   "name": "Vulcan VC6L | Amazon Leo (LV-01)",
+   "netMs": 1794677550000,
    "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
+   "provider": "United Launch Alliance",
+   "pad": "Space Launch Complex 41",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.58341025,
+   "lon": -80.58303644
   },
   {
-   "name": "Falcon 9 Block 5 | USSF-266",
-   "netMs": 1795020540000,
+   "name": "Falcon 9 Block 5 | USSF-317",
+   "netMs": 1794971640000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
@@ -102,6 +92,16 @@
    "lon": -52.786838
   },
   {
+   "name": "Falcon 9 Block 5 | USSF-266",
+   "netMs": 1795449840000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
+  },
+  {
    "name": "Soyuz 2.1b | Progress MS-36 (97P)",
    "netMs": 1795496580000,
    "status": "TBC",
@@ -143,7 +143,7 @@
   },
   {
    "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
-   "netMs": 1795967340000,
+   "netMs": 1795967220000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 40",
