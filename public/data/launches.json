@@ -1,9 +1,9 @@
 {
- "fetchedAt": "2026-11-14T11:16:58.532Z",
+ "fetchedAt": "2026-11-14T17:44:40.367Z",
  "launches": [
   {
    "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-   "netMs": 1794677550000,
+   "netMs": 1794762690000,
    "status": "Go",
    "provider": "United Launch Alliance",
    "pad": "Space Launch Complex 41",
