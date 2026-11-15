@@ -1,26 +1,6 @@
 {
- "fetchedAt": "2026-11-15T15:25:23.623Z",
+ "fetchedAt": "2026-11-15T20:51:29.480Z",
  "launches": [
-  {
-   "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-   "netMs": 1794762690000,
-   "status": "Go",
-   "provider": "United Launch Alliance",
-   "pad": "Space Launch Complex 41",
-   "site": "Cape Canaveral SFS, FL, USA",
-   "lat": 28.58341025,
-   "lon": -80.58303644
-  },
-  {
-   "name": "Falcon 9 Block 5 | USSF-317",
-   "netMs": 1794971640000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
   {
    "name": "Long March 2D | Unknown Payload",
    "netMs": 1795042200000,
@@ -30,6 +10,16 @@
    "site": "Taiyuan Satellite Launch Center, People's Republic of China",
    "lat": 38.863128,
    "lon": 111.589567
+  },
+  {
+   "name": "Falcon 9 Block 5 | USSF-317",
+   "netMs": 1795057200000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
   },
   {
    "name": "Long March 8A | SatNet LEO Group TBD?",
@@ -143,6 +133,16 @@
   },
   {
    "name": "Falcon 9 Block 5 | OneWeb 21",
+   "netMs": 1795996800000,
+   "status": "TBD",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
+  },
+  {
+   "name": "Falcon 9 Block 5 | Starlink Group 15-21",
    "netMs": 1795996800000,
    "status": "TBD",
    "provider": "SpaceX",
