@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-11-18T16:59:14.706Z",
+ "fetchedAt": "2026-11-19T01:45:07.264Z",
  "launches": [
-  {
-   "name": "Long March 2D | Unknown Payload",
-   "netMs": 1795042200000,
-   "status": "Go",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "pad": "Launch Complex 9",
-   "site": "Taiyuan Satellite Launch Center, People's Republic of China",
-   "lat": 38.863128,
-   "lon": 111.589567
-  },
   {
    "name": "Falcon 9 Block 5 | USSF-317",
    "netMs": 1795142760000,
@@ -110,6 +100,16 @@
    "site": "Andøya Spaceport",
    "lat": 69.1084,
    "lon": 15.5895
+  },
+  {
+   "name": "Falcon 9 Block 5 | USSF-380",
+   "netMs": 1795841580000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
   },
   {
    "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
