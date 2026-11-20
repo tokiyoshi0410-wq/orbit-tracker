@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-11-20T06:03:40.450Z",
+ "fetchedAt": "2026-11-20T16:49:04.237Z",
  "launches": [
-  {
-   "name": "Long March 8A | SatNet LEO Group TBD?",
-   "netMs": 1795175940000,
-   "status": "Go",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "pad": "Commercial LC-1",
-   "site": "Wenchang Space Launch Site, People's Republic of China",
-   "lat": 19.597275,
-   "lon": 110.930753
-  },
   {
    "name": "Falcon 9 Block 5 | USSF-317",
    "netMs": 1795228320000,
@@ -33,7 +23,7 @@
   },
   {
    "name": "Falcon 9 Block 5 | NROL-136",
-   "netMs": 1795264200000,
+   "netMs": 1795349760000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
@@ -73,13 +63,23 @@
   },
   {
    "name": "Long March 2F/G | Shenzhou 24",
-   "netMs": 1795564800000,
-   "status": "TBD",
+   "netMs": 1795565880000,
+   "status": "Go",
    "provider": "China Aerospace Science and Technology Corporation",
    "pad": "Launch Area 91 (SLS-1 / 921)",
    "site": "Jiuquan Satellite Launch Center, People's Republic of China",
    "lat": 40.957893,
    "lon": 100.290944
+  },
+  {
+   "name": "Long March 2D | Unknown Payload",
+   "netMs": 1795685700000,
+   "status": "Go",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "pad": "Launch Complex 3 (LC-3/LA-1)",
+   "site": "Xichang Satellite Launch Center, People's Republic of China",
+   "lat": 28.247059,
+   "lon": 102.029008
   },
   {
    "name": "Spectrum | AT-Astra and Others (Spectrum Flight 3)",
@@ -93,7 +93,7 @@
   },
   {
    "name": "Electron | Night Owls Never Sleep (StriX Launch 14)",
-   "netMs": 1795737600000,
+   "netMs": 1795737900000,
    "status": "Go",
    "provider": "Rocket Lab",
    "pad": "Unknown Pad",
