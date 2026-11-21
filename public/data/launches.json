@@ -1,25 +1,15 @@
 {
- "fetchedAt": "2026-11-20T16:49:04.237Z",
+ "fetchedAt": "2026-11-21T01:14:23.405Z",
  "launches": [
   {
    "name": "Falcon 9 Block 5 | USSF-317",
-   "netMs": 1795228320000,
+   "netMs": 1795234835000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
    "site": "Vandenberg SFB, CA, USA",
    "lat": 34.632,
    "lon": -120.611
-  },
-  {
-   "name": "Long March 6C | Unknown Payload",
-   "netMs": 1795233000000,
-   "status": "Go",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "pad": "Launch Complex 9A",
-   "site": "Taiyuan Satellite Launch Center, People's Republic of China",
-   "lat": 38.8583,
-   "lon": 111.5802
   },
   {
    "name": "Falcon 9 Block 5 | NROL-136",
@@ -42,16 +32,6 @@
    "lon": -52.786838
   },
   {
-   "name": "Falcon 9 Block 5 | USSF-266",
-   "netMs": 1795449840000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
-  {
    "name": "Soyuz 2.1b | Progress MS-36 (97P)",
    "netMs": 1795496580000,
    "status": "TBC",
@@ -60,6 +40,16 @@
    "site": "Baikonur Cosmodrome, Republic of Kazakhstan",
    "lat": 45.996034,
    "lon": 63.564003
+  },
+  {
+   "name": "Falcon 9 Block 5 | USSF-266",
+   "netMs": 1795535700000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
   },
   {
    "name": "Long March 2F/G | Shenzhou 24",
@@ -102,14 +92,14 @@
    "lon": 177.865826
   },
   {
-   "name": "Falcon 9 Block 5 | USSF-380",
-   "netMs": 1795841580000,
+   "name": "Long March 6A | Unknown Payload",
+   "netMs": 1795784400000,
    "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
+   "provider": "China Aerospace Science and Technology Corporation",
+   "pad": "Launch Complex 9A",
+   "site": "Taiyuan Satellite Launch Center, People's Republic of China",
+   "lat": 38.8583,
+   "lon": 111.5802
   },
   {
    "name": "Kinetica 1 | Unknown Payload",
@@ -122,8 +112,28 @@
    "lon": 112.116667
   },
   {
+   "name": "Long March 6C | Unknown Payload",
+   "netMs": 1795924200000,
+   "status": "Go",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "pad": "Launch Complex 9A",
+   "site": "Taiyuan Satellite Launch Center, People's Republic of China",
+   "lat": 38.8583,
+   "lon": 111.5802
+  },
+  {
+   "name": "Falcon 9 Block 5 | USSF-380",
+   "netMs": 1795927140000,
+   "status": "Go",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
+  },
+  {
    "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
-   "netMs": 1795967220000,
+   "netMs": 1795967400000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 40",
@@ -132,24 +142,14 @@
    "lon": -80.57735736
   },
   {
-   "name": "Falcon 9 Block 5 | NROL-195",
+   "name": "Kuaizhou 11 | Unknown Payload",
    "netMs": 1795996800000,
    "status": "TBD",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
-  {
-   "name": "Falcon 9 Block 5 | OneWeb 21",
-   "netMs": 1795996800000,
-   "status": "TBD",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
+   "provider": "ExPace",
+   "pad": "Launch Area 95A",
+   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+   "lat": 40.969117,
+   "lon": 100.343333
   }
  ]
 }
