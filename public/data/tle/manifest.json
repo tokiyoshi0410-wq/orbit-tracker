@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-21T01:07:30.400Z",
+  "fetchedAt": "2026-11-21T12:12:11.925Z",
   "groups": {
     "active": {
       "lines": 47553,
@@ -8,6 +8,10 @@
     "stations": {
       "lines": 39,
       "objects": 13
+    },
+    "starlink": {
+      "lines": 31800,
+      "objects": 10600
     },
     "oneweb": {
       "lines": 1953,
@@ -36,6 +40,10 @@
     "cosmos-2251-debris": {
       "lines": 1746,
       "objects": 582
+    },
+    "iridium-33-debris": {
+      "lines": 327,
+      "objects": 109
     }
   }
 }
