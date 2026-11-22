@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-22T15:59:12.450Z",
+ "fetchedAt": "2026-11-22T21:40:52.799Z",
  "launches": [
   {
    "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
@@ -13,7 +13,7 @@
   },
   {
    "name": "Soyuz 2.1b | Progress MS-36 (97P)",
-   "netMs": 1795496580000,
+   "netMs": 1795515180000,
    "status": "TBC",
    "provider": "Russian Federal Space Agency (ROSCOSMOS)",
    "pad": "31/6",
