@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-11-22T05:32:03.408Z",
+ "fetchedAt": "2026-11-22T15:59:12.450Z",
  "launches": [
-  {
-   "name": "Falcon 9 Block 5 | NROL-136",
-   "netMs": 1795350236000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
   {
    "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
    "netMs": 1795432140000,
@@ -60,16 +50,6 @@
    "site": "Xichang Satellite Launch Center, People's Republic of China",
    "lat": 28.247059,
    "lon": 102.029008
-  },
-  {
-   "name": "Spectrum | AT-Astra and Others (Spectrum Flight 3)",
-   "netMs": 1795723200000,
-   "status": "TBC",
-   "provider": "Isar Aerospace",
-   "pad": "Orbital Launch Pad",
-   "site": "Andøya Spaceport",
-   "lat": 69.1084,
-   "lon": 15.5895
   },
   {
    "name": "Electron | Night Owls Never Sleep (StriX Launch 14)",
@@ -150,6 +130,26 @@
    "site": "Sea Launch",
    "lat": 33.216667,
    "lon": 126.366667
+  },
+  {
+   "name": "Long March 12 | SatNet LEO Group TBD?",
+   "netMs": 1796886000000,
+   "status": "TBC",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "pad": "Commercial LC-2",
+   "site": "Wenchang Space Launch Site, People's Republic of China",
+   "lat": 19.59755,
+   "lon": 110.936481
+  },
+  {
+   "name": "Ariane 62 | Metop-SG B1",
+   "netMs": 1797465600000,
+   "status": "TBD",
+   "provider": "Arianespace",
+   "pad": "Ariane Launch Area 4",
+   "site": "Guiana Space Centre, French Guiana",
+   "lat": 5.256319,
+   "lon": -52.786838
   }
  ]
 }
