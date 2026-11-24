@@ -1,36 +1,6 @@
 {
- "fetchedAt": "2026-11-24T04:38:59.068Z",
+ "fetchedAt": "2026-11-24T19:23:21.777Z",
  "launches": [
-  {
-   "name": "Soyuz 2.1b | Progress MS-36 (97P)",
-   "netMs": 1795515420000,
-   "status": "TBC",
-   "provider": "Russian Federal Space Agency (ROSCOSMOS)",
-   "pad": "31/6",
-   "site": "Baikonur Cosmodrome, Republic of Kazakhstan",
-   "lat": 45.996034,
-   "lon": 63.564003
-  },
-  {
-   "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
-   "netMs": 1795517100000,
-   "status": "Go",
-   "provider": "Arianespace",
-   "pad": "Ariane Launch Area 4",
-   "site": "Guiana Space Centre, French Guiana",
-   "lat": 5.256319,
-   "lon": -52.786838
-  },
-  {
-   "name": "Falcon 9 Block 5 | USSF-266",
-   "netMs": 1795536539000,
-   "status": "Go",
-   "provider": "SpaceX",
-   "pad": "Space Launch Complex 4E",
-   "site": "Vandenberg SFB, CA, USA",
-   "lat": 34.632,
-   "lon": -120.611
-  },
   {
    "name": "Long March 2F/G | Shenzhou 24",
    "netMs": 1795565880000,
@@ -102,16 +72,6 @@
    "lon": -80.57735736
   },
   {
-   "name": "Kuaizhou 11 | Unknown Payload",
-   "netMs": 1795996800000,
-   "status": "TBD",
-   "provider": "ExPace",
-   "pad": "Launch Area 95A",
-   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-   "lat": 40.969117,
-   "lon": 100.343333
-  },
-  {
    "name": "Mir | Demo Flight",
    "netMs": 1795996800000,
    "status": "TBD",
@@ -132,6 +92,16 @@
    "lon": 112.683333
   },
   {
+   "name": "Kuaizhou 11 | Unknown Payload",
+   "netMs": 1796112000000,
+   "status": "TBC",
+   "provider": "ExPace",
+   "pad": "Launch Area 95A",
+   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+   "lat": 40.969117,
+   "lon": 100.343333
+  },
+  {
    "name": "Falcon 9 Block 5 | NROL-132",
    "netMs": 1796243400000,
    "status": "TBC",
@@ -150,6 +120,36 @@
    "site": "Wenchang Space Launch Site, People's Republic of China",
    "lat": 19.59755,
    "lon": 110.936481
+  },
+  {
+   "name": "Ariane 62 | Metop-SG B1",
+   "netMs": 1797465600000,
+   "status": "TBD",
+   "provider": "Arianespace",
+   "pad": "Ariane Launch Area 4",
+   "site": "Guiana Space Centre, French Guiana",
+   "lat": 5.256319,
+   "lon": -52.786838
+  },
+  {
+   "name": "Falcon 9 Block 5 | Amazon Leo (LF-04)",
+   "netMs": 1798675200000,
+   "status": "TBD",
+   "provider": "SpaceX",
+   "pad": "Unknown Pad",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.458,
+   "lon": -80.528
+  },
+  {
+   "name": "Falcon 9 Block 5 | CHORUS",
+   "netMs": 1798675200000,
+   "status": "TBD",
+   "provider": "SpaceX",
+   "pad": "Unknown Pad",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.458,
+   "lon": -80.528
   }
  ]
 }
