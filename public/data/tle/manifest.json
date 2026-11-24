@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-23T19:54:31.241Z",
+  "fetchedAt": "2026-11-24T04:38:42.783Z",
   "groups": {
     "active": {
       "lines": 47496,
@@ -10,8 +10,8 @@
       "objects": 13
     },
     "starlink": {
-      "lines": 31779,
-      "objects": 10593
+      "lines": 31776,
+      "objects": 10592
     },
     "oneweb": {
       "lines": 1953,
@@ -22,8 +22,8 @@
       "objects": 32
     },
     "weather": {
-      "lines": 219,
-      "objects": 73
+      "lines": 222,
+      "objects": 74
     },
     "science": {
       "lines": 135,

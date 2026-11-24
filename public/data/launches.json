@@ -1,9 +1,9 @@
 {
- "fetchedAt": "2026-11-23T19:54:48.095Z",
+ "fetchedAt": "2026-11-24T04:38:59.068Z",
  "launches": [
   {
    "name": "Soyuz 2.1b | Progress MS-36 (97P)",
-   "netMs": 1795515180000,
+   "netMs": 1795515420000,
    "status": "TBC",
    "provider": "Russian Federal Space Agency (ROSCOSMOS)",
    "pad": "31/6",
@@ -23,7 +23,7 @@
   },
   {
    "name": "Falcon 9 Block 5 | USSF-266",
-   "netMs": 1795535700000,
+   "netMs": 1795536539000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
