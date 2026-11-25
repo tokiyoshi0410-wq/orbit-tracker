@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-25T03:24:06.458Z",
+ "fetchedAt": "2026-11-25T13:57:33.394Z",
  "launches": [
   {
    "name": "Long March 2D | Unknown Payload",
@@ -113,8 +113,8 @@
   },
   {
    "name": "Ariane 62 | Metop-SG B1",
-   "netMs": 1797465600000,
-   "status": "TBD",
+   "netMs": 1797554160000,
+   "status": "Go",
    "provider": "Arianespace",
    "pad": "Ariane Launch Area 4",
    "site": "Guiana Space Centre, French Guiana",
