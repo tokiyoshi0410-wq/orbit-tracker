@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-11-24T19:23:21.777Z",
+ "fetchedAt": "2026-11-25T03:24:06.458Z",
  "launches": [
-  {
-   "name": "Long March 2F/G | Shenzhou 24",
-   "netMs": 1795565880000,
-   "status": "Go",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "pad": "Launch Area 91 (SLS-1 / 921)",
-   "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-   "lat": 40.957893,
-   "lon": 100.290944
-  },
   {
    "name": "Long March 2D | Unknown Payload",
    "netMs": 1795685700000,
@@ -63,7 +53,7 @@
   },
   {
    "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
-   "netMs": 1795967400000,
+   "netMs": 1795967220000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 40",
@@ -150,6 +140,16 @@
    "site": "Cape Canaveral SFS, FL, USA",
    "lat": 28.458,
    "lon": -80.528
+  },
+  {
+   "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 2 (x 9)",
+   "netMs": 1798675200000,
+   "status": "TBD",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 40",
+   "site": "Cape Canaveral SFS, FL, USA",
+   "lat": 28.56194122,
+   "lon": -80.57735736
   }
  ]
 }
