@@ -1,16 +1,6 @@
 {
- "fetchedAt": "2026-11-26T00:02:12.700Z",
+ "fetchedAt": "2026-11-26T13:36:25.997Z",
  "launches": [
-  {
-   "name": "Long March 2D | Unknown Payload",
-   "netMs": 1795685700000,
-   "status": "Go",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "pad": "Launch Complex 3 (LC-3/LA-1)",
-   "site": "Xichang Satellite Launch Center, People's Republic of China",
-   "lat": 28.247059,
-   "lon": 102.029008
-  },
   {
    "name": "Electron | Night Owls Never Sleep (StriX Launch 14)",
    "netMs": 1795737900000,
@@ -150,6 +140,16 @@
    "site": "Cape Canaveral SFS, FL, USA",
    "lat": 28.56194122,
    "lon": -80.57735736
+  },
+  {
+   "name": "Falcon 9 Block 5 | NROL-195",
+   "netMs": 1798675200000,
+   "status": "TBD",
+   "provider": "SpaceX",
+   "pad": "Space Launch Complex 4E",
+   "site": "Vandenberg SFB, CA, USA",
+   "lat": 34.632,
+   "lon": -120.611
   }
  ]
 }
