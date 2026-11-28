@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-27T23:55:29.201Z",
+ "fetchedAt": "2026-11-28T06:44:38.895Z",
  "launches": [
   {
    "name": "Long March 6C | Unknown Payload",
@@ -13,7 +13,7 @@
   },
   {
    "name": "Falcon 9 Block 5 | USSF-380",
-   "netMs": 1795927140000,
+   "netMs": 1795927143000,
    "status": "Go",
    "provider": "SpaceX",
    "pad": "Space Launch Complex 4E",
